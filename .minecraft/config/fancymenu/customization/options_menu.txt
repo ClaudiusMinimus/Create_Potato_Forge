@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/customguis/images/create_potato.png
+  orientation = bottom-right
+  x = -82
+  width = 80
+  action = addtexture
+  actionid = 62695314-09c8-46a7-820a-9a63637c55bf1639653475382
+  y = -55
+  height = 50
+}
+
