@@ -289,6 +289,6 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC v. 1.18.1-2.0.1
+  value = Create on a Potato PC v. 1.18.1-2.1.0
 }
 
