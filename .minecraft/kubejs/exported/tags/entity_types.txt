@@ -1,0 +1,128 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 13, 2021 6:04:25 AM
+
+#alexsmobs:snow_leopard_targets
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:mooshroom
+- minecraft:llama
+- minecraft:parrot
+- minecraft:rabbit
+- minecraft:trader_llama
+- alexsmobs:roadrunner
+- alexsmobs:gazelle
+
+#alexsmobs:passive_land_animals
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:rabbit
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:cat
+- minecraft:strider
+- alexsmobs:roadrunner
+- alexsmobs:gazelle
+- alexsmobs:capuchin_monkey
+- alexsmobs:seal
+- alexsmobs:shoebill
+
+#alexsmobs:orca_targets
+- alexsmobs:moose
+- alexsmobs:seal
+- minecraft:polar_bear
+- minecraft:turtle
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#alexsmobs:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+
+#alexsmobs:neutral_land_animals
+- alexsmobs:grizzly_bear
+- alexsmobs:gorilla
+- minecraft:polar_bear
+- alexsmobs:endergrade
+- alexsmobs:rattlesnake
+- alexsmobs:moose
+- alexsmobs:elephant
+- alexsmobs:snow_leopard
+
+#alexsmobs:fly_hurt_targets
+- minecraft:zombie
+- minecraft:drowned
+- minecraft:husk
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#alexsmobs:sunbird_scorch_targets
+- #minecraft:skeletons
+- minecraft:zombie
+- minecraft:husk
+- minecraft:drowned
+- minecraft:phantom
+
+#alexsmobs:scatters_crows
+- #alexsmobs:neutral_land_animals
+
+#alexsmobs:crimson_mosquito_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:neutral_land_animals
+- #alexsmobs:villagers
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#alexsmobs:fly_annoy_targets
+- minecraft:player
+
+#forbidden_arcanus:quantum_catcher_blacklisted
+- minecraft:wither
+- minecraft:elder_guardian
+- minecraft:ender_dragon
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#alexsmobs:warped_toad_targets
+- alexsmobs:crimson_mosquito
+- alexsmobs:fly
+
+#alexsmobs:crocodile_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:villagers
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#alexsmobs:komodo_dragon_targets
+- #alexsmobs:passive_land_animals
