@@ -22,3 +22,4 @@ potato-1.18.x.code-workspace
 !.minecraft/config/theoneprobe-client.toml
 !.minecraft/config/xaerominimap.txt
 !.minecraft/config/xaerominimap_entities.json
+instance.cfg
