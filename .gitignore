@@ -1,0 +1,15 @@
+# Ignore these folder
+.minecraft/config/*
+.minecraft/logs/*
+.minecraft/mods/*
+.minecraft/resourcepacks/*
+.minecraft/saves/*
+.minecraft/screenshots/*
+.minecraft/Xaero*/*
+
+# Ignore these files
+.minecraft/knownkeys.txt
+.minecraft/realms_persistence.json
+.minecraft/user*.json
+.minecraft/options.txt
+potato-1.18.x.code-workspace
