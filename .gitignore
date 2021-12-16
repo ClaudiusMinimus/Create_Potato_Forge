@@ -1,4 +1,4 @@
-# Ignore these folder
+# Ignore these folders
 .minecraft/config/*
 .minecraft/logs/*
 .minecraft/mods/*
@@ -13,3 +13,12 @@
 .minecraft/user*.json
 .minecraft/options.txt
 potato-1.18.x.code-workspace
+
+# Stop ignoring these folgers
+!.minecraft/config/drippyloadingscreen/
+!.minecraft/config/fancymenu/
+
+# Stop ignoring these files
+!.minecraft/config/theoneprobe-client.toml
+!.minecraft/config/xaerominimap.txt
+!.minecraft/config/xaerominimap_entities.json
