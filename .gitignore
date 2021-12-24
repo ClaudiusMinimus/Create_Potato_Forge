@@ -8,6 +8,9 @@
 .minecraft/shrines-saves/*
 .minecraft/Xaero*/*
 natives/*
+server/config/*
+server/logs/*
+server/mods/*
 
 # Ignore these files
 .minecraft/knownkeys.txt
