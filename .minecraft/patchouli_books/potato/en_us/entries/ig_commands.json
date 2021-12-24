@@ -1,0 +1,12 @@
+{
+    "name": "In-game Commands",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:game_tips",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)/sethome Allows you to set a home base.$(li)/home Teleports you to your home base.$(li)/delhome Deletes your home.$(li)/rndtp Randomly teleports you to a new location--not always safe.$(li)/spawn Teleports you to Spawn.$(li)/trash opens a trash can gui in your inventory."
+        }
+    ]
+}
