@@ -1,0 +1,19 @@
+{
+    "name": "Create",
+    "icon": "create:large_cogwheel",
+    "category": "patchouli:videos",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:https://discord.gg/BFT4d5HeFX)Create discord server$(/l)$(br)On this discord server you can learn all kinds of information. It is a place to ask questions and help you troubleshoot your builds.$(br2)$(l:https://www.youtube.com/watch?v=jDIuWv7ROi8)This is Create$(/l) is the offical trailer video. I was blown away when I first saw this!"
+        },{
+            "type": "text",
+            "title": "Create Mod Tutorials",
+            "text": "$(l:https://www.youtube.com/channel/UCWRF-32hRABSLhCslGURNnw)Rockit14$(/l) has a wonderful spotlight series featuring Create. His videos are very informative and to the point and don't waste a lot of time. His examples are easy to follow. I highly recommend watching this entire series.$(br2)$(l:https://www.youtube.com/channel/UCRFtly_6e_lklaLpDjGSC4g)polartt$(/l) has a lot of great content in his large Create video library. He goes over the new and updated features. If you like trains, then pollartt is your guy!"
+        },{
+            "type": "text",
+            "text": "$(l:https://www.youtube.com/playlist?list=PLA1nTfnXQpfq0Cuix71i3GYwx-Dng7Iui)Monkey Farm$(/l) also has some very good Create videos."
+        }
+    ]
+}

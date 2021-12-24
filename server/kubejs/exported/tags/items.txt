@@ -1,0 +1,5165 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 13, 2021 6:04:25 AM
+
+#forge:plates
+- create:copper_sheet
+- create:brass_sheet
+- create:iron_sheet
+- create:golden_sheet
+- create:lapis_sheet
+- createaddition:zinc_sheet
+
+#forge:dyes/gray
+- minecraft:gray_dye
+
+#refinedstorage:grid
+- refinedstorage:pink_grid
+- refinedstorage:gray_grid
+- refinedstorage:orange_grid
+- refinedstorage:cyan_grid
+- refinedstorage:magenta_grid
+- refinedstorage:grid
+- refinedstorage:light_gray_grid
+- refinedstorage:brown_grid
+- refinedstorage:black_grid
+- refinedstorage:white_grid
+- refinedstorage:lime_grid
+- refinedstorage:purple_grid
+- refinedstorage:red_grid
+- refinedstorage:green_grid
+- refinedstorage:blue_grid
+- refinedstorage:yellow_grid
+
+#silentgear:blueprints/chestplate
+- silentgear:chestplate_blueprint
+- silentgear:chestplate_template
+
+#forge:wires/gold
+- createaddition:gold_wire
+
+#forge:cookedchicken/cookedchicken
+- minecraft:cooked_chicken
+
+#forge:storage_blocks/netherite
+- minecraft:netherite_block
+
+#forge:glass_panes/white
+- minecraft:white_stained_glass_pane
+
+#forge:cracker
+- #forge:cracker/cracker
+
+#biomesoplenty:hellbark_logs
+- biomesoplenty:hellbark_log
+- biomesoplenty:hellbark_wood
+- biomesoplenty:stripped_hellbark_log
+- biomesoplenty:stripped_hellbark_wood
+
+#forge:ingots/silver
+- allomancy:silver_ingot
+- silentgems:silver_ingot
+
+#silentgems:glowroses/topaz
+- silentgems:topaz_glowrose
+
+#forge:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+
+#forge:beacon_payment
+- #create:create_ingots
+
+#forge:vinegar_ingredients/apple
+- minecraft:apple
+
+#forge:ores/sunstone
+- silentgems:sunstone_ore
+
+#forge:storage_blocks/ametrine
+- silentgems:ametrine_block
+
+#forge:dusts/azure_electrum
+- silentgear:azure_electrum_dust
+
+#forge:tool_juicer/juicer
+- pamhc2foodcore:juiceritem
+
+#forge:glass/pink
+- minecraft:pink_stained_glass
+
+#forge:dusts/blaze_gold
+- silentgear:blaze_gold_dust
+
+#forge:chests
+- #forge:chests/ender
+- #forge:chests/trapped
+- #forge:chests/wooden
+
+#forge:storage_blocks/emerald
+- minecraft:emerald_block
+
+#forge:ores/redstone
+- minecraft:redstone_ore
+
+#forge:ores/crimson_iron
+- silentgear:crimson_iron_ore
+
+#forge:gems/bort
+- silentgear:bort
+
+#forge:cookedmutton
+- #forge:cookedmutton/cookedmutton
+
+#forge:caramel
+- #forge:caramel/caramel
+
+#forge:gems/morganite
+- silentgems:morganite
+
+#silentgems:glowroses/moldavite
+- silentgems:moldavite_glowrose
+
+#forge:storage_blocks/chaos_iron
+- silentgems:chaos_iron_block
+
+#forge:fence_gates
+- #forge:fence_gates/wooden
+
+#forge:batter
+- #forge:batter/batter
+
+#forge:ingots
+- #create:create_ingots
+- #forge:ingots/iron
+- #forge:ingots/gold
+- #forge:ingots/brick
+- #forge:ingots/nether_brick
+- #forge:ingots/netherite
+- #forge:ingots/blaze_gold
+- #forge:ingots/crimson_iron
+- #forge:ingots/crimson_steel
+- #forge:ingots/azure_silver
+- #forge:ingots/azure_electrum
+- #forge:ingots/arcane_gold
+- #forge:ingots/obsidian
+- silentgems:silver_ingot
+
+#forge:mushrooms/warpedfungus
+- minecraft:warped_fungus
+
+#silentgems:glowroses/aquamarine
+- silentgems:aquamarine_glowrose
+
+#forge:ices
+- #forge:ices/blueice
+- #forge:ices/ice
+- #forge:ices/packedice
+- #forge:ices/snowball
+
+#forge:ores/pyrope
+- silentgems:pyrope_ore
+
+#forge:crops/nether_wart
+- minecraft:nether_wart
+
+#forge:storage_blocks/copper
+- create:copper_block
+
+#forge:milk/milk
+- minecraft:milk_bucket
+
+#minecraft:coals
+- minecraft:coal
+- minecraft:charcoal
+
+#silentgems:glowroses/morganite
+- silentgems:morganite_glowrose
+
+#silentgems:glowroses/iolite
+- silentgems:iolite_glowrose
+
+#forge:gems/moldavite
+- silentgems:moldavite
+
+#silentgems:charging_agents/tier1
+- silentgems:charging_agent
+
+#forge:jellies/melonjelly
+- pamhc2foodcore:melonjellyitem
+
+#silentgems:charging_agents/tier2
+- silentgems:super_charging_agent
+
+#silentgems:charging_agents/tier3
+- silentgems:ultra_charging_agent
+
+#forge:storage_blocks/iolite
+- silentgems:iolite_block
+
+#forge:ingots/nether_brick
+- minecraft:nether_brick
+
+#forge:pickaxes
+- silentgear:hammer
+- silentgear:paxel
+- silentgear:pickaxe
+
+#forge:nuggets/agate
+- silentgems:agate_shard
+
+#forge:cookedbeef/cookedbeef
+- minecraft:cooked_beef
+
+#silentgems:glowroses/onyx
+- silentgems:onyx_glowrose
+
+#refinedstorage:network_transmitter
+- refinedstorage:pink_network_transmitter
+- refinedstorage:gray_network_transmitter
+- refinedstorage:orange_network_transmitter
+- refinedstorage:cyan_network_transmitter
+- refinedstorage:magenta_network_transmitter
+- refinedstorage:network_transmitter
+- refinedstorage:light_gray_network_transmitter
+- refinedstorage:brown_network_transmitter
+- refinedstorage:black_network_transmitter
+- refinedstorage:white_network_transmitter
+- refinedstorage:lime_network_transmitter
+- refinedstorage:purple_network_transmitter
+- refinedstorage:red_network_transmitter
+- refinedstorage:green_network_transmitter
+- refinedstorage:blue_network_transmitter
+- refinedstorage:yellow_network_transmitter
+
+#forge:vinegar_ingredients/chorusfruit
+- minecraft:chorus_fruit
+
+#forge:ingots/arcane_gold
+- forbidden_arcanus:arcane_gold_ingot
+
+#forge:fishes/rawsalmon
+- minecraft:salmon
+
+#forge:storage_blocks/lapis
+- minecraft:lapis_block
+
+#silentgems:fluffy_blocks
+- silentgems:white_fluffy_block
+- silentgems:orange_fluffy_block
+- silentgems:magenta_fluffy_block
+- silentgems:light_blue_fluffy_block
+- silentgems:yellow_fluffy_block
+- silentgems:lime_fluffy_block
+- silentgems:pink_fluffy_block
+- silentgems:gray_fluffy_block
+- silentgems:light_gray_fluffy_block
+- silentgems:cyan_fluffy_block
+- silentgems:purple_fluffy_block
+- silentgems:blue_fluffy_block
+- silentgems:brown_fluffy_block
+- silentgems:green_fluffy_block
+- silentgems:red_fluffy_block
+- silentgems:black_fluffy_block
+
+#forge:ores/lead
+- allomancy:lead_ore
+
+#forge:dyes/orange
+- minecraft:orange_dye
+
+#forge:crops/melon
+- minecraft:melon_slice
+
+#forge:cocoapowder
+- #forge:cocoapowder/cocoapowder
+
+#forge:rods/iron
+- silentgear:iron_rod
+- createaddition:iron_rod
+
+#alexsmobs:seal_foodstuffs
+- #minecraft:fishes
+- alexsmobs:lobster_tail
+- alexsmobs:cooked_lobster_tail
+
+#forge:gems/cats_eye
+- silentgems:cats_eye
+
+#forge:ores/malachite
+- silentgems:malachite_ore
+
+#silentgear:grader_catalysts
+- #silentgear:grader_catalysts/tier1
+- #silentgear:grader_catalysts/tier2
+- #silentgear:grader_catalysts/tier3
+- #silentgear:grader_catalysts/tier4
+- #silentgear:grader_catalysts/tier5
+
+#silentgems:glowroses/black_diamond
+- silentgems:black_diamond_glowrose
+
+#forge:nuggets/pyrope
+- silentgems:pyrope_shard
+
+#forge:shields
+- silentgear:shield
+
+#forge:glass/white
+- minecraft:white_stained_glass
+
+#forge:storage_blocks/chaos_coal
+- silentgems:chaos_iron_block
+
+#silentgear:rods/netherwood
+- silentgear:netherwood_stick
+
+#silentgems:pedestals
+- silentgems:stone_pedestal
+- silentgems:granite_pedestal
+- silentgems:diorite_pedestal
+- silentgems:andesite_pedestal
+- silentgems:obsidian_pedestal
+
+#forge:glass_panes/red
+- minecraft:red_stained_glass_pane
+
+#biomesoplenty:willow_logs
+- biomesoplenty:willow_log
+- biomesoplenty:willow_wood
+- biomesoplenty:stripped_willow_log
+- biomesoplenty:stripped_willow_wood
+
+#forge:ores/xpetrified_ore
+- forbidden_arcanus:xpetrified_ore
+
+#minecraft:fishes
+- minecraft:cod
+- minecraft:cooked_cod
+- minecraft:salmon
+- minecraft:cooked_salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+
+#silentgear:blueprints/knife
+- silentgear:knife_blueprint
+- silentgear:knife_template
+
+#forge:ices/snowball
+- minecraft:snowball
+
+#forge:fruits
+- silentgear:nether_banana
+- #forge:fruits/apple
+- #forge:fruits/chorusfruit
+- #forge:fruits/melon
+- #forge:fruits/sweetberries
+
+#curios:hands
+- curios:knuckles
+
+#forge:nuggets/heliodor
+- silentgems:heliodor_shard
+
+#forge:gems/chrysoprase
+- silentgems:chrysoprase
+
+#forge:storage_blocks/spinel
+- silentgems:spinel_block
+
+#forge:storage_blocks/sapphire
+- silentgems:sapphire_block
+
+#forge:sand/colorless
+- minecraft:sand
+
+#forge:storage_blocks/kyanite
+- silentgems:kyanite_block
+
+#forge:ores/jade
+- silentgems:jade_ore
+
+#forge:nuggets/coral
+- silentgems:coral_shard
+
+#forge:ingots/duralumin
+
+#forge:nuggets/brass
+- create:brass_nugget
+
+#forge:storage_blocks/moonstone
+- silentgems:moonstone_block
+
+#silentgems:glowroses/tektite
+- silentgems:tektite_glowrose
+
+#forge:gems/diamond
+- minecraft:diamond
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- create:granite_cobblestone_wall
+- create:granite_bricks_wall
+- create:fancy_granite_bricks_wall
+- create:paved_granite_wall
+- create:diorite_cobblestone_wall
+- create:diorite_bricks_wall
+- create:fancy_diorite_bricks_wall
+- create:paved_diorite_wall
+- create:andesite_cobblestone_wall
+- create:andesite_bricks_wall
+- create:fancy_andesite_bricks_wall
+- create:paved_andesite_wall
+- create:limestone_cobblestone_wall
+- create:polished_limestone_wall
+- create:limestone_bricks_wall
+- create:fancy_limestone_bricks_wall
+- create:paved_limestone_wall
+- create:weathered_limestone_cobblestone_wall
+- create:polished_weathered_limestone_wall
+- create:weathered_limestone_bricks_wall
+- create:fancy_weathered_limestone_bricks_wall
+- create:paved_weathered_limestone_wall
+- create:dolomite_cobblestone_wall
+- create:polished_dolomite_wall
+- create:dolomite_bricks_wall
+- create:fancy_dolomite_bricks_wall
+- create:paved_dolomite_wall
+- create:gabbro_cobblestone_wall
+- create:polished_gabbro_wall
+- create:gabbro_bricks_wall
+- create:fancy_gabbro_bricks_wall
+- create:paved_gabbro_wall
+- create:scoria_cobblestone_wall
+- create:polished_scoria_wall
+- create:scoria_bricks_wall
+- create:fancy_scoria_bricks_wall
+- create:paved_scoria_wall
+- create:dark_scoria_cobblestone_wall
+- create:polished_dark_scoria_wall
+- create:dark_scoria_bricks_wall
+- create:fancy_dark_scoria_bricks_wall
+- create:paved_dark_scoria_wall
+- biomesoplenty:black_sandstone_wall
+- biomesoplenty:orange_sandstone_wall
+- biomesoplenty:white_sandstone_wall
+- biomesoplenty:mud_brick_wall
+- forbidden_arcanus:darkstone_wall
+- forbidden_arcanus:polished_darkstone_wall
+- forbidden_arcanus:polished_darkstone_brick_wall
+- forbidden_arcanus:arcane_polished_darkstone_wall
+- forbidden_arcanus:soulless_sandstone_wall
+
+#forge:storage_blocks/black_diamond
+- silentgems:black_diamond_block
+
+#forge:ores/yellow_diamond
+- silentgems:yellow_diamond_ore
+
+#forge:cookedmutton/cookedmutton
+- minecraft:cooked_mutton
+
+#forge:yogurt/yogurt
+- pamhc2foodcore:yogurtitem
+
+#minecraft:music_discs
+- #minecraft:creeper_drop_music_discs
+- minecraft:music_disc_pigstep
+- biomesoplenty:music_disc_wanderer
+
+#forge:ores/tektite
+- silentgems:tektite_ore
+
+#forge:ores/moldavite
+- silentgems:moldavite_ore
+
+#silentgems:wisp_essences
+- silentgems:chaos_wisp_essence
+- silentgems:fire_wisp_essence
+- silentgems:water_wisp_essence
+- silentgems:ice_wisp_essence
+- silentgems:lightning_wisp_essence
+
+#forge:gems
+- #forge:gems/diamond
+- #forge:gems/emerald
+- #forge:gems/lapis
+- #forge:gems/prismarine
+- #forge:gems/quartz
+- #forge:gems/bort
+- #forge:gems/arcane_crystal
+- #forge:gems/ruby
+- #forge:gems/garnet
+- #forge:gems/topaz
+- #forge:gems/amber
+- #forge:gems/heliodor
+- #forge:gems/peridot
+- #forge:gems/green_sapphire
+- #forge:gems/phosphophyllite
+- #forge:gems/aquamarine
+- #forge:gems/sapphire
+- #forge:gems/tanzanite
+- #forge:gems/amethyst
+- #forge:gems/agate
+- #forge:gems/morganite
+- #forge:gems/onyx
+- #forge:gems/opal
+- #forge:gems/carnelian
+- #forge:gems/spinel
+- #forge:gems/citrine
+- #forge:gems/jasper
+- #forge:gems/zircon
+- #forge:gems/moldavite
+- #forge:gems/malachite
+- #forge:gems/turquoise
+- #forge:gems/euclase
+- #forge:gems/benitoite
+- #forge:gems/iolite
+- #forge:gems/alexandrite
+- #forge:gems/lepidolite
+- #forge:gems/ametrine
+- #forge:gems/black_diamond
+- #forge:gems/moonstone
+- #forge:gems/pyrope
+- #forge:gems/coral
+- #forge:gems/sunstone
+- #forge:gems/cats_eye
+- #forge:gems/yellow_diamond
+- #forge:gems/jade
+- #forge:gems/chrysoprase
+- #forge:gems/apatite
+- #forge:gems/fluorite
+- #forge:gems/kyanite
+- #forge:gems/sodalite
+- #forge:gems/ammolite
+- #forge:gems/kunzite
+- #forge:gems/rose_quartz
+- #forge:gems/tektite
+- #forge:gems/pearl
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+
+#forge:nuggets/black_diamond
+- silentgems:black_diamond_shard
+
+#forge:rawpork/rawpork
+- minecraft:porkchop
+
+#silentgems:glowroses/sunstone
+- silentgems:sunstone_glowrose
+
+#forge:gems/topaz
+- silentgems:topaz
+
+#forge:dyes/light_gray
+- minecraft:light_gray_dye
+
+#forge:cookies/cookie
+- minecraft:cookie
+
+#forge:gems/fluorite
+- silentgems:fluorite
+
+#silentgear:blueprints/katana
+- silentgear:katana_blueprint
+- silentgear:katana_template
+
+#forge:ingots/bronze
+- allomancy:bronze_ingot
+
+#forge:melonjelly/melonjelly
+- pamhc2foodcore:melonjellyitem
+
+#forge:gems/tanzanite
+- silentgems:tanzanite
+
+#forge:milk
+- #forge:milk/milk
+- #forge:milk/freshmilk
+
+#forge:ingots/copper
+- allomancy:copper_ingot
+- create:copper_ingot
+
+#forge:storage_blocks/heliodor
+- silentgems:heliodor_block
+
+#forge:glass/blue
+- minecraft:blue_stained_glass
+
+#forge:sweetberryjelly/sweetberryjelly
+- pamhc2foodcore:sweetberryjellyitem
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- biomesoplenty:fir_trapdoor
+- biomesoplenty:redwood_trapdoor
+- biomesoplenty:cherry_trapdoor
+- biomesoplenty:mahogany_trapdoor
+- biomesoplenty:jacaranda_trapdoor
+- biomesoplenty:palm_trapdoor
+- biomesoplenty:willow_trapdoor
+- biomesoplenty:dead_trapdoor
+- biomesoplenty:magic_trapdoor
+- biomesoplenty:umbran_trapdoor
+- biomesoplenty:hellbark_trapdoor
+- silentgear:netherwood_trapdoor
+- forbidden_arcanus:edelwood_trapdoor
+- forbidden_arcanus:cherrywood_trapdoor
+- forbidden_arcanus:mysterywood_trapdoor
+
+#create:valve_handles
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+
+#forge:barrels/silver
+- metalbarrels:silver_barrel
+
+#forge:storage_blocks/coal
+- minecraft:coal_block
+
+#forge:glass/light_blue
+- minecraft:light_blue_stained_glass
+
+#forge:ores/chrysoprase
+- silentgems:chrysoprase_ore
+
+#forge:wires
+- createaddition:copper_wire
+- createaddition:iron_wire
+- createaddition:gold_wire
+
+#forge:storage_blocks/euclase
+- silentgems:euclase_block
+
+#forge:ingots/brass
+- allomancy:brass_ingot
+- create:brass_ingot
+
+#forge:gems/phosphophyllite
+- silentgems:phosphophyllite
+
+#silentgear:blueprints/grip
+- silentgear:grip_blueprint
+- silentgear:grip_template
+
+#forge:storage_blocks/amethyst
+- silentgems:amethyst_block
+
+#silentgems:glowroses/alexandrite
+- silentgems:alexandrite_glowrose
+
+#silentgear:repair_kits
+- silentgear:crude_repair_kit
+
+#forge:cookies
+- #forge:cookies/cookie
+
+#forge:barrels/gold
+- metalbarrels:gold_barrel
+
+#forge:storage_blocks/coral
+- silentgems:coral_block
+
+#silentgear:rods/rough
+- silentgear:rough_rod
+
+#alexsmobs:grizzly_foodstuffs
+- #alexsmobs:grizzly_honey
+- minecraft:salmon
+- minecraft:bee_nest
+- minecraft:beetroot
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:tipped_arrow
+- minecraft:spectral_arrow
+- alexsmobs:shark_tooth_arrow
+- apotheosis:obsidian_arrow?
+- apotheosis:broadhead_arrow?
+- apotheosis:explosive_arrow?
+- apotheosis:iron_mining_arrow?
+- apotheosis:diamond_mining_arrow?
+- silentgear:arrow
+- forbidden_arcanus:boom_arrow
+- forbidden_arcanus:draco_arcanus_arrow
+
+#forge:rawpork
+- #forge:rawpork/rawpork
+
+#forge:ores/green_sapphire
+- silentgems:green_sapphire_ore
+
+#refinedstorage:fluid_grid
+- refinedstorage:pink_fluid_grid
+- refinedstorage:gray_fluid_grid
+- refinedstorage:orange_fluid_grid
+- refinedstorage:cyan_fluid_grid
+- refinedstorage:magenta_fluid_grid
+- refinedstorage:fluid_grid
+- refinedstorage:light_gray_fluid_grid
+- refinedstorage:brown_fluid_grid
+- refinedstorage:black_fluid_grid
+- refinedstorage:white_fluid_grid
+- refinedstorage:lime_fluid_grid
+- refinedstorage:purple_fluid_grid
+- refinedstorage:red_fluid_grid
+- refinedstorage:green_fluid_grid
+- refinedstorage:blue_fluid_grid
+- refinedstorage:yellow_fluid_grid
+
+#forge:bread/bread
+- minecraft:bread
+
+#forge:nuggets/opal
+- silentgems:opal_shard
+
+#forge:nuggets/crimson_steel
+- silentgear:crimson_steel_nugget
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- biomesoplenty:fir_door
+- biomesoplenty:redwood_door
+- biomesoplenty:cherry_door
+- biomesoplenty:mahogany_door
+- biomesoplenty:jacaranda_door
+- biomesoplenty:palm_door
+- biomesoplenty:willow_door
+- biomesoplenty:dead_door
+- biomesoplenty:magic_door
+- biomesoplenty:umbran_door
+- biomesoplenty:hellbark_door
+- silentgear:netherwood_door
+- forbidden_arcanus:edelwood_door
+- forbidden_arcanus:cherrywood_door
+- forbidden_arcanus:mysterywood_door
+
+#forge:nuggets/topaz
+- silentgems:topaz_shard
+
+#silentgems:glowroses/rose_quartz
+- silentgems:rose_quartz_glowrose
+
+#forge:flour_plants/wheat
+- minecraft:wheat
+
+#silentgems:glowroses/turquoise
+- silentgems:turquoise_glowrose
+
+#forge:fruits/chorusfruit
+- minecraft:chorus_fruit
+
+#forge:glass/purple
+- minecraft:purple_stained_glass
+
+#forge:storage_blocks/opal
+- silentgems:opal_block
+
+#forge:dyes/magenta
+- minecraft:magenta_dye
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#forge:tool_mixingbowl/mixingbowl
+- pamhc2foodcore:mixingbowlitem
+
+#forge:nuggets/ruby
+- silentgems:ruby_shard
+
+#forge:water/water
+- minecraft:water_bucket
+
+#minecraft:stone_tool_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+
+#forge:dyes/cyan
+- minecraft:cyan_dye
+
+#forge:nuggets/zircon
+- silentgems:zircon_shard
+
+#silentgear:blueprints/tip
+- silentgear:tip_blueprint
+- silentgear:tip_template
+
+#forge:storage_blocks/ruby
+- silentgems:ruby_block
+
+#silentgems:glowroses/phosphophyllite
+- silentgems:phosphophyllite_glowrose
+
+#forge:nuggets/citrine
+- silentgems:citrine_shard
+
+#forge:dyes/purple
+- minecraft:purple_dye
+
+#silentgems:gems/dark
+- #forge:gems/carnelian
+- #forge:gems/spinel
+- #forge:gems/citrine
+- #forge:gems/jasper
+- #forge:gems/zircon
+- #forge:gems/moldavite
+- #forge:gems/malachite
+- #forge:gems/turquoise
+- #forge:gems/euclase
+- #forge:gems/benitoite
+- #forge:gems/iolite
+- #forge:gems/alexandrite
+- #forge:gems/lepidolite
+- #forge:gems/ametrine
+- #forge:gems/black_diamond
+- #forge:gems/moonstone
+
+#forge:cookedfish
+- #forge:cookedfish/cookedcod
+- #forge:cookedfish/cookedsalmon
+
+#forge:tool_pot
+- #forge:tool_pot/pot
+
+#forge:nuggets/cats_eye
+- silentgems:cats_eye_shard
+
+#forge:groundmeats/groundmutton
+- pamhc2foodcore:groundmuttonitem
+
+#forge:nuggets/euclase
+- silentgems:euclase_shard
+
+#forge:gems/apatite
+- silentgems:apatite
+
+#forge:gems/prismarine
+- minecraft:prismarine_crystals
+
+#minecraft:forgeingots/zinc
+- allomancy:zinc_ingot
+- allomancy:zinc_ingot
+
+#forge:rods/stone
+- silentgear:stone_rod
+
+#forge:storage_blocks/silver
+- silentgems:silver_block
+
+#forge:ores/gold
+- #minecraft:gold_ores
+
+#forge:ores/tanzanite
+- silentgems:tanzanite_ore
+
+#forge:storage_blocks/pearl
+- silentgems:pearl_block
+
+#biomesoplenty:palm_logs
+- biomesoplenty:palm_log
+- biomesoplenty:palm_wood
+- biomesoplenty:stripped_palm_log
+- biomesoplenty:stripped_palm_wood
+
+#forge:nuggets/zinc
+- create:zinc_nugget
+
+#forge:ores/phosphophyllite
+- silentgems:phosphophyllite_ore
+
+#forge:glass/lime
+- minecraft:lime_stained_glass
+
+#forge:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+
+#forge:stock_ingredients/rawsalmon
+- minecraft:salmon
+
+#forge:dusts/arcane_crystal
+- forbidden_arcanus:arcane_crystal_dust
+
+#forge:ores/benitoite
+- silentgems:benitoite_ore
+
+#forge:gems/emerald
+- minecraft:emerald
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+
+#forge:storage_blocks/dark_nether_star
+- forbidden_arcanus:dark_nether_star_block
+
+#forge:glass_panes/dark_runic
+- forbidden_arcanus:dark_runic_glass_pane
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+
+#silentgems:glowroses/citrine
+- silentgems:citrine_glowrose
+
+#forge:rawmeats/rawbeef
+- minecraft:beef
+
+#forge:glass/orange
+- minecraft:orange_stained_glass
+
+#forge:cookedrabbit/cookedrabbit
+- minecraft:cooked_rabbit
+
+#forge:plates/gold
+- create:golden_sheet
+
+#forge:paper
+- minecraft:paper
+- silentgems:fluffy_fabric
+
+#silentgems:glowroses/peridot
+- silentgems:peridot_glowrose
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- create:granite_cobblestone_slab
+- create:granite_bricks_slab
+- create:fancy_granite_bricks_slab
+- create:paved_granite_slab
+- create:diorite_cobblestone_slab
+- create:diorite_bricks_slab
+- create:fancy_diorite_bricks_slab
+- create:paved_diorite_slab
+- create:andesite_cobblestone_slab
+- create:andesite_bricks_slab
+- create:fancy_andesite_bricks_slab
+- create:paved_andesite_slab
+- create:limestone_cobblestone_slab
+- create:polished_limestone_slab
+- create:limestone_bricks_slab
+- create:fancy_limestone_bricks_slab
+- create:paved_limestone_slab
+- create:weathered_limestone_cobblestone_slab
+- create:polished_weathered_limestone_slab
+- create:weathered_limestone_bricks_slab
+- create:fancy_weathered_limestone_bricks_slab
+- create:paved_weathered_limestone_slab
+- create:dolomite_cobblestone_slab
+- create:polished_dolomite_slab
+- create:dolomite_bricks_slab
+- create:fancy_dolomite_bricks_slab
+- create:paved_dolomite_slab
+- create:gabbro_cobblestone_slab
+- create:polished_gabbro_slab
+- create:gabbro_bricks_slab
+- create:fancy_gabbro_bricks_slab
+- create:paved_gabbro_slab
+- create:scoria_cobblestone_slab
+- create:polished_scoria_slab
+- create:scoria_bricks_slab
+- create:fancy_scoria_bricks_slab
+- create:paved_scoria_slab
+- create:dark_scoria_cobblestone_slab
+- create:polished_dark_scoria_slab
+- create:dark_scoria_bricks_slab
+- create:fancy_dark_scoria_bricks_slab
+- create:paved_dark_scoria_slab
+- biomesoplenty:black_sandstone_slab
+- biomesoplenty:cut_black_sandstone_slab
+- biomesoplenty:smooth_black_sandstone_slab
+- biomesoplenty:orange_sandstone_slab
+- biomesoplenty:cut_orange_sandstone_slab
+- biomesoplenty:smooth_orange_sandstone_slab
+- biomesoplenty:white_sandstone_slab
+- biomesoplenty:cut_white_sandstone_slab
+- biomesoplenty:smooth_white_sandstone_slab
+- biomesoplenty:mud_brick_slab
+- biomesoplenty:fir_slab
+- biomesoplenty:redwood_slab
+- biomesoplenty:cherry_slab
+- biomesoplenty:mahogany_slab
+- biomesoplenty:jacaranda_slab
+- biomesoplenty:palm_slab
+- biomesoplenty:willow_slab
+- biomesoplenty:dead_slab
+- biomesoplenty:magic_slab
+- biomesoplenty:umbran_slab
+- biomesoplenty:hellbark_slab
+- forbidden_arcanus:darkstone_slab
+- forbidden_arcanus:polished_darkstone_slab
+- forbidden_arcanus:polished_darkstone_brick_slab
+- forbidden_arcanus:arcane_polished_darkstone_slab
+- forbidden_arcanus:soulless_sandstone_slab
+- forbidden_arcanus:cut_soulless_sandstone_slab
+- forbidden_arcanus:polished_soulless_sandstone_slab
+- forbidden_arcanus:cherrywood_slab
+- forbidden_arcanus:edelwood_slab
+- forbidden_arcanus:mysterywood_slab
+
+#forge:melonjelly
+- #forge:melonjelly/melonjelly
+
+#forge:gems/pyrope
+- silentgems:pyrope
+
+#forge:storage_blocks/topaz
+- silentgems:topaz_block
+
+#refinedstorage:crafting_monitor
+- refinedstorage:pink_crafting_monitor
+- refinedstorage:gray_crafting_monitor
+- refinedstorage:orange_crafting_monitor
+- refinedstorage:cyan_crafting_monitor
+- refinedstorage:magenta_crafting_monitor
+- refinedstorage:crafting_monitor
+- refinedstorage:light_gray_crafting_monitor
+- refinedstorage:brown_crafting_monitor
+- refinedstorage:black_crafting_monitor
+- refinedstorage:white_crafting_monitor
+- refinedstorage:lime_crafting_monitor
+- refinedstorage:purple_crafting_monitor
+- refinedstorage:red_crafting_monitor
+- refinedstorage:green_crafting_monitor
+- refinedstorage:blue_crafting_monitor
+- refinedstorage:yellow_crafting_monitor
+
+#forge:ores/apatite
+- silentgems:apatite_ore
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+- forbidden_arcanus:polished_darkstone_button
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+
+#forge:fishes/rawtropicalfish
+- minecraft:tropical_fish
+
+#forge:water/freshwater
+- pamhc2foodcore:freshwateritem
+
+#forge:ores/morganite
+- silentgems:morganite_ore
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- biomesoplenty:fir_pressure_plate
+- biomesoplenty:redwood_pressure_plate
+- biomesoplenty:cherry_pressure_plate
+- biomesoplenty:mahogany_pressure_plate
+- biomesoplenty:jacaranda_pressure_plate
+- biomesoplenty:palm_pressure_plate
+- biomesoplenty:willow_pressure_plate
+- biomesoplenty:dead_pressure_plate
+- biomesoplenty:magic_pressure_plate
+- biomesoplenty:umbran_pressure_plate
+- biomesoplenty:hellbark_pressure_plate
+- forbidden_arcanus:edelwood_pressure_plate
+- forbidden_arcanus:cherrywood_pressure_plate
+- forbidden_arcanus:mysterywood_pressure_plate
+
+#forge:ores/arcane_crystal
+- forbidden_arcanus:arcane_crystal_ore
+
+#forge:nuggets/pearl
+- silentgems:pearl_shard
+
+#biomesoplenty:redwood_logs
+- biomesoplenty:redwood_log
+- biomesoplenty:redwood_wood
+- biomesoplenty:stripped_redwood_log
+- biomesoplenty:stripped_redwood_wood
+
+#silentgems:gems/light
+- #forge:gems/pyrope
+- #forge:gems/coral
+- #forge:gems/sunstone
+- #forge:gems/cats_eye
+- #forge:gems/yellow_diamond
+- #forge:gems/jade
+- #forge:gems/chrysoprase
+- #forge:gems/apatite
+- #forge:gems/fluorite
+- #forge:gems/kyanite
+- #forge:gems/sodalite
+- #forge:gems/ammolite
+- #forge:gems/kunzite
+- #forge:gems/rose_quartz
+- #forge:gems/tektite
+- #forge:gems/pearl
+
+#biomesoplenty:jacaranda_logs
+- biomesoplenty:jacaranda_log
+- biomesoplenty:jacaranda_wood
+- biomesoplenty:stripped_jacaranda_log
+- biomesoplenty:stripped_jacaranda_wood
+
+#create:create_ingots
+- create:copper_ingot
+- create:zinc_ingot
+- create:brass_ingot
+
+#silentgems:glowroses
+- #silentgems:glowroses/ruby
+- #silentgems:glowroses/garnet
+- #silentgems:glowroses/topaz
+- #silentgems:glowroses/amber
+- #silentgems:glowroses/heliodor
+- #silentgems:glowroses/peridot
+- #silentgems:glowroses/green_sapphire
+- #silentgems:glowroses/phosphophyllite
+- #silentgems:glowroses/aquamarine
+- #silentgems:glowroses/sapphire
+- #silentgems:glowroses/tanzanite
+- #silentgems:glowroses/amethyst
+- #silentgems:glowroses/agate
+- #silentgems:glowroses/morganite
+- #silentgems:glowroses/onyx
+- #silentgems:glowroses/opal
+- #silentgems:glowroses/carnelian
+- #silentgems:glowroses/spinel
+- #silentgems:glowroses/citrine
+- #silentgems:glowroses/jasper
+- #silentgems:glowroses/zircon
+- #silentgems:glowroses/moldavite
+- #silentgems:glowroses/malachite
+- #silentgems:glowroses/turquoise
+- #silentgems:glowroses/euclase
+- #silentgems:glowroses/benitoite
+- #silentgems:glowroses/iolite
+- #silentgems:glowroses/alexandrite
+- #silentgems:glowroses/lepidolite
+- #silentgems:glowroses/ametrine
+- #silentgems:glowroses/black_diamond
+- #silentgems:glowroses/moonstone
+- #silentgems:glowroses/pyrope
+- #silentgems:glowroses/coral
+- #silentgems:glowroses/sunstone
+- #silentgems:glowroses/cats_eye
+- #silentgems:glowroses/yellow_diamond
+- #silentgems:glowroses/jade
+- #silentgems:glowroses/chrysoprase
+- #silentgems:glowroses/apatite
+- #silentgems:glowroses/fluorite
+- #silentgems:glowroses/kyanite
+- #silentgems:glowroses/sodalite
+- #silentgems:glowroses/ammolite
+- #silentgems:glowroses/kunzite
+- #silentgems:glowroses/rose_quartz
+- #silentgems:glowroses/tektite
+- #silentgems:glowroses/pearl
+
+#forge:bows
+- silentgear:bow
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+
+#refinedstorage:crafter
+- refinedstorage:pink_crafter
+- refinedstorage:gray_crafter
+- refinedstorage:orange_crafter
+- refinedstorage:cyan_crafter
+- refinedstorage:magenta_crafter
+- refinedstorage:crafter
+- refinedstorage:light_gray_crafter
+- refinedstorage:brown_crafter
+- refinedstorage:black_crafter
+- refinedstorage:white_crafter
+- refinedstorage:lime_crafter
+- refinedstorage:purple_crafter
+- refinedstorage:red_crafter
+- refinedstorage:green_crafter
+- refinedstorage:blue_crafter
+- refinedstorage:yellow_crafter
+
+#forge:storage_blocks/crimson_steel
+- silentgear:crimson_steel_block
+
+#forge:juices/melonjuice
+- pamhc2foodcore:melonjuiceitem
+
+#forge:hoes
+- silentgear:mattock
+
+#forge:glass/arcane
+- forbidden_arcanus:arcane_glass
+
+#forge:storage_blocks/chrysoprase
+- silentgems:chrysoprase_block
+
+#forge:dusts/mundabitur
+- forbidden_arcanus:mundabitur_dust
+
+#forge:gems/benitoite
+- silentgems:benitoite
+
+#forge:crossbows
+- silentgear:crossbow
+
+#silentgems:hardened_rocks
+- silentgems:hardened_stone
+- silentgems:hardened_netherrack
+- silentgems:hardened_end_stone
+- silentgems:hardened_stone
+- silentgems:hardened_netherrack
+- silentgems:hardened_end_stone
+
+#minecraft:forgeingots/pewter
+
+#forge:gravel
+- minecraft:gravel
+
+#silentgems:glowroses/amethyst
+- silentgems:amethyst_glowrose
+
+#forge:gems/tektite
+- silentgems:tektite
+
+#forge:dyes/black
+- minecraft:black_dye
+
+#forge:music_discs
+- biomesoplenty:music_disc_wanderer
+
+#biomesoplenty:magic_logs
+- biomesoplenty:magic_log
+- biomesoplenty:magic_wood
+- biomesoplenty:stripped_magic_log
+- biomesoplenty:stripped_magic_wood
+
+#forge:dough/dough
+- pamhc2foodcore:doughitem
+
+#silentgear:netherwood_logs
+- silentgear:netherwood_log
+- silentgear:stripped_netherwood_log
+- silentgear:netherwood_wood
+- silentgear:stripped_netherwood_wood
+
+#forge:tool_skillet/skillet
+- pamhc2foodcore:skilletitem
+
+#forge:ingots/azure_silver
+- silentgear:azure_silver_ingot
+
+#forge:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+
+#forge:ores/citrine
+- silentgems:citrine_ore
+
+#forge:ores/zinc
+- allomancy:zinc_ore
+- create:zinc_ore
+
+#forge:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#forge:nuggets/copper
+- create:copper_nugget
+
+#forge:crops/carrot
+- minecraft:carrot
+- minecraft:carrot
+
+#silentgear:blueprints/bracelet
+- silentgear:bracelet_blueprint
+- silentgear:bracelet_template
+
+#forge:leggings
+- silentgear:leggings
+
+#forge:ingots/pewter
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#forge:shovels
+- silentgear:excavator
+- silentgear:mattock
+- silentgear:paxel
+- silentgear:shovel
+
+#forge:dyes/blue
+- minecraft:blue_dye
+
+#forge:storage_blocks/iron
+- minecraft:iron_block
+
+#create:seats
+- create:white_seat
+- create:orange_seat
+- create:magenta_seat
+- create:light_blue_seat
+- create:yellow_seat
+- create:lime_seat
+- create:pink_seat
+- create:gray_seat
+- create:light_gray_seat
+- create:cyan_seat
+- create:purple_seat
+- create:blue_seat
+- create:brown_seat
+- create:green_seat
+- create:red_seat
+- create:black_seat
+
+#forge:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+
+#forge:heads
+- minecraft:creeper_head
+- minecraft:dragon_head
+- minecraft:player_head
+- minecraft:skeleton_skull
+- minecraft:wither_skeleton_skull
+- minecraft:zombie_head
+
+#forge:nuggets/sodalite
+- silentgems:sodalite_shard
+
+#silentgems:glowroses/yellow_diamond
+- silentgems:yellow_diamond_glowrose
+
+#forge:nuggets/malachite
+- silentgems:malachite_shard
+
+#forge:hammers
+- silentgear:hammer
+- silentgear:prospector_hammer
+
+#forge:ores/sapphire
+- silentgems:sapphire_ore
+
+#forge:tool_saucepan
+- #forge:tool_saucepan/saucepan
+
+#forge:ingots/crimson_iron
+- silentgear:crimson_iron_ingot
+
+#forge:storage_blocks/agate
+- silentgems:agate_block
+
+#storagedrawers:drawers
+- storagedrawers:oak_full_drawers_1
+- storagedrawers:oak_full_drawers_2
+- storagedrawers:oak_full_drawers_4
+- storagedrawers:oak_half_drawers_1
+- storagedrawers:oak_half_drawers_2
+- storagedrawers:oak_half_drawers_4
+- storagedrawers:spruce_full_drawers_1
+- storagedrawers:spruce_full_drawers_2
+- storagedrawers:spruce_full_drawers_4
+- storagedrawers:spruce_half_drawers_1
+- storagedrawers:spruce_half_drawers_2
+- storagedrawers:spruce_half_drawers_4
+- storagedrawers:birch_full_drawers_1
+- storagedrawers:birch_full_drawers_2
+- storagedrawers:birch_full_drawers_4
+- storagedrawers:birch_half_drawers_1
+- storagedrawers:birch_half_drawers_2
+- storagedrawers:birch_half_drawers_4
+- storagedrawers:jungle_full_drawers_1
+- storagedrawers:jungle_full_drawers_2
+- storagedrawers:jungle_full_drawers_4
+- storagedrawers:jungle_half_drawers_1
+- storagedrawers:jungle_half_drawers_2
+- storagedrawers:jungle_half_drawers_4
+- storagedrawers:acacia_full_drawers_1
+- storagedrawers:acacia_full_drawers_2
+- storagedrawers:acacia_full_drawers_4
+- storagedrawers:acacia_half_drawers_1
+- storagedrawers:acacia_half_drawers_2
+- storagedrawers:acacia_half_drawers_4
+- storagedrawers:dark_oak_full_drawers_1
+- storagedrawers:dark_oak_full_drawers_2
+- storagedrawers:dark_oak_full_drawers_4
+- storagedrawers:dark_oak_half_drawers_1
+- storagedrawers:dark_oak_half_drawers_2
+- storagedrawers:dark_oak_half_drawers_4
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#forge:stock_ingredients/bone
+- minecraft:bone
+
+#forge:juices/applejuice
+- pamhc2foodcore:applejuiceitem
+
+#refinedstorage:detector
+- refinedstorage:pink_detector
+- refinedstorage:gray_detector
+- refinedstorage:orange_detector
+- refinedstorage:cyan_detector
+- refinedstorage:magenta_detector
+- refinedstorage:detector
+- refinedstorage:light_gray_detector
+- refinedstorage:brown_detector
+- refinedstorage:black_detector
+- refinedstorage:white_detector
+- refinedstorage:lime_detector
+- refinedstorage:purple_detector
+- refinedstorage:red_detector
+- refinedstorage:green_detector
+- refinedstorage:blue_detector
+- refinedstorage:yellow_detector
+
+#forge:pasta/pasta
+- pamhc2foodcore:pastaitem
+
+#forge:mushrooms
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- biomesoplenty:glowshroom
+- biomesoplenty:toadstool
+- #forge:mushrooms/brownmushroom
+- #forge:mushrooms/redmushroom
+- #forge:mushrooms/crimsonfungus
+- #forge:mushrooms/warpedfungus
+
+#silentgems:teleporter_catalyst
+- silentgems:ender_crystal
+
+#minecraft:forgeores/zinc
+- allomancy:zinc_ore
+- allomancy:zinc_ore
+
+#forge:stock
+- #forge:stock/stock
+
+#silentgems:glowroses/fluorite
+- silentgems:fluorite_glowrose
+
+#forge:rods/all_metal
+- createaddition:iron_rod
+- createaddition:copper_rod
+- createaddition:gold_rod
+- createaddition:brass_rod
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- biomesoplenty:origin_sapling
+- biomesoplenty:flowering_oak_sapling
+- biomesoplenty:rainbow_birch_sapling
+- biomesoplenty:yellow_autumn_sapling
+- biomesoplenty:orange_autumn_sapling
+- biomesoplenty:maple_sapling
+- biomesoplenty:fir_sapling
+- biomesoplenty:redwood_sapling
+- biomesoplenty:white_cherry_sapling
+- biomesoplenty:pink_cherry_sapling
+- biomesoplenty:mahogany_sapling
+- biomesoplenty:jacaranda_sapling
+- biomesoplenty:palm_sapling
+- biomesoplenty:willow_sapling
+- biomesoplenty:dead_sapling
+- biomesoplenty:magic_sapling
+- biomesoplenty:umbran_sapling
+- biomesoplenty:hellbark_sapling
+- silentgear:netherwood_sapling
+- forbidden_arcanus:cherrywood_sapling
+- forbidden_arcanus:mysterywood_sapling
+
+#forge:ores/copper
+- allomancy:copper_ore
+- create:copper_ore
+
+#forge:melonjuice/melonjuice
+- pamhc2foodcore:melonjuiceitem
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+
+#forge:stock_ingredients/rawbeef
+- minecraft:beef
+
+#forge:nuggets/alexandrite
+- silentgems:alexandrite_shard
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- biomesoplenty:fir_fence
+- biomesoplenty:redwood_fence
+- biomesoplenty:cherry_fence
+- biomesoplenty:mahogany_fence
+- biomesoplenty:jacaranda_fence
+- biomesoplenty:palm_fence
+- biomesoplenty:willow_fence
+- biomesoplenty:dead_fence
+- biomesoplenty:magic_fence
+- biomesoplenty:umbran_fence
+- biomesoplenty:hellbark_fence
+- silentgear:netherwood_fence
+- forbidden_arcanus:edelwood_fence
+- forbidden_arcanus:cherrywood_fence
+- forbidden_arcanus:mysterywood_fence
+
+#forge:obsidian
+- minecraft:obsidian
+
+#forge:storage_blocks/blaze_gold
+- silentgear:blaze_gold_block
+
+#alexsmobs:shoebill_foodstuffs
+- #minecraft:fishes
+
+#silentgems:glowroses/agate
+- silentgems:agate_glowrose
+
+#forge:storage_blocks/citrine
+- silentgems:citrine_block
+
+#biomesoplenty:mahogany_logs
+- biomesoplenty:mahogany_log
+- biomesoplenty:mahogany_wood
+- biomesoplenty:stripped_mahogany_log
+- biomesoplenty:stripped_mahogany_wood
+
+#forge:sweetberryjuice
+- #forge:sweetberryjuice/sweetberryjuice
+
+#forge:gems/garnet
+- silentgems:garnet
+
+#forge:rods/brass
+- createaddition:brass_rod
+
+#forge:ingots/cadmium
+- allomancy:cadmium_ingot
+
+#minecraft:forgeingots/nicrosil
+
+#silentgems:teleporters
+- silentgems:ruby_teleporter
+- silentgems:garnet_teleporter
+- silentgems:topaz_teleporter
+- silentgems:amber_teleporter
+- silentgems:heliodor_teleporter
+- silentgems:peridot_teleporter
+- silentgems:green_sapphire_teleporter
+- silentgems:phosphophyllite_teleporter
+- silentgems:aquamarine_teleporter
+- silentgems:sapphire_teleporter
+- silentgems:tanzanite_teleporter
+- silentgems:amethyst_teleporter
+- silentgems:agate_teleporter
+- silentgems:morganite_teleporter
+- silentgems:onyx_teleporter
+- silentgems:opal_teleporter
+- silentgems:carnelian_teleporter
+- silentgems:spinel_teleporter
+- silentgems:citrine_teleporter
+- silentgems:jasper_teleporter
+- silentgems:zircon_teleporter
+- silentgems:moldavite_teleporter
+- silentgems:malachite_teleporter
+- silentgems:turquoise_teleporter
+- silentgems:euclase_teleporter
+- silentgems:benitoite_teleporter
+- silentgems:iolite_teleporter
+- silentgems:alexandrite_teleporter
+- silentgems:lepidolite_teleporter
+- silentgems:ametrine_teleporter
+- silentgems:black_diamond_teleporter
+- silentgems:moonstone_teleporter
+- silentgems:pyrope_teleporter
+- silentgems:coral_teleporter
+- silentgems:sunstone_teleporter
+- silentgems:cats_eye_teleporter
+- silentgems:yellow_diamond_teleporter
+- silentgems:jade_teleporter
+- silentgems:chrysoprase_teleporter
+- silentgems:apatite_teleporter
+- silentgems:fluorite_teleporter
+- silentgems:kyanite_teleporter
+- silentgems:sodalite_teleporter
+- silentgems:ammolite_teleporter
+- silentgems:kunzite_teleporter
+- silentgems:rose_quartz_teleporter
+- silentgems:tektite_teleporter
+- silentgems:pearl_teleporter
+
+#forge:glass/magenta
+- minecraft:magenta_stained_glass
+
+#forge:salt/salt
+- pamhc2foodcore:saltitem
+
+#forge:nuggets/benitoite
+- silentgems:benitoite_shard
+
+#forge:ores/coal
+- minecraft:coal_ore
+
+#forge:nuggets/ametrine
+- silentgems:ametrine_shard
+
+#forge:pasta
+- #forge:pasta/pasta
+
+#silentgear:blueprints/bow
+- silentgear:bow_blueprint
+- silentgear:bow_template
+
+#forge:gems/peridot
+- silentgems:peridot
+
+#minecraft:forgeores/aluminum
+- allomancy:aluminum_ore
+- allomancy:aluminum_ore
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- forbidden_arcanus:cherrywood_trapdoor
+- forbidden_arcanus:edelwood_trapdoor
+- forbidden_arcanus:mysterywood_trapdoor
+
+#forge:ingots/gold
+- minecraft:gold_ingot
+
+#minecraft:forgeingots/bendalloy
+
+#silentgear:blueprints
+- #silentgear:blueprints/adornment
+- #silentgear:blueprints/arrow
+- #silentgear:blueprints/axe
+- #silentgear:blueprints/binding
+- #silentgear:blueprints/boots
+- #silentgear:blueprints/bow
+- #silentgear:blueprints/bowstring
+- #silentgear:blueprints/bracelet
+- #silentgear:blueprints/chestplate
+- #silentgear:blueprints/coating
+- #silentgear:blueprints/crossbow
+- #silentgear:blueprints/dagger
+- #silentgear:blueprints/elytra
+- #silentgear:blueprints/excavator
+- #silentgear:blueprints/fletching
+- #silentgear:blueprints/grip
+- #silentgear:blueprints/hammer
+- #silentgear:blueprints/helmet
+- #silentgear:blueprints/katana
+- #silentgear:blueprints/knife
+- #silentgear:blueprints/leggings
+- #silentgear:blueprints/lining
+- #silentgear:blueprints/machete
+- #silentgear:blueprints/mattock
+- #silentgear:blueprints/paxel
+- #silentgear:blueprints/pickaxe
+- #silentgear:blueprints/prospector_hammer
+- #silentgear:blueprints/ring
+- #silentgear:blueprints/rod
+- #silentgear:blueprints/saw
+- #silentgear:blueprints/shears
+- #silentgear:blueprints/shield
+- #silentgear:blueprints/shovel
+- #silentgear:blueprints/sickle
+- #silentgear:blueprints/slingshot
+- #silentgear:blueprints/spear
+- #silentgear:blueprints/sword
+- #silentgear:blueprints/tip
+
+#forge:glass/cyan
+- minecraft:cyan_stained_glass
+
+#forge:leather
+- minecraft:leather
+- forbidden_arcanus:rotten_leather
+
+#forge:glass
+- #forge:glass/colorless
+- #forge:stained_glass
+
+#forge:nuggets/phosphophyllite
+- silentgems:phosphophyllite_shard
+
+#forge:gems/ametrine
+- silentgems:ametrine
+
+#minecraft:boats
+- minecraft:oak_boat
+- minecraft:spruce_boat
+- minecraft:birch_boat
+- minecraft:jungle_boat
+- minecraft:acacia_boat
+- minecraft:dark_oak_boat
+- biomesoplenty:fir_boat
+- biomesoplenty:redwood_boat
+- biomesoplenty:cherry_boat
+- biomesoplenty:mahogany_boat
+- biomesoplenty:jacaranda_boat
+- biomesoplenty:palm_boat
+- biomesoplenty:willow_boat
+- biomesoplenty:dead_boat
+- biomesoplenty:magic_boat
+- biomesoplenty:umbran_boat
+- biomesoplenty:hellbark_boat
+
+#silentgear:blueprint_paper
+- silentgear:blueprint_paper
+
+#forge:nuggets/iron
+- minecraft:iron_nugget
+
+#forge:ores/ammolite
+- silentgems:ammolite_ore
+
+#refinedstorage:disk_manipulator
+- refinedstorage:pink_disk_manipulator
+- refinedstorage:gray_disk_manipulator
+- refinedstorage:orange_disk_manipulator
+- refinedstorage:cyan_disk_manipulator
+- refinedstorage:magenta_disk_manipulator
+- refinedstorage:disk_manipulator
+- refinedstorage:light_gray_disk_manipulator
+- refinedstorage:brown_disk_manipulator
+- refinedstorage:black_disk_manipulator
+- refinedstorage:white_disk_manipulator
+- refinedstorage:lime_disk_manipulator
+- refinedstorage:purple_disk_manipulator
+- refinedstorage:red_disk_manipulator
+- refinedstorage:green_disk_manipulator
+- refinedstorage:blue_disk_manipulator
+- refinedstorage:yellow_disk_manipulator
+
+#forge:gems/rose_quartz
+- silentgems:rose_quartz
+
+#forge:storage_blocks/brass
+- create:brass_block
+
+#forge:crops/potato
+- minecraft:potato
+- minecraft:potato
+
+#silentgear:blueprints/mattock
+- silentgear:mattock_blueprint
+- silentgear:mattock_template
+
+#forge:ores/ruby
+- silentgems:ruby_ore
+
+#forge:nuggets/lepidolite
+- silentgems:lepidolite_shard
+
+#forge:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#silentgems:stew_fish
+- minecraft:cod
+- minecraft:salmon
+
+#curios:head
+- curios:crown
+
+#forge:ores/opal
+- silentgems:opal_ore
+
+#forge:nuggets/fluorite
+- silentgems:fluorite_shard
+
+#silentgems:glowroses/carnelian
+- silentgems:carnelian_glowrose
+
+#forge:storage_blocks/zinc
+- create:zinc_block
+
+#forge:plates/lapis_lazuli
+- create:lapis_sheet
+
+#forge:batter/batter
+- pamhc2foodcore:batteritem
+
+#forge:marshmellows/marshmellows
+- pamhc2foodcore:marshmellowsitem
+
+#silentgems:glowroses/jasper
+- silentgems:jasper_glowrose
+
+#forge:glass/gray
+- minecraft:gray_stained_glass
+
+#forge:ores/chromium
+- allomancy:chromium_ore
+
+#forge:dyes/light_blue
+- minecraft:light_blue_dye
+
+#forge:jellies/applejelly
+- pamhc2foodcore:applejellyitem
+
+#silentgems:glowroses/ametrine
+- silentgems:ametrine_glowrose
+
+#silentgear:blueprints/sickle
+- silentgear:sickle_blueprint
+- silentgear:sickle_template
+
+#forge:flour_plants/potato
+- minecraft:potato
+
+#silentgems:glowroses/coral
+- silentgems:coral_glowrose
+
+#forge:glass_panes/black
+- minecraft:black_stained_glass_pane
+
+#minecraft:forgeingots/copper
+- allomancy:copper_ingot
+- allomancy:copper_ingot
+
+#silentgems:glowroses/tanzanite
+- silentgems:tanzanite_glowrose
+
+#forge:dyes/pink
+- minecraft:pink_dye
+
+#silentgear:blueprints/elytra
+- silentgear:elytra_blueprint
+- silentgear:elytra_template
+
+#forge:rawchicken
+- #forge:rawchicken/rawchicken
+
+#forge:ores/zircon
+- silentgems:zircon_ore
+
+#forge:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+
+#forge:crops/wheat
+- minecraft:wheat
+- minecraft:wheat
+
+#forge:rawfish/rawtropicalfish
+- minecraft:tropical_fish
+
+#forge:ores/stella_arcanum
+- forbidden_arcanus:stella_arcanum
+
+#silentgems:glowroses/jade
+- silentgems:jade_glowrose
+
+#forge:dough
+- #forge:dough/dough
+
+#forge:gems/pearl
+- silentgems:pearl
+
+#forge:gems/malachite
+- silentgems:malachite
+
+#forge:stone
+- create:limestone
+- create:polished_limestone
+- create:weathered_limestone
+- create:polished_weathered_limestone
+- create:gabbro
+- create:polished_gabbro
+- create:dolomite
+- create:polished_dolomite
+- create:scoria
+- create:polished_scoria
+- create:dark_scoria
+- create:polished_dark_scoria
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- forbidden_arcanus:darkstone
+
+#forge:ices/ice
+- minecraft:ice
+
+#silentgear:blueprints/excavator
+- silentgear:excavator_blueprint
+- silentgear:excavator_template
+
+#forge:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+
+#forge:flour_plants/sunflowerseeds
+- pamhc2foodcore:sunflowerseedsitem
+
+#forge:cookedchicken
+- #forge:cookedchicken/cookedchicken
+
+#forge:nuggets/moldavite
+- silentgems:moldavite_shard
+
+#forge:gems/lapis
+- minecraft:lapis_lazuli
+
+#forge:tool_grinder/grinder
+- pamhc2foodcore:grinderitem
+
+#forge:gunpowder
+- minecraft:gunpowder
+
+#biomesoplenty:cherry_logs
+- biomesoplenty:cherry_log
+- biomesoplenty:cherry_wood
+- biomesoplenty:stripped_cherry_log
+- biomesoplenty:stripped_cherry_wood
+
+#forge:vinegar_ingredients/sweetberries
+- minecraft:sweet_berries
+
+#forge:vinegar/vinegar
+- pamhc2foodcore:vinegaritem
+
+#forge:chocolatebar/chocolatebar
+- pamhc2foodcore:chocolatebaritem
+
+#forge:seeds/wheatseeds
+- minecraft:wheat_seeds
+
+#silentgems:chaos_orbs
+- silentgems:chaos_potato
+- silentgems:fragile_chaos_orb
+- silentgems:refined_chaos_orb
+- silentgems:perfect_chaos_orb
+
+#forge:sweetberryjuice/sweetberryjuice
+- pamhc2foodcore:sweetberryjuiceitem
+
+#forge:storage_blocks/sodalite
+- silentgems:sodalite_block
+
+#create:crushed_ores
+- create:crushed_iron_ore
+- create:crushed_gold_ore
+- create:crushed_copper_ore
+- create:crushed_zinc_ore
+- create:crushed_brass
+- create:crushed_osmium_ore
+- create:crushed_platinum_ore
+- create:crushed_silver_ore
+- create:crushed_tin_ore
+- create:crushed_lead_ore
+- create:crushed_quicksilver_ore
+- create:crushed_aluminum_ore
+- create:crushed_uranium_ore
+- create:crushed_nickel_ore
+
+#forge:rawrabbit/rawrabbit
+- minecraft:rabbit
+
+#forge:crops
+- #forge:crops/beetroot
+- #forge:crops/carrot
+- #forge:crops/nether_wart
+- #forge:crops/potato
+- #forge:crops/wheat
+- #forge:crops/apple
+- #forge:crops/beetroot
+- #forge:crops/carrot
+- #forge:crops/chorusfruit
+- #forge:crops/cocoabeans
+- #forge:crops/melon
+- #forge:crops/potato
+- #forge:crops/pumpkin
+- #forge:crops/sweetberry
+- #forge:crops/wheat
+- silentgems:fluffy_puff
+
+#forge:storage_blocks/sunstone
+- silentgems:sunstone_block
+
+#silentgear:blueprints/boots
+- silentgear:boots_blueprint
+- silentgear:boots_template
+
+#forge:gems/citrine
+- silentgems:citrine
+
+#forge:storage_blocks/apatite
+- silentgems:apatite_block
+
+#forge:condiments
+- #forge:condiments/mayonaise
+
+#forge:cookedbeef
+- #forge:cookedbeef/cookedbeef
+
+#silentgear:blueprints/lining
+- silentgear:lining_blueprint
+- silentgear:lining_template
+
+#alexsmobs:grizzly_honey
+- minecraft:honeycomb
+- minecraft:honey_block
+- minecraft:honeycomb_block
+- minecraft:honey_bottle
+
+#curios:charm
+- apotheosis:potion_charm?
+- angelring:itemring
+
+#itemfilters:check_nbt
+- minecraft:potion
+- minecraft:splash_potion
+- minecraft:lingering_potion
+- minecraft:enchanted_book
+- minecraft:tipped_arrow
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#forge:mushrooms/redmushroom
+- minecraft:red_mushroom
+
+#forge:nuggets/diamond
+- silentgear:diamond_shard
+
+#forge:storage_blocks/cats_eye
+- silentgems:cats_eye_block
+
+#forge:nuts
+- #forge:nuts/sunflowerseeds
+
+#forge:groundmeats/groundpork
+- pamhc2foodcore:groundporkitem
+
+#forge:vegetables/pumpkin
+- minecraft:pumpkin
+
+#silentgems:glowroses/moonstone
+- silentgems:moonstone_glowrose
+
+#forge:juices
+- #forge:juices/applejuice
+- #forge:juices/melonjuice
+- #forge:juices/sweetberryjuice
+
+#forge:storage_blocks/green_sapphire
+- silentgems:green_sapphire_block
+
+#forge:storage_blocks/ammolite
+- silentgems:ammolite_block
+
+#forge:ices/packedice
+- minecraft:packed_ice
+
+#forge:seeds
+- #forge:seeds/beetroot
+- #forge:seeds/melon
+- #forge:seeds/pumpkin
+- #forge:seeds/wheat
+- silentgear:flax_seeds
+- forbidden_arcanus:golden_orchid_seeds
+- #forge:seeds/beetrootseeds
+- #forge:seeds/melonseeds
+- #forge:seeds/pumpkinseeds
+- #forge:seeds/wheatseeds
+- silentgems:fluffy_puff_seeds
+
+#forge:rawmeats
+- #forge:rawmeats/rawbeef
+- #forge:rawmeats/rawchicken
+- #forge:rawmeats/rawcod
+- #forge:rawmeats/rawmutton
+- #forge:rawmeats/rawpork
+- #forge:rawmeats/rawrabbit
+- #forge:rawmeats/rawsalmon
+- #forge:rawmeats/rawtropicalfish
+
+#forge:nuggets/yellow_diamond
+- silentgems:yellow_diamond_shard
+
+#forge:gems/zircon
+- silentgems:zircon
+
+#forge:rawmeats/rawtropicalfish
+- minecraft:tropical_fish
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#minecraft:forgeingots/duralumin
+
+#curios:angelring
+- angelring:itemring
+
+#forge:ores/lapis
+- minecraft:lapis_ore
+
+#forge:cookingoil/cookingoil
+- pamhc2foodcore:cookingoilitem
+
+#forge:bread
+- #forge:bread/bread
+
+#forge:nuggets/emerald
+- silentgear:emerald_shard
+
+#minecraft:forgeingots/steel
+
+#forge:vinegar
+- #forge:vinegar/vinegar
+
+#forge:slimeballs
+- minecraft:slime_ball
+- silentgems:corrupted_slime_ball
+- silentgems:ender_slime_ball
+
+#forge:storage_blocks/jasper
+- silentgems:jasper_block
+
+#minecraft:forgeores/silver
+- allomancy:silver_ore
+- allomancy:silver_ore
+
+#forge:gems/aquamarine
+- silentgems:aquamarine
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#silentgear:blueprints/arrow
+- silentgear:arrow_blueprint
+- silentgear:arrow_template
+
+#silentgems:glowroses/chrysoprase
+- silentgems:chrysoprase_glowrose
+
+#forge:storage_blocks/stellarite
+- forbidden_arcanus:stellarite_block
+
+#minecraft:lectern_books
+- minecraft:written_book
+- minecraft:writable_book
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#forge:ores/cadmium
+- allomancy:cadmium_ore
+
+#forge:fence_gates/wooden
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- biomesoplenty:fir_fence_gate
+- biomesoplenty:redwood_fence_gate
+- biomesoplenty:cherry_fence_gate
+- biomesoplenty:mahogany_fence_gate
+- biomesoplenty:jacaranda_fence_gate
+- biomesoplenty:palm_fence_gate
+- biomesoplenty:willow_fence_gate
+- biomesoplenty:dead_fence_gate
+- biomesoplenty:magic_fence_gate
+- biomesoplenty:umbran_fence_gate
+- biomesoplenty:hellbark_fence_gate
+- forbidden_arcanus:edelwood_fence_gate
+- forbidden_arcanus:cherrywood_fence_gate
+- forbidden_arcanus:mysterywood_fence_gate
+
+#forge:ores/aluminum
+- allomancy:aluminum_ore
+
+#forge:gems/agate
+- silentgems:agate
+
+#forge:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+
+#forge:nuggets/amethyst
+- silentgems:amethyst_shard
+
+#forge:applejelly/applejelly
+- pamhc2foodcore:applejellyitem
+
+#forge:gems/ruby
+- silentgems:ruby
+
+#forge:cookedfish/cookedcod
+- minecraft:cooked_cod
+
+#forge:rawmeats/rawchicken
+- minecraft:chicken
+
+#forge:ingots/lead
+- allomancy:lead_ingot
+
+#forge:storage_blocks/benitoite
+- silentgems:benitoite_block
+
+#forge:ores/alexandrite
+- silentgems:alexandrite_ore
+
+#forbidden_arcanus:cherrywood_logs
+- forbidden_arcanus:cherrywood_log
+- forbidden_arcanus:cherrywood
+- forbidden_arcanus:stripped_cherrywood_log
+- forbidden_arcanus:stripped_cherrywood
+
+#silentgems:glowroses/kyanite
+- silentgems:kyanite_glowrose
+
+#forge:gems/opal
+- silentgems:opal
+
+#forge:ingots/nicrosil
+
+#forge:ores/turquoise
+- silentgems:turquoise_ore
+
+#forge:ores/peridot
+- silentgems:peridot_ore
+
+#forge:ores/garnet
+- silentgems:garnet_ore
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+- #silentgems:glowroses
+
+#forge:ores/agate
+- silentgems:agate_ore
+
+#forge:vegetables/potato
+- minecraft:potato
+
+#silentgems:glowroses/green_sapphire
+- silentgems:green_sapphire_glowrose
+
+#forge:nuggets/apatite
+- silentgems:apatite_shard
+
+#forge:cookingoil
+- #forge:cookingoil/cookingoil
+
+#silentgems:supercharger_pillar/cap
+- #silentgems:gem_blocks
+- #forge:storage_blocks/silver
+
+#forge:gems/coral
+- silentgems:coral
+
+#forge:elytra
+- silentgear:elytra
+
+#curios:bracelet
+- silentgear:bracelet
+
+#silentgems:glowroses/pearl
+- silentgems:pearl_glowrose
+
+#forge:gems/amethyst
+- silentgems:amethyst
+
+#silents_mechanisms:chunks/crimson_iron
+- silentgear:crimson_iron_chunks
+
+#forge:nuggets/spinel
+- silentgems:spinel_shard
+
+#forge:dyes/brown
+- minecraft:brown_dye
+
+#forge:storage_blocks/arcane_crystal
+- forbidden_arcanus:arcane_crystal_block
+
+#forge:ores
+- create:copper_ore
+- create:zinc_ore
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- #forge:ores/bort
+- #forge:ores/crimson_iron
+- #forge:ores/azure_silver
+- #forge:ores/arcane_crystal
+- #forge:ores/dark_runestone
+- #forge:ores/runestone
+- #forge:ores/stella_arcanum
+- #forge:ores/xpetrified_ore
+- silentgems:multi_ore_classic
+- silentgems:multi_ore_dark
+- silentgems:multi_ore_light
+- silentgems:chaos_ore
+- silentgems:ender_ore
+- #forge:ores/silver
+- #forge:ores/ruby
+- #forge:ores/garnet
+- #forge:ores/topaz
+- #forge:ores/amber
+- #forge:ores/heliodor
+- #forge:ores/peridot
+- #forge:ores/green_sapphire
+- #forge:ores/phosphophyllite
+- #forge:ores/aquamarine
+- #forge:ores/sapphire
+- #forge:ores/tanzanite
+- #forge:ores/amethyst
+- #forge:ores/agate
+- #forge:ores/morganite
+- #forge:ores/onyx
+- #forge:ores/opal
+- #forge:ores/carnelian
+- #forge:ores/spinel
+- #forge:ores/citrine
+- #forge:ores/jasper
+- #forge:ores/zircon
+- #forge:ores/moldavite
+- #forge:ores/malachite
+- #forge:ores/turquoise
+- #forge:ores/euclase
+- #forge:ores/benitoite
+- #forge:ores/iolite
+- #forge:ores/alexandrite
+- #forge:ores/lepidolite
+- #forge:ores/ametrine
+- #forge:ores/black_diamond
+- #forge:ores/moonstone
+- #forge:ores/pyrope
+- #forge:ores/coral
+- #forge:ores/sunstone
+- #forge:ores/cats_eye
+- #forge:ores/yellow_diamond
+- #forge:ores/jade
+- #forge:ores/chrysoprase
+- #forge:ores/apatite
+- #forge:ores/fluorite
+- #forge:ores/kyanite
+- #forge:ores/sodalite
+- #forge:ores/ammolite
+- #forge:ores/kunzite
+- #forge:ores/rose_quartz
+- #forge:ores/tektite
+- #forge:ores/pearl
+
+#forge:storage_blocks/rose_quartz
+- silentgems:rose_quartz_block
+
+#forge:rods/wooden
+- minecraft:stick
+- silentgear:netherwood_stick
+- forbidden_arcanus:edelwood_stick
+
+#curios:back
+- #usefulbackpacks:backpack
+- silentgear:elytra
+
+#forge:storage_blocks/diamond
+- minecraft:diamond_block
+
+#forge:cream
+- #forge:cream/cream
+
+#minecraft:forgeingots/tin
+- allomancy:tin_ingot
+- allomancy:tin_ingot
+
+#forge:cracker/cracker
+- pamhc2foodcore:crackeritem
+
+#forge:nuggets/ender_pearl
+- forbidden_arcanus:ender_pearl_fragment
+
+#forge:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+
+#forge:ores/heliodor
+- silentgems:heliodor_ore
+
+#forge:gems/kunzite
+- silentgems:kunzite
+
+#forge:nuggets
+- create:copper_nugget
+- create:zinc_nugget
+- create:brass_nugget
+- #forge:nuggets/iron
+- #forge:nuggets/gold
+- #forge:nuggets/blaze_gold
+- #forge:nuggets/crimson_iron
+- #forge:nuggets/crimson_steel
+- #forge:nuggets/azure_silver
+- #forge:nuggets/azure_electrum
+- #forge:nuggets/diamond
+- #forge:nuggets/emerald
+- #forge:nuggets/arcane_gold
+- #forge:nuggets/ender_pearl
+- #forge:nuggets/ruby
+- #forge:nuggets/garnet
+- #forge:nuggets/topaz
+- #forge:nuggets/amber
+- #forge:nuggets/heliodor
+- #forge:nuggets/peridot
+- #forge:nuggets/green_sapphire
+- #forge:nuggets/phosphophyllite
+- #forge:nuggets/aquamarine
+- #forge:nuggets/sapphire
+- #forge:nuggets/tanzanite
+- #forge:nuggets/amethyst
+- #forge:nuggets/agate
+- #forge:nuggets/morganite
+- #forge:nuggets/onyx
+- #forge:nuggets/opal
+- #forge:nuggets/carnelian
+- #forge:nuggets/spinel
+- #forge:nuggets/citrine
+- #forge:nuggets/jasper
+- #forge:nuggets/zircon
+- #forge:nuggets/moldavite
+- #forge:nuggets/malachite
+- #forge:nuggets/turquoise
+- #forge:nuggets/euclase
+- #forge:nuggets/benitoite
+- #forge:nuggets/iolite
+- #forge:nuggets/alexandrite
+- #forge:nuggets/lepidolite
+- #forge:nuggets/ametrine
+- #forge:nuggets/black_diamond
+- #forge:nuggets/moonstone
+- #forge:nuggets/pyrope
+- #forge:nuggets/coral
+- #forge:nuggets/sunstone
+- #forge:nuggets/cats_eye
+- #forge:nuggets/yellow_diamond
+- #forge:nuggets/jade
+- #forge:nuggets/chrysoprase
+- #forge:nuggets/apatite
+- #forge:nuggets/fluorite
+- #forge:nuggets/kyanite
+- #forge:nuggets/sodalite
+- #forge:nuggets/ammolite
+- #forge:nuggets/kunzite
+- #forge:nuggets/rose_quartz
+- #forge:nuggets/tektite
+- #forge:nuggets/pearl
+- silentgems:silver_nugget
+
+#forge:plates/zinc
+- createaddition:zinc_sheet
+
+#forge:dusts/corrupti
+- forbidden_arcanus:corrupti_dust
+
+#forge:flour
+- #forge:flour/flour
+
+#usefulbackpacks:backpack
+- usefulbackpacks:backpack_small
+- usefulbackpacks:backpack_medium
+- usefulbackpacks:backpack_large
+- usefulbackpacks:backpack_enderchest
+
+#forge:rods/gold
+- createaddition:gold_rod
+
+#forge:axes
+- silentgear:axe
+- silentgear:saw
+- silentgear:machete
+- silentgear:mattock
+- silentgear:paxel
+
+#forge:rods/blaze
+- minecraft:blaze_rod
+
+#forge:yogurt
+- #forge:yogurt/yogurt
+
+#forge:cocoapowder/cocoapowder
+- pamhc2foodcore:cocoapowderitem
+
+#forge:nuggets/kunzite
+- silentgems:kunzite_shard
+
+#create:upright_on_belt
+- create:blaze_cake_base
+- create:blaze_cake
+- create:builders_tea
+- minecraft:glass_bottle
+- minecraft:potion
+- minecraft:splash_potion
+- minecraft:lingering_potion
+
+#minecraft:forgeores/lead
+- allomancy:lead_ore
+- allomancy:lead_ore
+
+#forge:ores/dark_runestone
+- forbidden_arcanus:dark_runestone
+
+#forge:ores/coral
+- silentgems:coral_ore
+
+#forge:vegetables/carrot
+- minecraft:carrot
+
+#forge:storage_blocks/turquoise
+- silentgems:turquoise_block
+
+#forge:sweetberryjelly
+- #forge:sweetberryjelly/sweetberryjelly
+
+#silentgems:gem_blocks
+- #forge:storage_blocks/ruby
+- #forge:storage_blocks/garnet
+- #forge:storage_blocks/topaz
+- #forge:storage_blocks/amber
+- #forge:storage_blocks/heliodor
+- #forge:storage_blocks/peridot
+- #forge:storage_blocks/green_sapphire
+- #forge:storage_blocks/phosphophyllite
+- #forge:storage_blocks/aquamarine
+- #forge:storage_blocks/sapphire
+- #forge:storage_blocks/tanzanite
+- #forge:storage_blocks/amethyst
+- #forge:storage_blocks/agate
+- #forge:storage_blocks/morganite
+- #forge:storage_blocks/onyx
+- #forge:storage_blocks/opal
+- #forge:storage_blocks/carnelian
+- #forge:storage_blocks/spinel
+- #forge:storage_blocks/citrine
+- #forge:storage_blocks/jasper
+- #forge:storage_blocks/zircon
+- #forge:storage_blocks/moldavite
+- #forge:storage_blocks/malachite
+- #forge:storage_blocks/turquoise
+- #forge:storage_blocks/euclase
+- #forge:storage_blocks/benitoite
+- #forge:storage_blocks/iolite
+- #forge:storage_blocks/alexandrite
+- #forge:storage_blocks/lepidolite
+- #forge:storage_blocks/ametrine
+- #forge:storage_blocks/black_diamond
+- #forge:storage_blocks/moonstone
+- #forge:storage_blocks/pyrope
+- #forge:storage_blocks/coral
+- #forge:storage_blocks/sunstone
+- #forge:storage_blocks/cats_eye
+- #forge:storage_blocks/yellow_diamond
+- #forge:storage_blocks/jade
+- #forge:storage_blocks/chrysoprase
+- #forge:storage_blocks/apatite
+- #forge:storage_blocks/fluorite
+- #forge:storage_blocks/kyanite
+- #forge:storage_blocks/sodalite
+- #forge:storage_blocks/ammolite
+- #forge:storage_blocks/kunzite
+- #forge:storage_blocks/rose_quartz
+- #forge:storage_blocks/tektite
+- #forge:storage_blocks/pearl
+
+#minecraft:forgeingots/silver
+- allomancy:silver_ingot
+- allomancy:silver_ingot
+
+#forge:glass/red
+- minecraft:red_stained_glass
+
+#forge:seeds/beetrootseeds
+- minecraft:beetroot_seeds
+
+#forge:ores/lepidolite
+- silentgems:lepidolite_ore
+
+#forge:ender_pearls
+- minecraft:ender_pearl
+
+#minecraft:forgeingots/aluminum
+- allomancy:aluminum_ingot
+- allomancy:aluminum_ingot
+
+#forge:sugar
+- #forge:sugar/sugar
+
+#silentgems:glowroses/zircon
+- silentgems:zircon_glowrose
+
+#forge:marshmellows
+- #forge:marshmellows/marshmellows
+
+#forge:glass_panes/green
+- minecraft:green_stained_glass_pane
+
+#forge:jellies
+- #forge:jellies/applejelly
+- #forge:jellies/melonjelly
+- #forge:jellies/sweetberryjelly
+
+#silentgear:blueprints/crossbow
+- silentgear:crossbow_blueprint
+- silentgear:crossbow_template
+
+#forge:chests/trapped
+- minecraft:trapped_chest
+
+#forge:storage_blocks/peridot
+- silentgems:peridot_block
+
+#forge:gems/lepidolite
+- silentgems:lepidolite
+
+#silentgear:blueprints/machete
+- silentgear:machete_blueprint
+- silentgear:machete_template
+
+#forge:sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+- biomesoplenty:black_sandstone
+- biomesoplenty:cut_black_sandstone
+- biomesoplenty:chiseled_black_sandstone
+- biomesoplenty:smooth_black_sandstone
+- biomesoplenty:orange_sandstone
+- biomesoplenty:cut_orange_sandstone
+- biomesoplenty:chiseled_orange_sandstone
+- biomesoplenty:smooth_orange_sandstone
+- biomesoplenty:white_sandstone
+- biomesoplenty:cut_white_sandstone
+- biomesoplenty:chiseled_white_sandstone
+- biomesoplenty:smooth_white_sandstone
+- forbidden_arcanus:soulless_sandstone
+- forbidden_arcanus:cut_soulless_sandstone
+- forbidden_arcanus:polished_soulless_sandstone
+
+#forge:glass_panes/colorless
+- minecraft:glass_pane
+- #forge:glass_panes/arcane
+- #forge:glass_panes/dark_runic
+- #forge:glass_panes/runic
+
+#forge:applejuice/applejuice
+- pamhc2foodcore:applejuiceitem
+
+#forge:storage_blocks/aquamarine
+- silentgems:aquamarine_block
+
+#alexsmobs:crow_foodstuffs
+- minecraft:egg
+- minecraft:turtle_egg
+- minecraft:sugar
+- #forge:seeds
+
+#forge:tool_juicer
+- #forge:tool_juicer/juicer
+
+#silentgear:blueprints/shovel
+- silentgear:shovel_blueprint
+- silentgear:shovel_template
+
+#forge:ices/blueice
+- minecraft:blue_ice
+
+#silentgear:blueprints/spear
+- silentgear:spear_blueprint
+- silentgear:spear_template
+
+#forge:storage_blocks/tektite
+- silentgems:tektite_block
+
+#forge:ores/bort
+- silentgear:bort_ore
+
+#forge:storage_blocks/chaos
+- silentgems:chaos_crystal_block
+
+#forge:storage_blocks/azure_electrum
+- silentgear:azure_electrum_block
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#forge:ores/diamond
+- minecraft:diamond_ore
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- forbidden_arcanus:arcane_gold_door
+
+#forge:tool_pot/pot
+- pamhc2foodcore:potitem
+
+#forge:ores/pearl
+- silentgems:pearl_ore
+
+#forge:fruits/melon
+- minecraft:melon
+
+#forge:crops/sweetberry
+- minecraft:sweet_berries
+
+#silentgear:blueprints/saw
+- silentgear:saw_blueprint
+- silentgear:saw_template
+
+#forge:seeds/melonseeds
+- minecraft:melon_seeds
+
+#forge:icecream
+- #forge:icecream/icecream
+
+#forge:ores/tin
+- allomancy:tin_ore
+
+#forge:mushrooms/crimsonfungus
+- minecraft:crimson_fungus
+
+#minecraft:signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- forbidden_arcanus:cherrywood_sign
+- forbidden_arcanus:edelwood_sign
+- forbidden_arcanus:mysterywood_sign
+
+#forge:storage_blocks/tanzanite
+- silentgems:tanzanite_block
+
+#forge:storage_blocks/morganite
+- silentgems:morganite_block
+
+#silentgear:blueprints/binding
+- silentgear:binding_blueprint
+- silentgear:binding_template
+
+#forge:tools/knives
+- #forge:knives
+
+#forge:nuggets/sunstone
+- silentgems:sunstone_shard
+
+#forge:gems/end_crystal_gem
+- forbidden_arcanus:end_crystal_gem
+
+#forge:gems/black_diamond
+- silentgems:black_diamond
+
+#forge:storage_blocks/malachite
+- silentgems:malachite_block
+
+#forge:ores/topaz
+- silentgems:topaz_ore
+
+#forge:tool_roller/roller
+- pamhc2foodcore:rolleritem
+
+#forge:ingots/chromium
+- allomancy:chromium_ingot
+
+#forge:boots
+- silentgear:boots
+
+#forge:gems/arcane_crystal
+- forbidden_arcanus:arcane_crystal
+
+#forge:storage_blocks/crimson_iron
+- silentgear:crimson_iron_block
+
+#forge:egg/egg
+- minecraft:egg
+
+#forge:storage_blocks/bort
+- silentgear:bort_block
+
+#forge:rawfish
+- #forge:rawfish/rawcod
+- #forge:rawfish/rawsalmon
+- #forge:rawfish/rawtropicalfish
+
+#forge:swords
+- silentgear:dagger
+- silentgear:katana
+- silentgear:machete
+- silentgear:sword
+
+#refinedstorage:pattern_grid
+- refinedstorage:pink_pattern_grid
+- refinedstorage:gray_pattern_grid
+- refinedstorage:orange_pattern_grid
+- refinedstorage:cyan_pattern_grid
+- refinedstorage:magenta_pattern_grid
+- refinedstorage:pattern_grid
+- refinedstorage:light_gray_pattern_grid
+- refinedstorage:brown_pattern_grid
+- refinedstorage:black_pattern_grid
+- refinedstorage:white_pattern_grid
+- refinedstorage:lime_pattern_grid
+- refinedstorage:purple_pattern_grid
+- refinedstorage:red_pattern_grid
+- refinedstorage:green_pattern_grid
+- refinedstorage:blue_pattern_grid
+- refinedstorage:yellow_pattern_grid
+
+#forge:milk/freshmilk
+- pamhc2foodcore:freshmilkitem
+
+#silentgems:glowroses/heliodor
+- silentgems:heliodor_glowrose
+
+#silentgear:blueprints/prospector_hammer
+- silentgear:prospector_hammer_blueprint
+- silentgear:prospector_hammer_template
+
+#forge:glass/green
+- minecraft:green_stained_glass
+
+#itemfilters:filters
+- itemfilters:always_true
+- itemfilters:always_false
+- itemfilters:or
+- itemfilters:and
+- itemfilters:not
+- itemfilters:xor
+- itemfilters:tag
+- itemfilters:mod
+- itemfilters:item_group
+- itemfilters:id_regex
+- itemfilters:damage
+- itemfilters:block
+- itemfilters:max_count
+- itemfilters:strong_nbt
+- itemfilters:weak_nbt
+
+#silentgems:chaos_gems
+- silentgems:chaos_ruby
+- silentgems:chaos_garnet
+- silentgems:chaos_topaz
+- silentgems:chaos_amber
+- silentgems:chaos_heliodor
+- silentgems:chaos_peridot
+- silentgems:chaos_green_sapphire
+- silentgems:chaos_phosphophyllite
+- silentgems:chaos_aquamarine
+- silentgems:chaos_sapphire
+- silentgems:chaos_tanzanite
+- silentgems:chaos_amethyst
+- silentgems:chaos_agate
+- silentgems:chaos_morganite
+- silentgems:chaos_onyx
+- silentgems:chaos_opal
+- silentgems:chaos_carnelian
+- silentgems:chaos_spinel
+- silentgems:chaos_citrine
+- silentgems:chaos_jasper
+- silentgems:chaos_zircon
+- silentgems:chaos_moldavite
+- silentgems:chaos_malachite
+- silentgems:chaos_turquoise
+- silentgems:chaos_euclase
+- silentgems:chaos_benitoite
+- silentgems:chaos_iolite
+- silentgems:chaos_alexandrite
+- silentgems:chaos_lepidolite
+- silentgems:chaos_ametrine
+- silentgems:chaos_black_diamond
+- silentgems:chaos_moonstone
+- silentgems:chaos_pyrope
+- silentgems:chaos_coral
+- silentgems:chaos_sunstone
+- silentgems:chaos_cats_eye
+- silentgems:chaos_yellow_diamond
+- silentgems:chaos_jade
+- silentgems:chaos_chrysoprase
+- silentgems:chaos_apatite
+- silentgems:chaos_fluorite
+- silentgems:chaos_kyanite
+- silentgems:chaos_sodalite
+- silentgems:chaos_ammolite
+- silentgems:chaos_kunzite
+- silentgems:chaos_rose_quartz
+- silentgems:chaos_tektite
+- silentgems:chaos_pearl
+
+#silentgems:shards
+- #forge:nuggets/ruby
+- #forge:nuggets/garnet
+- #forge:nuggets/topaz
+- #forge:nuggets/amber
+- #forge:nuggets/heliodor
+- #forge:nuggets/peridot
+- #forge:nuggets/green_sapphire
+- #forge:nuggets/phosphophyllite
+- #forge:nuggets/aquamarine
+- #forge:nuggets/sapphire
+- #forge:nuggets/tanzanite
+- #forge:nuggets/amethyst
+- #forge:nuggets/agate
+- #forge:nuggets/morganite
+- #forge:nuggets/onyx
+- #forge:nuggets/opal
+- #forge:nuggets/carnelian
+- #forge:nuggets/spinel
+- #forge:nuggets/citrine
+- #forge:nuggets/jasper
+- #forge:nuggets/zircon
+- #forge:nuggets/moldavite
+- #forge:nuggets/malachite
+- #forge:nuggets/turquoise
+- #forge:nuggets/euclase
+- #forge:nuggets/benitoite
+- #forge:nuggets/iolite
+- #forge:nuggets/alexandrite
+- #forge:nuggets/lepidolite
+- #forge:nuggets/ametrine
+- #forge:nuggets/black_diamond
+- #forge:nuggets/moonstone
+- #forge:nuggets/pyrope
+- #forge:nuggets/coral
+- #forge:nuggets/sunstone
+- #forge:nuggets/cats_eye
+- #forge:nuggets/yellow_diamond
+- #forge:nuggets/jade
+- #forge:nuggets/chrysoprase
+- #forge:nuggets/apatite
+- #forge:nuggets/fluorite
+- #forge:nuggets/kyanite
+- #forge:nuggets/sodalite
+- #forge:nuggets/ammolite
+- #forge:nuggets/kunzite
+- #forge:nuggets/rose_quartz
+- #forge:nuggets/tektite
+- #forge:nuggets/pearl
+
+#minecraft:forgeores/copper
+- allomancy:copper_ore
+- allomancy:copper_ore
+
+#forge:end_stones
+- minecraft:end_stone
+
+#forge:storage_blocks/fluorite
+- silentgems:fluorite_block
+
+#biomesoplenty:fir_logs
+- biomesoplenty:fir_log
+- biomesoplenty:fir_wood
+- biomesoplenty:stripped_fir_log
+- biomesoplenty:stripped_fir_wood
+
+#silentgems:gems/classic
+- #forge:gems/ruby
+- #forge:gems/garnet
+- #forge:gems/topaz
+- #forge:gems/amber
+- #forge:gems/heliodor
+- #forge:gems/peridot
+- #forge:gems/green_sapphire
+- #forge:gems/phosphophyllite
+- #forge:gems/aquamarine
+- #forge:gems/sapphire
+- #forge:gems/tanzanite
+- #forge:gems/amethyst
+- #forge:gems/agate
+- #forge:gems/morganite
+- #forge:gems/onyx
+- #forge:gems/opal
+
+#forge:chocolatebar
+- #forge:chocolatebar/chocolatebar
+
+#forge:ingots/aluminum
+- allomancy:aluminum_ingot
+
+#minecraft:forgeores/chromium
+- allomancy:chromium_ore
+- allomancy:chromium_ore
+
+#forge:fences/wooden
+- minecraft:oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- biomesoplenty:fir_fence
+- biomesoplenty:redwood_fence
+- biomesoplenty:cherry_fence
+- biomesoplenty:mahogany_fence
+- biomesoplenty:jacaranda_fence
+- biomesoplenty:palm_fence
+- biomesoplenty:willow_fence
+- biomesoplenty:dead_fence
+- biomesoplenty:magic_fence
+- biomesoplenty:umbran_fence
+- biomesoplenty:hellbark_fence
+- forbidden_arcanus:edelwood_fence
+- forbidden_arcanus:cherrywood_fence
+- forbidden_arcanus:mysterywood_fence
+
+#forge:storage_blocks
+- create:copper_block
+- create:zinc_block
+- create:brass_block
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- #forge:storage_blocks/bort
+- #forge:storage_blocks/blaze_gold
+- #forge:storage_blocks/crimson_iron
+- #forge:storage_blocks/crimson_steel
+- #forge:storage_blocks/azure_silver
+- #forge:storage_blocks/azure_electrum
+- #forge:storage_blocks/arcane_crystal
+- #forge:storage_blocks/arcane_gold
+- #forge:storage_blocks/dark_nether_star
+- #forge:storage_blocks/stellarite
+- #forge:storage_blocks/chaos
+- #forge:storage_blocks/chaos_coal
+- #forge:storage_blocks/chaos_iron
+- #forge:storage_blocks/silver
+- #forge:storage_blocks/ruby
+- #forge:storage_blocks/garnet
+- #forge:storage_blocks/topaz
+- #forge:storage_blocks/amber
+- #forge:storage_blocks/heliodor
+- #forge:storage_blocks/peridot
+- #forge:storage_blocks/green_sapphire
+- #forge:storage_blocks/phosphophyllite
+- #forge:storage_blocks/aquamarine
+- #forge:storage_blocks/sapphire
+- #forge:storage_blocks/tanzanite
+- #forge:storage_blocks/amethyst
+- #forge:storage_blocks/agate
+- #forge:storage_blocks/morganite
+- #forge:storage_blocks/onyx
+- #forge:storage_blocks/opal
+- #forge:storage_blocks/carnelian
+- #forge:storage_blocks/spinel
+- #forge:storage_blocks/citrine
+- #forge:storage_blocks/jasper
+- #forge:storage_blocks/zircon
+- #forge:storage_blocks/moldavite
+- #forge:storage_blocks/malachite
+- #forge:storage_blocks/turquoise
+- #forge:storage_blocks/euclase
+- #forge:storage_blocks/benitoite
+- #forge:storage_blocks/iolite
+- #forge:storage_blocks/alexandrite
+- #forge:storage_blocks/lepidolite
+- #forge:storage_blocks/ametrine
+- #forge:storage_blocks/black_diamond
+- #forge:storage_blocks/moonstone
+- #forge:storage_blocks/pyrope
+- #forge:storage_blocks/coral
+- #forge:storage_blocks/sunstone
+- #forge:storage_blocks/cats_eye
+- #forge:storage_blocks/yellow_diamond
+- #forge:storage_blocks/jade
+- #forge:storage_blocks/chrysoprase
+- #forge:storage_blocks/apatite
+- #forge:storage_blocks/fluorite
+- #forge:storage_blocks/kyanite
+- #forge:storage_blocks/sodalite
+- #forge:storage_blocks/ammolite
+- #forge:storage_blocks/kunzite
+- #forge:storage_blocks/rose_quartz
+- #forge:storage_blocks/tektite
+- #forge:storage_blocks/pearl
+
+#forge:glass_panes/arcane
+- forbidden_arcanus:arcane_glass_pane
+
+#forge:gems/sunstone
+- silentgems:sunstone
+
+#minecraft:forgeingots/bronze
+- allomancy:bronze_ingot
+- allomancy:bronze_ingot
+
+#silentgems:glowroses/opal
+- silentgems:opal_glowrose
+
+#forge:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+
+#minecraft:beacon_payment_items
+- minecraft:netherite_ingot
+- minecraft:emerald
+- minecraft:diamond
+- minecraft:gold_ingot
+- minecraft:iron_ingot
+- silentgems:ruby
+- silentgems:garnet
+- silentgems:topaz
+- silentgems:amber
+- silentgems:heliodor
+- silentgems:peridot
+- silentgems:green_sapphire
+- silentgems:phosphophyllite
+- silentgems:aquamarine
+- silentgems:sapphire
+- silentgems:tanzanite
+- silentgems:amethyst
+- silentgems:agate
+- silentgems:morganite
+- silentgems:onyx
+- silentgems:opal
+- silentgems:carnelian
+- silentgems:spinel
+- silentgems:citrine
+- silentgems:jasper
+- silentgems:zircon
+- silentgems:moldavite
+- silentgems:malachite
+- silentgems:turquoise
+- silentgems:euclase
+- silentgems:benitoite
+- silentgems:iolite
+- silentgems:alexandrite
+- silentgems:lepidolite
+- silentgems:ametrine
+- silentgems:black_diamond
+- silentgems:moonstone
+- silentgems:pyrope
+- silentgems:coral
+- silentgems:sunstone
+- silentgems:cats_eye
+- silentgems:yellow_diamond
+- silentgems:jade
+- silentgems:chrysoprase
+- silentgems:apatite
+- silentgems:fluorite
+- silentgems:kyanite
+- silentgems:sodalite
+- silentgems:ammolite
+- silentgems:kunzite
+- silentgems:rose_quartz
+- silentgems:tektite
+- silentgems:pearl
+- silentgems:silver_ingot
+- silentgems:chaos_iron_ingot
+- silentgems:chaos_gold_ingot
+- silentgems:chaos_silver_ingot
+
+#forge:ores/quartz
+- minecraft:nether_quartz_ore
+
+#forge:tool_bakeware
+- #forge:tool_bakeware/bakeware
+
+#forge:ingots/brick
+- minecraft:brick
+
+#forge:sickles
+- silentgear:sickle
+
+#forge:storage_blocks/garnet
+- silentgems:garnet_block
+
+#forge:stock_ingredients/rawrabbit
+- minecraft:rabbit
+
+#refinedstorage:security_manager
+- refinedstorage:pink_security_manager
+- refinedstorage:gray_security_manager
+- refinedstorage:orange_security_manager
+- refinedstorage:cyan_security_manager
+- refinedstorage:magenta_security_manager
+- refinedstorage:security_manager
+- refinedstorage:light_gray_security_manager
+- refinedstorage:brown_security_manager
+- refinedstorage:black_security_manager
+- refinedstorage:white_security_manager
+- refinedstorage:lime_security_manager
+- refinedstorage:purple_security_manager
+- refinedstorage:red_security_manager
+- refinedstorage:green_security_manager
+- refinedstorage:blue_security_manager
+- refinedstorage:yellow_security_manager
+
+#silentgems:glowroses/ruby
+- silentgems:ruby_glowrose
+
+#forge:stock_ingredients/rawtropicalfish
+- minecraft:tropical_fish
+
+#forge:seeds/pumpkinseeds
+- minecraft:pumpkin_seeds
+
+#forge:dragon_scales
+- forbidden_arcanus:dragon_scale
+- forbidden_arcanus:silver_dragon_scale
+- forbidden_arcanus:golden_dragon_scale
+- forbidden_arcanus:aquatic_dragon_scale
+
+#silentgems:glowroses/garnet
+- silentgems:garnet_glowrose
+
+#forge:glass_panes/runic
+- forbidden_arcanus:runic_glass_pane
+
+#forge:tool_mixingbowl
+- #forge:tool_mixingbowl/mixingbowl
+
+#forge:storage_blocks/redstone
+- minecraft:redstone_block
+
+#forge:gems/sapphire
+- silentgems:sapphire
+
+#forge:egg
+- #forge:egg/egg
+
+#forge:tool_roller
+- #forge:tool_roller/roller
+
+#forge:storage_blocks/yellow_diamond
+- silentgems:yellow_diamond_block
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- create:granite_cobblestone_stairs
+- create:granite_bricks_stairs
+- create:fancy_granite_bricks_stairs
+- create:paved_granite_stairs
+- create:diorite_cobblestone_stairs
+- create:diorite_bricks_stairs
+- create:fancy_diorite_bricks_stairs
+- create:paved_diorite_stairs
+- create:andesite_cobblestone_stairs
+- create:andesite_bricks_stairs
+- create:fancy_andesite_bricks_stairs
+- create:paved_andesite_stairs
+- create:limestone_cobblestone_stairs
+- create:polished_limestone_stairs
+- create:limestone_bricks_stairs
+- create:fancy_limestone_bricks_stairs
+- create:paved_limestone_stairs
+- create:weathered_limestone_cobblestone_stairs
+- create:polished_weathered_limestone_stairs
+- create:weathered_limestone_bricks_stairs
+- create:fancy_weathered_limestone_bricks_stairs
+- create:paved_weathered_limestone_stairs
+- create:dolomite_cobblestone_stairs
+- create:polished_dolomite_stairs
+- create:dolomite_bricks_stairs
+- create:fancy_dolomite_bricks_stairs
+- create:paved_dolomite_stairs
+- create:gabbro_cobblestone_stairs
+- create:polished_gabbro_stairs
+- create:gabbro_bricks_stairs
+- create:fancy_gabbro_bricks_stairs
+- create:paved_gabbro_stairs
+- create:scoria_cobblestone_stairs
+- create:polished_scoria_stairs
+- create:scoria_bricks_stairs
+- create:fancy_scoria_bricks_stairs
+- create:paved_scoria_stairs
+- create:dark_scoria_cobblestone_stairs
+- create:polished_dark_scoria_stairs
+- create:dark_scoria_bricks_stairs
+- create:fancy_dark_scoria_bricks_stairs
+- create:paved_dark_scoria_stairs
+- biomesoplenty:black_sandstone_stairs
+- biomesoplenty:smooth_black_sandstone_stairs
+- biomesoplenty:orange_sandstone_stairs
+- biomesoplenty:smooth_orange_sandstone_stairs
+- biomesoplenty:white_sandstone_stairs
+- biomesoplenty:smooth_white_sandstone_stairs
+- biomesoplenty:mud_brick_stairs
+- biomesoplenty:fir_stairs
+- biomesoplenty:redwood_stairs
+- biomesoplenty:cherry_stairs
+- biomesoplenty:mahogany_stairs
+- biomesoplenty:jacaranda_stairs
+- biomesoplenty:palm_stairs
+- biomesoplenty:willow_stairs
+- biomesoplenty:dead_stairs
+- biomesoplenty:magic_stairs
+- biomesoplenty:umbran_stairs
+- biomesoplenty:hellbark_stairs
+- forbidden_arcanus:darkstone_stairs
+- forbidden_arcanus:polished_darkstone_stairs
+- forbidden_arcanus:polished_darkstone_brick_stairs
+- forbidden_arcanus:arcane_polished_darkstone_stairs
+- forbidden_arcanus:soulless_sandstone_stairs
+- forbidden_arcanus:polished_soulless_sandstone_stairs
+- forbidden_arcanus:edelwood_stairs
+- forbidden_arcanus:cherrywood_stairs
+- forbidden_arcanus:mysterywood_stairs
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- #biomesoplenty:fir_logs
+- #biomesoplenty:redwood_logs
+- #biomesoplenty:cherry_logs
+- #biomesoplenty:mahogany_logs
+- #biomesoplenty:jacaranda_logs
+- #biomesoplenty:palm_logs
+- #biomesoplenty:willow_logs
+- #biomesoplenty:dead_logs
+- #biomesoplenty:magic_logs
+- #biomesoplenty:umbran_logs
+- #biomesoplenty:hellbark_logs
+- #silentgear:netherwood_logs
+- #forbidden_arcanus:cherrywood_logs
+- #forbidden_arcanus:mysterywood_logs
+
+#forge:nuggets/arcane_gold
+- forbidden_arcanus:arcane_gold_nugget
+
+#forge:flour/flour
+- pamhc2foodcore:flouritem
+
+#silentgear:blueprints/helmet
+- silentgear:helmet_blueprint
+- silentgear:helmet_template
+
+#forge:gems/moonstone
+- silentgems:moonstone
+
+#silentgems:return_home_charms
+- silentgems:ruby_return_home_charm
+- silentgems:garnet_return_home_charm
+- silentgems:topaz_return_home_charm
+- silentgems:amber_return_home_charm
+- silentgems:heliodor_return_home_charm
+- silentgems:peridot_return_home_charm
+- silentgems:green_sapphire_return_home_charm
+- silentgems:phosphophyllite_return_home_charm
+- silentgems:aquamarine_return_home_charm
+- silentgems:sapphire_return_home_charm
+- silentgems:tanzanite_return_home_charm
+- silentgems:amethyst_return_home_charm
+- silentgems:agate_return_home_charm
+- silentgems:morganite_return_home_charm
+- silentgems:onyx_return_home_charm
+- silentgems:opal_return_home_charm
+- silentgems:carnelian_return_home_charm
+- silentgems:spinel_return_home_charm
+- silentgems:citrine_return_home_charm
+- silentgems:jasper_return_home_charm
+- silentgems:zircon_return_home_charm
+- silentgems:moldavite_return_home_charm
+- silentgems:malachite_return_home_charm
+- silentgems:turquoise_return_home_charm
+- silentgems:euclase_return_home_charm
+- silentgems:benitoite_return_home_charm
+- silentgems:iolite_return_home_charm
+- silentgems:alexandrite_return_home_charm
+- silentgems:lepidolite_return_home_charm
+- silentgems:ametrine_return_home_charm
+- silentgems:black_diamond_return_home_charm
+- silentgems:moonstone_return_home_charm
+- silentgems:pyrope_return_home_charm
+- silentgems:coral_return_home_charm
+- silentgems:sunstone_return_home_charm
+- silentgems:cats_eye_return_home_charm
+- silentgems:yellow_diamond_return_home_charm
+- silentgems:jade_return_home_charm
+- silentgems:chrysoprase_return_home_charm
+- silentgems:apatite_return_home_charm
+- silentgems:fluorite_return_home_charm
+- silentgems:kyanite_return_home_charm
+- silentgems:sodalite_return_home_charm
+- silentgems:ammolite_return_home_charm
+- silentgems:kunzite_return_home_charm
+- silentgems:rose_quartz_return_home_charm
+- silentgems:tektite_return_home_charm
+- silentgems:pearl_return_home_charm
+
+#forge:icecreams
+- #forge:icecreams/icecream
+- #forge:icecreams/chocolateicecream
+- #forge:icecreams/caramelicecream
+
+#forge:gems/green_sapphire
+- silentgems:green_sapphire
+
+#silentgems:gems
+- #forge:gems/ruby
+- #forge:gems/garnet
+- #forge:gems/topaz
+- #forge:gems/amber
+- #forge:gems/heliodor
+- #forge:gems/peridot
+- #forge:gems/green_sapphire
+- #forge:gems/phosphophyllite
+- #forge:gems/aquamarine
+- #forge:gems/sapphire
+- #forge:gems/tanzanite
+- #forge:gems/amethyst
+- #forge:gems/agate
+- #forge:gems/morganite
+- #forge:gems/onyx
+- #forge:gems/opal
+- #forge:gems/carnelian
+- #forge:gems/spinel
+- #forge:gems/citrine
+- #forge:gems/jasper
+- #forge:gems/zircon
+- #forge:gems/moldavite
+- #forge:gems/malachite
+- #forge:gems/turquoise
+- #forge:gems/euclase
+- #forge:gems/benitoite
+- #forge:gems/iolite
+- #forge:gems/alexandrite
+- #forge:gems/lepidolite
+- #forge:gems/ametrine
+- #forge:gems/black_diamond
+- #forge:gems/moonstone
+- #forge:gems/pyrope
+- #forge:gems/coral
+- #forge:gems/sunstone
+- #forge:gems/cats_eye
+- #forge:gems/yellow_diamond
+- #forge:gems/jade
+- #forge:gems/chrysoprase
+- #forge:gems/apatite
+- #forge:gems/fluorite
+- #forge:gems/kyanite
+- #forge:gems/sodalite
+- #forge:gems/ammolite
+- #forge:gems/kunzite
+- #forge:gems/rose_quartz
+- #forge:gems/tektite
+- #forge:gems/pearl
+
+#minecraft:forgeingots/brass
+- allomancy:brass_ingot
+- allomancy:brass_ingot
+
+#forge:butter
+- #forge:butter/butter
+
+#forge:ingots/azure_electrum
+- silentgear:azure_electrum_ingot
+
+#forge:gems/jasper
+- silentgems:jasper
+
+#silentgems:glowroses/euclase
+- silentgems:euclase_glowrose
+
+#forge:ores/runestone
+- forbidden_arcanus:runestone
+
+#forge:groundmeats/groundfish
+- pamhc2foodcore:groundfishitem
+
+#forge:crops/apple
+- minecraft:apple
+
+#forge:stock/stock
+- pamhc2foodcore:stockitem
+
+#forge:dusts/crimson_steel
+- silentgear:crimson_steel_dust
+
+#forge:toast
+- #forge:toast/toast
+
+#forge:ores/kyanite
+- silentgems:kyanite_ore
+
+#forge:gems/jade
+- silentgems:jade
+
+#forge:seeds/wheat
+- minecraft:wheat_seeds
+
+#forge:salt
+- #forge:salt/salt
+
+#forge:ingots/iron
+- minecraft:iron_ingot
+
+#forge:sugar/sugar
+- minecraft:sugar
+
+#silentgear:blueprints/dagger
+- silentgear:dagger_blueprint
+- silentgear:dagger_template
+
+#curios:ring
+- silentgear:ring
+- curios:ring
+
+#forge:ingots/crimson_steel
+- silentgear:crimson_steel_ingot
+
+#forge:storage_blocks/lepidolite
+- silentgems:lepidolite_block
+
+#forge:tool_cuttingboard
+- #forge:tool_cuttingboard/cuttingboard
+
+#forge:gems/ammolite
+- silentgems:ammolite
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#forge:sand
+- #forge:sand/colorless
+- #forge:sand/red
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+- #forge:sand/soulless
+
+#forge:cheese
+- #forge:cheese/cheese
+
+#forge:stock_ingredients
+- #forge:stock_ingredients/bone
+- #forge:stock_ingredients/rawbeef
+- #forge:stock_ingredients/rawchicken
+- #forge:stock_ingredients/rawcod
+- #forge:stock_ingredients/rawmutton
+- #forge:stock_ingredients/rawpork
+- #forge:stock_ingredients/rawrabbit
+- #forge:stock_ingredients/rawsalmon
+- #forge:stock_ingredients/rawtropicalfish
+
+#silentgear:blueprints/bowstring
+- silentgear:bowstring_blueprint
+- silentgear:bowstring_template
+
+#alexsmobs:elephant_foodstuffs
+- #minecraft:leaves
+- #minecraft:saplings
+- minecraft:sugar_cane
+- minecraft:apple
+- minecraft:beetroot
+- minecraft:potato
+- minecraft:carrot
+- minecraft:golden_carrot
+- minecraft:baked_potato
+- minecraft:hay_block
+- minecraft:bamboo
+- #alexsmobs:bananas
+- alexsmobs:acacia_blossom
+- minecraft:melon_slice
+- minecraft:sweet_berries
+
+#forge:dyes/yellow
+- minecraft:yellow_dye
+
+#forge:gems/sodalite
+- silentgems:sodalite
+
+#forge:mushrooms/brownmushroom
+- minecraft:brown_mushroom
+
+#silentgems:glowroses/pyrope
+- silentgems:pyrope_glowrose
+
+#minecraft:stone_crafting_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+
+#forge:rawrabbit
+- #forge:rawrabbit/rawrabbit
+
+#minecraft:piglin_repellents
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_campfire
+
+#forge:ingots/zinc
+- allomancy:zinc_ingot
+- create:zinc_ingot
+
+#forge:ores/aquamarine
+- silentgems:aquamarine_ore
+
+#forge:glass/black
+- minecraft:black_stained_glass
+
+#forge:water
+- #forge:water/water
+- #forge:water/freshwater
+
+#forge:nuggets/amber
+- silentgems:amber_shard
+
+#forge:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#forge:rods
+- #forge:rods/blaze
+- #forge:rods/wooden
+- #forge:rods/iron
+- #silentgear:rods/netherwood
+- #silentgear:rods/rough
+- #forge:rods/stone
+- createaddition:iron_rod
+- createaddition:copper_rod
+- createaddition:gold_rod
+- createaddition:brass_rod
+
+#forge:ores/iron
+- minecraft:iron_ore
+
+#forge:wires/iron
+- createaddition:iron_wire
+
+#silents_mechanisms:chunks/azure_silver
+- silentgear:azure_silver_chunks
+
+#forge:nuggets/green_sapphire
+- silentgems:green_sapphire_shard
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- biomesoplenty:fir_stairs
+- biomesoplenty:redwood_stairs
+- biomesoplenty:cherry_stairs
+- biomesoplenty:mahogany_stairs
+- biomesoplenty:jacaranda_stairs
+- biomesoplenty:palm_stairs
+- biomesoplenty:willow_stairs
+- biomesoplenty:dead_stairs
+- biomesoplenty:magic_stairs
+- biomesoplenty:umbran_stairs
+- biomesoplenty:hellbark_stairs
+- silentgear:netherwood_stairs
+- forbidden_arcanus:edelwood_stairs
+- forbidden_arcanus:cherrywood_stairs
+- forbidden_arcanus:mysterywood_stairs
+
+#forge:ores/cats_eye
+- silentgems:cats_eye_ore
+
+#forge:gems/kyanite
+- silentgems:kyanite
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- biomesoplenty:fir_button
+- biomesoplenty:redwood_button
+- biomesoplenty:cherry_button
+- biomesoplenty:mahogany_button
+- biomesoplenty:jacaranda_button
+- biomesoplenty:palm_button
+- biomesoplenty:willow_button
+- biomesoplenty:dead_button
+- biomesoplenty:magic_button
+- biomesoplenty:umbran_button
+- biomesoplenty:hellbark_button
+- forbidden_arcanus:edelwood_button
+- forbidden_arcanus:cherrywood_button
+- forbidden_arcanus:mysterywood_button
+
+#forge:ores/spinel
+- silentgems:spinel_ore
+
+#biomesoplenty:umbran_logs
+- biomesoplenty:umbran_log
+- biomesoplenty:umbran_wood
+- biomesoplenty:stripped_umbran_log
+- biomesoplenty:stripped_umbran_wood
+
+#forge:storage_blocks/kunzite
+- silentgems:kunzite_block
+
+#forge:storage_blocks/quartz
+- minecraft:quartz_block
+
+#forge:rawmeats/rawpork
+- minecraft:porkchop
+
+#forge:nuggets/onyx
+- silentgems:onyx_shard
+
+#forge:dyes/green
+- minecraft:green_dye
+
+#forge:barrels/iron
+- metalbarrels:iron_barrel
+
+#refinedstorage:crafting_tables
+- minecraft:crafting_table
+
+#forge:storage_blocks/moldavite
+- silentgems:moldavite_block
+
+#forge:ores/moonstone
+- silentgems:moonstone_ore
+
+#forge:nuggets/turquoise
+- silentgems:turquoise_shard
+
+#forge:tool_saucepan/saucepan
+- pamhc2foodcore:saucepanitem
+
+#forge:ores/emerald
+- minecraft:emerald_ore
+
+#forge:cookedrabbit
+- #forge:cookedrabbit/cookedrabbit
+
+#forge:dyes/lime
+- minecraft:lime_dye
+
+#forge:glass/dark_runic
+- forbidden_arcanus:dark_runic_glass
+
+#forge:dusts/diamond
+- createaddition:diamond_grit
+
+#forge:ores/sodalite
+- silentgems:sodalite_ore
+
+#forge:ores/carnelian
+- silentgems:carnelian_ore
+
+#forge:plates/iron
+- create:iron_sheet
+
+#forge:gems/iolite
+- silentgems:iolite
+
+#minecraft:forgeingots/chromium
+- allomancy:chromium_ingot
+- allomancy:chromium_ingot
+
+#forge:nuggets/silver
+- silentgems:silver_nugget
+
+#forge:barrels/wooden
+- minecraft:barrel
+
+#forge:storage_blocks/zircon
+- silentgems:zircon_block
+
+#refinedstorage:crafting_grid
+- refinedstorage:pink_crafting_grid
+- refinedstorage:gray_crafting_grid
+- refinedstorage:orange_crafting_grid
+- refinedstorage:cyan_crafting_grid
+- refinedstorage:magenta_crafting_grid
+- refinedstorage:crafting_grid
+- refinedstorage:light_gray_crafting_grid
+- refinedstorage:brown_crafting_grid
+- refinedstorage:black_crafting_grid
+- refinedstorage:white_crafting_grid
+- refinedstorage:lime_crafting_grid
+- refinedstorage:purple_crafting_grid
+- refinedstorage:red_crafting_grid
+- refinedstorage:green_crafting_grid
+- refinedstorage:blue_crafting_grid
+- refinedstorage:yellow_crafting_grid
+
+#forge:ores/black_diamond
+- silentgems:black_diamond_ore
+
+#silentgems:glowroses/cats_eye
+- silentgems:cats_eye_glowrose
+
+#forge:tool_skillet
+- #forge:tool_skillet/skillet
+
+#forge:tool_bakeware/bakeware
+- pamhc2foodcore:bakewareitem
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+- biomesoplenty:blue_hydrangea
+- biomesoplenty:goldenrod
+
+#forge:ingots/obsidian
+- forbidden_arcanus:obsidian_ingot
+
+#forge:nuggets/aquamarine
+- silentgems:aquamarine_shard
+
+#forge:bookshelves
+- minecraft:bookshelf
+
+#silentgear:blueprints/pickaxe
+- silentgear:pickaxe_blueprint
+- silentgear:pickaxe_template
+
+#silentgems:glowroses/sodalite
+- silentgems:sodalite_glowrose
+
+#forge:dusts/azure_silver
+- silentgear:azure_silver_dust
+
+#forge:nuggets/peridot
+- silentgems:peridot_shard
+
+#forge:nuggets/garnet
+- silentgems:garnet_shard
+
+#forge:dyes
+- #forge:dyes/white
+- #forge:dyes/orange
+- #forge:dyes/magenta
+- #forge:dyes/light_blue
+- #forge:dyes/yellow
+- #forge:dyes/lime
+- #forge:dyes/pink
+- #forge:dyes/gray
+- #forge:dyes/light_gray
+- #forge:dyes/cyan
+- #forge:dyes/purple
+- #forge:dyes/blue
+- #forge:dyes/brown
+- #forge:dyes/green
+- #forge:dyes/red
+- #forge:dyes/black
+
+#forge:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+
+#forge:netherrack
+- minecraft:netherrack
+
+#forge:storage_blocks/phosphophyllite
+- silentgems:phosphophyllite_block
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#forge:rods/copper
+- createaddition:copper_rod
+
+#forge:eggs
+- minecraft:egg
+
+#silentgems:glowroses/benitoite
+- silentgems:benitoite_glowrose
+
+#forge:fruits/sweetberries
+- minecraft:sweet_berries
+
+#forge:vinegar_ingredients
+- #forge:vinegar_ingredients/apple
+- #forge:vinegar_ingredients/chorusfruit
+- #forge:vinegar_ingredients/melon
+- #forge:vinegar_ingredients/sweetberries
+
+#forge:wires/copper
+- createaddition:copper_wire
+
+#forge:dyes/red
+- minecraft:red_dye
+
+#forge:nuggets/tektite
+- silentgems:tektite_shard
+
+#forge:fishes
+- #forge:fishes/rawcod
+- #forge:fishes/rawsalmon
+- #forge:fishes/rawtropicalfish
+
+#forge:rawfish/rawcod
+- minecraft:cod
+
+#forge:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+
+#forge:ores/onyx
+- silentgems:onyx_ore
+
+#forge:applejelly
+- #forge:applejelly/applejelly
+
+#forge:dusts/glowstone
+- minecraft:glowstone_dust
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#forge:glass/colorless
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
+- minecraft:glass
+- #forge:glass/arcane
+- #forge:glass/dark_runic
+- #forge:glass/runic
+
+#forge:vegetables/beetroot
+- minecraft:beetroot
+
+#forge:crops/cocoabeans
+- minecraft:cocoa_beans
+
+#forge:gems/onyx
+- silentgems:onyx
+
+#forge:nuggets/azure_electrum
+- silentgear:azure_electrum_nugget
+
+#forge:gems/alexandrite
+- silentgems:alexandrite
+
+#forge:barrels/copper
+- metalbarrels:copper_barrel
+
+#forge:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#forge:groundmeats
+- #forge:groundmeats/groundbeef
+- #forge:groundmeats/groundchicken
+- #forge:groundmeats/groundfish
+- #forge:groundmeats/groundmutton
+- #forge:groundmeats/groundpork
+- #forge:groundmeats/groundrabbit
+
+#forge:nuggets/gold
+- minecraft:gold_nugget
+
+#forge:nuggets/blaze_gold
+- silentgear:blaze_gold_nugget
+
+#forge:storage_blocks/amber
+- silentgems:amber_block
+
+#forge:nether_stars
+- minecraft:nether_star
+- forbidden_arcanus:dark_nether_star
+
+#forge:ingots/tin
+- allomancy:tin_ingot
+
+#alexsmobs:gorilla_foodstuffs
+- #minecraft:leaves
+- minecraft:sugar_cane
+- minecraft:apple
+- minecraft:bamboo
+- #alexsmobs:bananas
+
+#silentgems:glowroses/amber
+- silentgems:amber_glowrose
+
+#forge:condiments/mayonaise
+- pamhc2foodcore:mayonaiseitem
+
+#silentgems:supercharger_pillar/level1
+- #forge:storage_blocks/chaos_iron
+
+#forge:gems/carnelian
+- silentgems:carnelian
+
+#silentgems:supercharger_pillar/level3
+- silentgems:ender_crystal_block
+
+#silentgems:glowroses/kunzite
+- silentgems:kunzite_glowrose
+
+#silentgear:blueprints/hammer
+- silentgear:hammer_blueprint
+- silentgear:hammer_template
+
+#silentgems:supercharger_pillar/level2
+- silentgems:enriched_chaos_crystal_block
+
+#forge:bones
+- minecraft:bone
+
+#forge:nuggets/ammolite
+- silentgems:ammolite_shard
+
+#forge:groundmeats/groundchicken
+- pamhc2foodcore:groundchickenitem
+
+#forge:glass_panes
+- create:tiled_glass_pane
+- create:framed_glass_pane
+- create:horizontal_framed_glass_pane
+- create:vertical_framed_glass_pane
+- create:oak_window_pane
+- create:spruce_window_pane
+- create:birch_window_pane
+- create:jungle_window_pane
+- create:acacia_window_pane
+- create:dark_oak_window_pane
+- create:crimson_window_pane
+- create:warped_window_pane
+- create:ornate_iron_window_pane
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- biomesoplenty:hellbark_log
+- biomesoplenty:hellbark_wood
+- biomesoplenty:stripped_hellbark_log
+- biomesoplenty:stripped_hellbark_wood
+- biomesoplenty:hellbark_planks
+- biomesoplenty:hellbark_slab
+- biomesoplenty:hellbark_pressure_plate
+- biomesoplenty:hellbark_fence
+- biomesoplenty:hellbark_trapdoor
+- biomesoplenty:hellbark_fence_gate
+- biomesoplenty:hellbark_stairs
+- biomesoplenty:hellbark_button
+- biomesoplenty:hellbark_door
+
+#minecraft:forgeingots/electrum
+
+#forge:tool_cuttingboard/cuttingboard
+- pamhc2foodcore:cuttingboarditem
+
+#forge:ores/fluorite
+- silentgems:fluorite_ore
+
+#refinedstorage:network_receiver
+- refinedstorage:pink_network_receiver
+- refinedstorage:gray_network_receiver
+- refinedstorage:orange_network_receiver
+- refinedstorage:cyan_network_receiver
+- refinedstorage:magenta_network_receiver
+- refinedstorage:network_receiver
+- refinedstorage:light_gray_network_receiver
+- refinedstorage:brown_network_receiver
+- refinedstorage:black_network_receiver
+- refinedstorage:white_network_receiver
+- refinedstorage:lime_network_receiver
+- refinedstorage:purple_network_receiver
+- refinedstorage:red_network_receiver
+- refinedstorage:green_network_receiver
+- refinedstorage:blue_network_receiver
+- refinedstorage:yellow_network_receiver
+
+#forge:sand/soulless
+- forbidden_arcanus:soulless_sand
+
+#refinedstorage:wireless_transmitter
+- refinedstorage:pink_wireless_transmitter
+- refinedstorage:gray_wireless_transmitter
+- refinedstorage:orange_wireless_transmitter
+- refinedstorage:cyan_wireless_transmitter
+- refinedstorage:magenta_wireless_transmitter
+- refinedstorage:wireless_transmitter
+- refinedstorage:light_gray_wireless_transmitter
+- refinedstorage:brown_wireless_transmitter
+- refinedstorage:black_wireless_transmitter
+- refinedstorage:white_wireless_transmitter
+- refinedstorage:lime_wireless_transmitter
+- refinedstorage:purple_wireless_transmitter
+- refinedstorage:red_wireless_transmitter
+- refinedstorage:green_wireless_transmitter
+- refinedstorage:blue_wireless_transmitter
+- refinedstorage:yellow_wireless_transmitter
+
+#forge:nuggets/kyanite
+- silentgems:kyanite_shard
+
+#forge:ingots/steel
+
+#silentgems:glowroses/sapphire
+- silentgems:sapphire_glowrose
+
+#forge:crops/banana
+- alexsmobs:banana
+
+#forge:storage_blocks/carnelian
+- silentgems:carnelian_block
+
+#forge:ingots/netherite
+- minecraft:netherite_ingot
+
+#forge:fishes/rawcod
+- minecraft:cod
+
+#forge:fruits/apple
+- minecraft:apple
+
+#forge:seeds/beetroot
+- minecraft:beetroot_seeds
+
+#forbidden_arcanus:mysterywood_logs
+- forbidden_arcanus:mysterywood_log
+- forbidden_arcanus:mysterywood
+- forbidden_arcanus:stripped_mysterywood_log
+- forbidden_arcanus:stripped_mysterywood
+
+#silentgear:blueprints/ring
+- silentgear:ring_blueprint
+- silentgear:ring_template
+
+#minecraft:forgeores/cadmium
+- allomancy:cadmium_ore
+- allomancy:cadmium_ore
+
+#silentgear:blueprints/sword
+- silentgear:sword_blueprint
+- silentgear:sword_template
+
+#forge:fruits/banana
+- alexsmobs:banana
+
+#forge:chestplates
+- silentgear:chestplate
+
+#forge:ingots/bendalloy
+
+#forge:groundmeats/groundrabbit
+- pamhc2foodcore:groundrabbititem
+
+#silentgems:glowroses/ammolite
+- silentgems:ammolite_glowrose
+
+#curios:necklace
+- curios:amulet
+
+#forge:icecreams/caramelicecream
+- pamhc2foodcore:caramelicecreamitem
+
+#forge:cream/cream
+- pamhc2foodcore:creamitem
+
+#forge:cheese/cheese
+- pamhc2foodcore:cheeseitem
+
+#forge:icecream/icecream
+- pamhc2foodcore:icecreamitem
+
+#forge:rawbeef/rawbeef
+- minecraft:beef
+
+#refinedstorage:silicon
+- refinedstorage:silicon
+
+#forge:jellies/sweetberryjelly
+- pamhc2foodcore:sweetberryjellyitem
+
+#refinedstorage:crafter_manager
+- refinedstorage:pink_crafter_manager
+- refinedstorage:gray_crafter_manager
+- refinedstorage:orange_crafter_manager
+- refinedstorage:cyan_crafter_manager
+- refinedstorage:magenta_crafter_manager
+- refinedstorage:crafter_manager
+- refinedstorage:light_gray_crafter_manager
+- refinedstorage:brown_crafter_manager
+- refinedstorage:black_crafter_manager
+- refinedstorage:white_crafter_manager
+- refinedstorage:lime_crafter_manager
+- refinedstorage:purple_crafter_manager
+- refinedstorage:red_crafter_manager
+- refinedstorage:green_crafter_manager
+- refinedstorage:blue_crafter_manager
+- refinedstorage:yellow_crafter_manager
+
+#forge:nuggets/rose_quartz
+- silentgems:rose_quartz_shard
+
+#forge:feathers
+- minecraft:feather
+- forbidden_arcanus:golden_feather
+
+#silentgear:blueprints/rod
+- silentgear:rod_blueprint
+- silentgear:rod_template
+
+#forge:toast/toast
+- pamhc2foodcore:toastitem
+
+#alexsmobs:raccoon_foodstuffs
+- minecraft:egg
+- minecraft:turtle_egg
+- minecraft:sugar
+
+#forge:string
+- minecraft:string
+- silentgear:flax_string
+- silentgear:sinew_fiber
+
+#minecraft:seeds
+- minecraft:wheat_seeds
+- minecraft:pumpkin_seeds
+- minecraft:melon_seeds
+- minecraft:potato
+- minecraft:carrot
+- minecraft:beetroot_seeds
+- minecraft:wheat_seeds
+- minecraft:pumpkin_seeds
+- minecraft:melon_seeds
+- minecraft:potato
+- minecraft:carrot
+- minecraft:beetroot_seeds
+
+#forge:knives
+- silentgear:knife
+- silentgear:dagger
+
+#forge:rawmeats/rawsalmon
+- minecraft:salmon
+
+#forge:nuggets/sapphire
+- silentgems:sapphire_shard
+
+#forge:caramel/caramel
+- pamhc2foodcore:caramelitem
+
+#forge:gems/spinel
+- silentgems:spinel
+
+#silentgear:blueprints/leggings
+- silentgear:leggings_blueprint
+- silentgear:leggings_template
+
+#forge:nuggets/iolite
+- silentgems:iolite_shard
+
+#forge:silicon
+- refinedstorage:silicon
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- biomesoplenty:origin_leaves
+- biomesoplenty:flowering_oak_leaves
+- biomesoplenty:rainbow_birch_leaves
+- biomesoplenty:yellow_autumn_leaves
+- biomesoplenty:orange_autumn_leaves
+- biomesoplenty:maple_leaves
+- biomesoplenty:fir_leaves
+- biomesoplenty:redwood_leaves
+- biomesoplenty:white_cherry_leaves
+- biomesoplenty:pink_cherry_leaves
+- biomesoplenty:mahogany_leaves
+- biomesoplenty:jacaranda_leaves
+- biomesoplenty:palm_leaves
+- biomesoplenty:willow_leaves
+- biomesoplenty:dead_leaves
+- biomesoplenty:magic_leaves
+- biomesoplenty:umbran_leaves
+- biomesoplenty:hellbark_leaves
+- silentgear:netherwood_leaves
+- forbidden_arcanus:cherrywood_leaves
+- forbidden_arcanus:mysterywood_leaves
+
+#silentgear:blueprints/coating
+- silentgear:coating_blueprint
+- silentgear:coating_template
+
+#forge:ores/amethyst
+- silentgems:amethyst_ore
+
+#forge:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+
+#forge:ores/jasper
+- silentgems:jasper_ore
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#forge:storage_blocks/arcane_gold
+- forbidden_arcanus:arcane_gold_block
+
+#forge:rawbeef
+- #forge:rawbeef/rawbeef
+
+#minecraft:piglin_loved
+- #minecraft:gold_ores
+- minecraft:gold_block
+- minecraft:gilded_blackstone
+- minecraft:light_weighted_pressure_plate
+- minecraft:gold_ingot
+- minecraft:bell
+- minecraft:clock
+- minecraft:golden_carrot
+- minecraft:glistering_melon_slice
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
+- minecraft:golden_helmet
+- minecraft:golden_chestplate
+- minecraft:golden_leggings
+- minecraft:golden_boots
+- minecraft:golden_horse_armor
+- minecraft:golden_sword
+- minecraft:golden_pickaxe
+- minecraft:golden_shovel
+- minecraft:golden_axe
+- minecraft:golden_hoe
+- silentgear:blaze_gold_block
+- silentgear:golden_nether_banana
+- silentgear:blaze_gold_dust
+- silentgear:blaze_gold_ingot
+
+#forge:rawmeats/rawrabbit
+- minecraft:rabbit
+
+#forge:icecreams/icecream
+- pamhc2foodcore:icecreamitem
+
+#forge:tool_grinder
+- #forge:tool_grinder/grinder
+
+#forge:sand/red
+- minecraft:red_sand
+
+#forge:glass/brown
+- minecraft:brown_stained_glass
+
+#minecraft:forgeingots/cadmium
+- allomancy:cadmium_ingot
+- allomancy:cadmium_ingot
+
+#forge:vegetables
+- #forge:vegetables/beetroot
+- #forge:vegetables/carrot
+- #forge:vegetables/potato
+- #forge:vegetables/pumpkin
+
+#forge:storage_blocks/onyx
+- silentgems:onyx_block
+
+#forge:icecreams/chocolateicecream
+- pamhc2foodcore:chocolateicecreamitem
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #biomesoplenty:fir_logs
+- #biomesoplenty:redwood_logs
+- #biomesoplenty:cherry_logs
+- #biomesoplenty:mahogany_logs
+- #biomesoplenty:jacaranda_logs
+- #biomesoplenty:palm_logs
+- #biomesoplenty:willow_logs
+- #biomesoplenty:dead_logs
+- #biomesoplenty:magic_logs
+- #biomesoplenty:umbran_logs
+
+#forge:nuggets/azure_silver
+- silentgear:azure_silver_nugget
+
+#refinedstorage:relay
+- refinedstorage:pink_relay
+- refinedstorage:gray_relay
+- refinedstorage:orange_relay
+- refinedstorage:cyan_relay
+- refinedstorage:magenta_relay
+- refinedstorage:relay
+- refinedstorage:light_gray_relay
+- refinedstorage:brown_relay
+- refinedstorage:black_relay
+- refinedstorage:white_relay
+- refinedstorage:lime_relay
+- refinedstorage:purple_relay
+- refinedstorage:red_relay
+- refinedstorage:green_relay
+- refinedstorage:blue_relay
+- refinedstorage:yellow_relay
+
+#forge:gems/yellow_diamond
+- silentgems:yellow_diamond
+
+#forge:glass/light_gray
+- minecraft:light_gray_stained_glass
+
+#forge:storage_blocks/pyrope
+- silentgems:pyrope_block
+
+#forge:nuggets/carnelian
+- silentgems:carnelian_shard
+
+#forge:ingots/blaze_gold
+- silentgear:blaze_gold_ingot
+
+#forge:cookedpork
+- #forge:cookedpork/cookedpork
+
+#forge:nuggets/chrysoprase
+- silentgems:chrysoprase_shard
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- biomesoplenty:fir_slab
+- biomesoplenty:redwood_slab
+- biomesoplenty:cherry_slab
+- biomesoplenty:mahogany_slab
+- biomesoplenty:jacaranda_slab
+- biomesoplenty:palm_slab
+- biomesoplenty:willow_slab
+- biomesoplenty:dead_slab
+- biomesoplenty:magic_slab
+- biomesoplenty:umbran_slab
+- biomesoplenty:hellbark_slab
+- silentgear:netherwood_slab
+- forbidden_arcanus:edelwood_slab
+- forbidden_arcanus:cherrywood_slab
+- forbidden_arcanus:mysterywood_slab
+
+#forge:dyes/white
+- minecraft:white_dye
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- biomesoplenty:rose
+- biomesoplenty:violet
+- biomesoplenty:lavender
+- biomesoplenty:wildflower
+- biomesoplenty:orange_cosmos
+- biomesoplenty:pink_daffodil
+- biomesoplenty:pink_hibiscus
+- biomesoplenty:glowflower
+- biomesoplenty:wilted_lily
+- biomesoplenty:burning_blossom
+- forbidden_arcanus:yellow_orchid
+
+#forge:nuggets/jasper
+- silentgems:jasper_shard
+
+#forge:nuggets/morganite
+- silentgems:morganite_shard
+
+#forge:seeds/pumpkin
+- minecraft:pumpkin_seeds
+
+#forge:cookedfish/cookedsalmon
+- minecraft:cooked_salmon
+
+#silentgems:charging_agents
+- #silentgems:charging_agents/tier1
+- #silentgems:charging_agents/tier2
+- #silentgems:charging_agents/tier3
+
+#forge:groundmeats/groundbeef
+- pamhc2foodcore:groundbeefitem
+
+#forge:dusts/redstone
+- minecraft:redstone
+
+#silentgear:template_boards
+- silentgear:template_board
+
+#forge:gems/quartz
+- minecraft:quartz
+
+#forge:crops/beetroot
+- minecraft:beetroot
+- minecraft:beetroot
+
+#forge:seeds/melon
+- minecraft:melon_seeds
+
+#forge:ingots/electrum
+
+#minecraft:creeper_drop_music_discs
+- minecraft:music_disc_13
+- minecraft:music_disc_cat
+- minecraft:music_disc_blocks
+- minecraft:music_disc_chirp
+- minecraft:music_disc_far
+- minecraft:music_disc_mall
+- minecraft:music_disc_mellohi
+- minecraft:music_disc_stal
+- minecraft:music_disc_strad
+- minecraft:music_disc_ward
+- minecraft:music_disc_11
+- minecraft:music_disc_wait
+
+#forge:ores/kunzite
+- silentgems:kunzite_ore
+
+#forge:ores/amber
+- silentgems:amber_ore
+
+#silentgear:blueprints/shield
+- silentgear:shield_blueprint
+- silentgear:shield_template
+
+#forge:vinegar_ingredients/melon
+- minecraft:melon
+
+#forge:rawmutton/rawmutton
+- minecraft:mutton
+
+#forge:gems/chaos
+- silentgems:chaos_crystal
+
+#forge:melonjuice
+- #forge:melonjuice/melonjuice
+
+#forge:plates/brass
+- create:brass_sheet
+
+#forge:rawchicken/rawchicken
+- minecraft:chicken
+
+#forge:crops/chorusfruit
+- minecraft:chorus_fruit
+
+#forge:gems/turquoise
+- silentgems:turquoise
+
+#forge:juices/sweetberryjuice
+- pamhc2foodcore:sweetberryjuiceitem
+
+#forge:gems/heliodor
+- silentgems:heliodor
+
+#forge:ores/silver
+- allomancy:silver_ore
+- silentgems:silver_ore
+
+#forge:dusts/crimson_iron
+- silentgear:crimson_iron_dust
+
+#silentgear:blueprints/slingshot
+- silentgear:slingshot_blueprint
+- silentgear:slingshot_template
+
+#forge:butter/butter
+- pamhc2foodcore:butteritem
+
+#forge:gems/amber
+- silentgems:amber
+
+#minecraft:forgeores/tin
+- allomancy:tin_ore
+- allomancy:tin_ore
+
+#forge:rawfish/rawsalmon
+- minecraft:salmon
+
+#forge:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+
+#forge:dusts
+- #forge:dusts/glowstone
+- #forge:dusts/prismarine
+- #forge:dusts/redstone
+- #forge:dusts/blaze_gold
+- #forge:dusts/crimson_iron
+- #forge:dusts/crimson_steel
+- #forge:dusts/azure_silver
+- #forge:dusts/azure_electrum
+- #forge:dusts/arcane_crystal
+- #forge:dusts/mundabitur
+- #forge:dusts/corrupti
+- #silentgems:corrupted_dusts
+- silentgems:chaos_dust
+- createaddition:diamond_grit
+
+#alexsmobs:bananas
+- #forge:crops/banana
+- #forge:fruits/banana
+
+#forge:ores/iolite
+- silentgems:iolite_ore
+
+#forge:glass/yellow
+- minecraft:yellow_stained_glass
+
+#forge:rawmutton
+- #forge:rawmutton/rawmutton
+
+#forge:stock_ingredients/rawpork
+- minecraft:porkchop
+
+#forge:nuggets/crimson_iron
+- silentgear:crimson_iron_nugget
+
+#forge:helmets
+- silentgear:helmet
+
+#forge:rawmeats/rawmutton
+- minecraft:mutton
+
+#silentgear:blueprints/shears
+- silentgear:shears_blueprint
+- silentgear:shears_template
+
+#forge:storage_blocks/alexandrite
+- silentgems:alexandrite_block
+
+#forge:nuggets/moonstone
+- silentgems:moonstone_shard
+
+#forge:barrels/diamond
+- metalbarrels:diamond_barrel
+
+#silentgear:blueprints/adornment
+- silentgear:jeweler_tools
+
+#biomesoplenty:dead_logs
+- biomesoplenty:dead_log
+- biomesoplenty:dead_wood
+- biomesoplenty:stripped_dead_log
+- biomesoplenty:stripped_dead_wood
+
+#refinedstorage:controller
+- refinedstorage:pink_controller
+- refinedstorage:gray_controller
+- refinedstorage:orange_controller
+- refinedstorage:cyan_controller
+- refinedstorage:magenta_controller
+- refinedstorage:controller
+- refinedstorage:light_gray_controller
+- refinedstorage:brown_controller
+- refinedstorage:black_controller
+- refinedstorage:white_controller
+- refinedstorage:lime_controller
+- refinedstorage:purple_controller
+- refinedstorage:red_controller
+- refinedstorage:green_controller
+- refinedstorage:blue_controller
+- refinedstorage:yellow_controller
+
+#forge:applejuice
+- #forge:applejuice/applejuice
+
+#silentgear:blueprints/fletching
+- silentgear:fletching_blueprint
+- silentgear:fletching_template
+
+#silentgear:grader_catalysts/tier1
+- silentgear:glowing_dust
+- #forge:dusts/glowstone
+
+#silentgear:grader_catalysts/tier2
+- silentgear:blazing_dust
+
+#forge:glass/runic
+- forbidden_arcanus:runic_glass
+
+#forge:chests/ender
+- minecraft:ender_chest
+
+#silentgems:stew_meat
+- minecraft:beef
+- minecraft:chicken
+- minecraft:mutton
+- minecraft:porkchop
+- minecraft:rabbit
+
+#forge:ores/euclase
+- silentgems:euclase_ore
+
+#silentgear:grader_catalysts/tier5
+
+#forge:nuggets/jade
+- silentgems:jade_shard
+
+#silentgear:grader_catalysts/tier3
+- silentgear:glittery_dust
+
+#silentgear:grader_catalysts/tier4
+
+#forge:ores/azure_silver
+- silentgear:azure_silver_ore
+
+#forge:crops/pumpkin
+- minecraft:pumpkin
+
+#forge:storage_blocks/azure_silver
+- silentgear:azure_silver_block
+
+#forge:shears
+- minecraft:shears
+- silentgear:shears
+
+#forge:stock_ingredients/rawchicken
+- minecraft:chicken
+
+#minecraft:forgeingots/lead
+- allomancy:lead_ingot
+- allomancy:lead_ingot
+
+#forge:storage_blocks/jade
+- silentgems:jade_block
+
+#forge:ores/rose_quartz
+- silentgems:rose_quartz_ore
+
+#forge:saws
+- silentgear:saw
+
+#silents_mechanisms:coal_generator_fuels
+- silentgear:netherwood_charcoal
+- silentgear:netherwood_charcoal_block
+
+#forge:gems/euclase
+- silentgems:euclase
+
+#silentgems:glowroses/lepidolite
+- silentgems:lepidolite_glowrose
+
+#silentgems:corrupted_dusts
+- silentgems:corrupted_dirt_pile
+- silentgems:corrupted_stone_pile
+
+#silentgear:blueprints/paxel
+- silentgear:paxel_blueprint
+- silentgear:paxel_template
+
+#forge:stock_ingredients/rawmutton
+- minecraft:mutton
+
+#forge:cookedpork/cookedpork
+- minecraft:cooked_porkchop
+
+#forge:nuts/sunflowerseeds
+- pamhc2foodcore:sunflowerseedsitem
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- biomesoplenty:fir_planks
+- biomesoplenty:redwood_planks
+- biomesoplenty:cherry_planks
+- biomesoplenty:mahogany_planks
+- biomesoplenty:jacaranda_planks
+- biomesoplenty:palm_planks
+- biomesoplenty:willow_planks
+- biomesoplenty:dead_planks
+- biomesoplenty:magic_planks
+- biomesoplenty:umbran_planks
+- biomesoplenty:hellbark_planks
+- silentgear:netherwood_planks
+- forbidden_arcanus:cherrywood_planks
+- forbidden_arcanus:carved_cherrywood_planks
+- forbidden_arcanus:mysterywood_planks
+
+#forge:flour_plants
+- #forge:flour_plants/potato
+- #forge:flour_plants/wheat
+- #forge:flour_plants/sunflowerseeds
+
+#forge:cobblestone
+- create:granite_cobblestone
+- create:diorite_cobblestone
+- create:andesite_cobblestone
+- create:limestone_cobblestone
+- create:weathered_limestone_cobblestone
+- create:dolomite_cobblestone
+- create:gabbro_cobblestone
+- create:scoria_cobblestone
+- create:dark_scoria_cobblestone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+
+#silentgems:glowroses/spinel
+- silentgems:spinel_glowrose
+
+#forge:nuggets/tanzanite
+- silentgems:tanzanite_shard
+
+#forge:storage_blocks/gold
+- minecraft:gold_block
+
+#forge:stock_ingredients/rawcod
+- minecraft:cod
+
+#forge:ores/ametrine
+- silentgems:ametrine_ore
+
+#silentgems:glowroses/malachite
+- silentgems:malachite_glowrose
+
+#forbidden_arcanus:black_hole_unaffected
+- forbidden_arcanus:stellarite_piece
+- forbidden_arcanus:stellarite_block
+- forbidden_arcanus:stella_arcanum
+- forbidden_arcanus:eternal_stella
+- forbidden_arcanus:hephaestus_forge
+- forbidden_arcanus:dark_nether_star
+- forbidden_arcanus:dark_nether_star_block
+- minecraft:nether_star
+- minecraft:bedrock
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:enchanting_table
+- minecraft:end_portal_frame
+- minecraft:ender_chest
+- minecraft:respawn_anchor
+
+#forge:rawmeats/rawcod
+- minecraft:cod
+
+#forge:dusts/prismarine
+- minecraft:prismarine_shard
+
+#forge:fences
+- #forge:fences/nether_brick
+- #forge:fences/wooden
+
+#forge:plates/copper
+- create:copper_sheet
+
+#silentgems:glowroses/apatite
+- silentgems:apatite_glowrose
+
+#silentgear:blueprints/axe
+- silentgear:axe_blueprint
+- silentgear:axe_template
