@@ -16,7 +16,7 @@ onEvent('recipes', event => {
     })
 
     // Add shapeless recipe for Create Potato book
-    //event.shapeless(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:potato' }), ['minecraft:book', 'minecraft:dirt'])
+    event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:potato"}'), ['minecraft:book', 'minecraft:potato'])
 
     // Add shapeless recipe for making sticks from logs
     event.shapeless('16x minecraft:stick', [
