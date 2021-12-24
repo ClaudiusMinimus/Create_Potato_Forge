@@ -1,5 +1,49 @@
 # Create on a Potato PC Change Log
 
+## Create on a Potato PC 1.18.1-2.2.0
+
+Dec. 24, 2021
+
+- Mods Added:
+  - BetterCrates-1.18.1-1.0.0
+  - castle_dungeons-3.1-1.18-forge
+  - createdeco-1.2.1-1.18
+  - FarmersDelight-1.18.1-1.0.0
+  - lootr-1.18-0.0.11.34
+  - Patchouli-1.18.1-61
+  - polymorph-forge-1.18.1-0.33
+  - Shrines-1.18.1-3.0.0-Beta4
+  - SoL-Carrot-1.18.1-1.12.0
+- Mods Updated:
+  - architectury-3.2.60
+  - Clumps-forge-1.18.1-8.0.4
+  - curios-forge-1.18.1-5.0.4.0
+  - EasyEmerald-Forge-1.18.1-1.3.5
+  - EnchantmentDescriptions-Forge-1.18.1-9.0.4
+  - globalxp-1.18.1-1.9.1
+  - jei-1.18.1-9.1.1.48
+  - JustEnoughResources-1.18.1-0.13.1.138
+  - kubejs-forge-1801.4.0-build.249
+  - MouseTweaks-forge-mc1.18-2.21
+  - PowderPower-Forge-1.18.1-3.5.3
+  - refinedstorage-1.10.0-beta.3
+  - repurposed_structures_forge-4.0.9+1.18.1
+  - ResourcefulTools-Forge-1.18.1-1.4.4
+  - RingOfMiner-Forge-1.18.1-1.4.2
+  - RingOfRepair-Forge-1.18.1-1.4.2
+  - sophisticatedbackpacks-1.18.1-3.13.6.452
+  - StorageDrawers-1.18.1-10.0.1
+  - swingthroughgrass-1.18.1-1.8.0
+  - theoneprobe-1.18-5.0.1
+  - VTweaks-1.18-3.5.3
+  - Xaeros_Minimap_21.22.6_Forge_1.18
+  - XaerosWorldMap_1.18.9_Forge_1.18
+- Mods Removed:
+- Other Changes:
+  - Updated Forge 39.0.8
+  - Imported a couple of pages for the potato book
+  - Added new artwork
+
 ## Create on a Potato PC 1.18.1-2.1.0
 
 Dec. 16, 2021
