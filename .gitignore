@@ -18,6 +18,7 @@ server/mods/*
 .minecraft/user*.json
 .minecraft/options.txt
 .minecraft/patchouli_data.json
+.minecraft/servers.dat*
 instance.cfg
 potato-1.18.x.code-workspace
 
@@ -29,4 +30,3 @@ potato-1.18.x.code-workspace
 !.minecraft/config/theoneprobe-client.toml
 !.minecraft/config/xaerominimap.txt
 !.minecraft/config/xaerominimap_entities.json
-.minecraft/servers.dat*
