@@ -5,11 +5,12 @@
 Dec. 24, 2021
 
 - Mods Added:
+  - BetterCompatibilityChecker-1.1.9-build.20+mc1.18.1
   - BetterCrates-1.18.1-1.0.0
   - castle_dungeons-3.1-1.18-forge
   - createdeco-1.2.1-1.18
   - FarmersDelight-1.18.1-1.0.0
-  - lootr-1.18-0.0.11.34
+  - lootr-1.18-0.0.12.35
   - Patchouli-1.18.1-61
   - polymorph-forge-1.18.1-0.33
   - Shrines-1.18.1-3.0.0-Beta4
@@ -17,7 +18,7 @@ Dec. 24, 2021
 - Mods Updated:
   - architectury-3.2.60
   - Clumps-forge-1.18.1-8.0.4
-  - curios-forge-1.18.1-5.0.4.0
+  - curios-forge-1.18.1-5.0.4.1
   - EasyEmerald-Forge-1.18.1-1.3.5
   - EnchantmentDescriptions-Forge-1.18.1-9.0.4
   - globalxp-1.18.1-1.9.1
@@ -36,6 +37,7 @@ Dec. 24, 2021
   - swingthroughgrass-1.18.1-1.8.0
   - theoneprobe-1.18-5.0.1
   - VTweaks-1.18-3.5.3
+  - WitherSkeletonTweaks-1.18.1-7.0.1
   - Xaeros_Minimap_21.22.6_Forge_1.18
   - XaerosWorldMap_1.18.9_Forge_1.18
 - Mods Removed:
@@ -43,6 +45,7 @@ Dec. 24, 2021
   - Updated Forge 39.0.8
   - Imported a couple of pages for the potato book
   - Added new artwork
+  - Added basic starter gear
 
 ## Create on a Potato PC 1.18.1-2.1.0
 
