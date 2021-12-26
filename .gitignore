@@ -24,6 +24,7 @@ instance.cfg
 potato-1.18.x.code-workspace
 
 # Stop ignoring these folgers
+!.minecraft/config/defaultoptions
 !.minecraft/config/drippyloadingscreen/
 !.minecraft/config/fancymenu/
 
