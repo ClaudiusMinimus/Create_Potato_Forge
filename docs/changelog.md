@@ -1,5 +1,19 @@
 # Create on a Potato PC Change Log
 
+## Create on a Potato PC 1.18.1-2.3.0
+
+Dec. 26, 2021
+
+- Mods Added:
+- Mods Updated:
+  - architectury-3.2.63
+  - Controlling-forge-1.18.1-9.0.6
+  - JustEnoughResources-1.18.1-0.13.1.141
+  - Patchouli-1.18.1-62.1
+  - sophisticatedbackpacks-1.18.1-3.14.3.485
+- Mods Removed:
+- Other Changes:
+
 ## Create on a Potato PC 1.18.1-2.2.0
 
 Dec. 24, 2021
