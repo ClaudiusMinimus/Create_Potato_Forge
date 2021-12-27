@@ -15,6 +15,14 @@ Dec. 27, 2021
   - EasierSleeping (not needed since Minecraft has added this to gamerules)
 - Other Changes:
 
+### Known Issue
+
+When you first start the game you will see the below non-critical error. An issue report has already been filed with the developer and the fix will be applied to the release following the mod update
+>There were registry errors in the FarmingForBlockheads market data. See the log for full details.
+>
+> - Expected item to be an item, was unknown string 'quark:glowshroom'
+> - Expected item to be an item, was unknown string 'quark:glowcelium'
+
 ## Create on a Potato PC 1.18.1-2.2.0
 
 Dec. 24, 2021
