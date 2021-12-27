@@ -1,6 +1,6 @@
 # Create on a Potato PC Change Log
 
-## Create on a Potato PC 1.18.1-2.3.0
+## Create on a Potato PC 1.18.1-2.3.1
 
 Dec. 26, 2021
 
