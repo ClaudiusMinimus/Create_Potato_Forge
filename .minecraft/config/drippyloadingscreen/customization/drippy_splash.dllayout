@@ -16,7 +16,7 @@ customization {
 
 customization {
   action = editprogressbar
-  y = -20
+  y = -13
   barcolor = e0ad54
 }
 
