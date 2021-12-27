@@ -2,7 +2,7 @@
 
 ## Create on a Potato PC 1.18.1-2.3.1
 
-Dec. 26, 2021
+Dec. 27, 2021
 
 - Mods Added:
 - Mods Updated:
@@ -12,6 +12,7 @@ Dec. 26, 2021
   - Patchouli-1.18.1-62.1
   - sophisticatedbackpacks-1.18.1-3.14.3.485
 - Mods Removed:
+  - EasierSleeping (not needed since Minecraft has added this to gamerules)
 - Other Changes:
 
 ## Create on a Potato PC 1.18.1-2.2.0
