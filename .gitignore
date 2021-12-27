@@ -7,6 +7,7 @@
 .minecraft/screenshots/*
 .minecraft/shrines-saves/*
 .minecraft/Xaero*/*
+builds/*server*.zip
 natives/*
 server/config/*
 server/logs/*
