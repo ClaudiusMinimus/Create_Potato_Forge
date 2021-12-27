@@ -30,6 +30,7 @@ potato-1.18.x.code-workspace
 !.minecraft/config/fancymenu/
 
 # Stop ignoring these files
+!.minecraft/TrashSlotSaveState.json
 !.minecraft/config/bcc-common.toml
 !.minecraft/config/quark-common.toml
 !.minecraft/config/theoneprobe-client.toml
