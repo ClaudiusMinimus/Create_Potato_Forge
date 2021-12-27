@@ -1,0 +1,13 @@
+{
+    "name": "Sophisticated Backpacks",
+    "icon": "sophisticatedbackpacks:backpack",
+    "category": "patchouli:mods",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Sophisticated Backpacks",
+            "item": "sophisticatedbackpacks:backpack",
+            "text": "Sophisticated backpacks is yet another backpack mod this time with backpack you can place in world, color in different color combinations, upgrade with more inventory and enhance with many functional upgrades.$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)Curseforge page$(/l) lots of information.$(li)$(l:https://discord.com/invite/ZNxRYScDS7)Discord$(/l)$(li)$(l:https://www.youtube.com/watch?v=0F-5_sS35xY)Spotlight$(/l) a little outdated.$()"
+        }
+    ]
+}
