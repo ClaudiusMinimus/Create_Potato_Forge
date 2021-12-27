@@ -390,3 +390,8 @@ customization {
   value = Create on a Potato PC 1.18.1-2.3.0
 }
 
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
