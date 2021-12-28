@@ -1,5 +1,6 @@
 # Ignore these folders
 .minecraft/config/*
+.minecraft/crash-reports/*
 .minecraft/logs/*
 .minecraft/mods/*
 .minecraft/resourcepacks/*
@@ -34,6 +35,7 @@ potato-1.18.x.code-workspace
 !.minecraft/config/bcc-common.toml
 !.minecraft/config/quark-common.toml
 !.minecraft/config/theoneprobe-client.toml
+!.minecraft/config/vtweaks-common.toml
 !.minecraft/config/xaerominimap.txt
 !.minecraft/config/xaerominimap_entities.json
 !server/config/bcc-common.toml
