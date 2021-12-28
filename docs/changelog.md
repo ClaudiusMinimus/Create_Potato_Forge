@@ -5,6 +5,8 @@
 Dec. 27, 2021
 
 - Mods Added:
+  - Quark-3.0-334
+  - QuarkOddities-1.18
 - Mods Updated:
   - architectury-3.2.63
   - AutoRegLib-1.7-52
@@ -12,8 +14,6 @@ Dec. 27, 2021
   - JustEnoughResources-1.18.1-0.13.1.141
   - kubejs-forge-1801.4.0-build.254
   - Patchouli-1.18.1-62.1
-  - Quark-3.0-334
-  - QuarkOddities-1.18
   - sophisticatedbackpacks-1.18.1-3.14.3.485
 - Mods Removed:
   - EasierSleeping (not needed since Minecraft has added this to gamerules)
