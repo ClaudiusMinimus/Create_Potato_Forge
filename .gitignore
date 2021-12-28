@@ -1,5 +1,6 @@
 # Ignore these folders
 .minecraft/config/*
+.minecraft/craftpresence/*
 .minecraft/crash-reports/*
 .minecraft/logs/*
 .minecraft/mods/*
@@ -29,6 +30,8 @@ potato-1.18.x.code-workspace
 !.minecraft/config/defaultoptions
 !.minecraft/config/drippyloadingscreen/
 !.minecraft/config/fancymenu/
+!.minecraft/config/ftbquests
+!server/config/ftbquests
 
 # Stop ignoring these files
 !.minecraft/TrashSlotSaveState.json
