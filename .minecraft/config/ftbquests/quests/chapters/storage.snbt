@@ -1,0 +1,1141 @@
+{
+	id: "0000000000000105"
+	group: ""
+	order_index: 3
+	filename: "storage"
+	title: "Storage"
+	icon: "minecraft:barrel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: 4.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "0000000000000106"
+			tasks: [{
+				id: "0000000000000107"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+			rewards: [{
+				id: "000000000000022C"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			dependencies: ["0000000000000106"]
+			id: "00000000000001B6"
+			tasks: [{
+				id: "00000000000001B7"
+				type: "item"
+				item: "metalbarrels:wood_to_iron"
+			}]
+			rewards: [{
+				id: "000000000000022D"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["00000000000001B6"]
+			id: "00000000000001B8"
+			tasks: [{
+				id: "00000000000001B9"
+				type: "item"
+				item: "metalbarrels:iron_to_gold"
+			}]
+			rewards: [{
+				id: "0000000000000472"
+				type: "item"
+				item: {
+					id: "silentgems:enchantment_token"
+					Count: 1b
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s
+							id: "minecraft:fire_protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["00000000000001B8"]
+			id: "00000000000001BA"
+			tasks: [{
+				id: "00000000000001BB"
+				type: "item"
+				item: "metalbarrels:gold_to_diamond"
+			}]
+			rewards: [{
+				id: "0000000000000473"
+				type: "item"
+				item: "curios:ring"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["00000000000001BA"]
+			id: "00000000000001BC"
+			tasks: [{
+				id: "00000000000001BD"
+				type: "item"
+				item: "metalbarrels:diamond_to_crystal"
+			}]
+			rewards: [{
+				id: "0000000000000474"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Storage Drawers"
+			x: -12.5d
+			y: 4.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "00000000000001F3"
+			tasks: [{
+				id: "00000000000001F4"
+				type: "item"
+				title: "Any storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0000000000000228"
+					type: "item"
+					item: { id: "minecraft:honeycomb", Count: 3b }
+					count: 8
+				}
+				{
+					id: "0000000000000517"
+					type: "item"
+					item: "theoneprobe:probe"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 6.0d
+			dependencies: ["00000000000001F3"]
+			id: "00000000000001F7"
+			tasks: [{
+				id: "00000000000001F8"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "0000000000000478"
+				type: "item"
+				item: "alexsmobs:cooked_moose_ribs"
+				count: 8
+			}]
+		}
+		{
+			x: -12.5d
+			y: 3.0d
+			dependencies: ["00000000000001F3"]
+			id: "00000000000001F9"
+			tasks: [{
+				id: "00000000000001FA"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [
+				{
+					id: "00000000000001FD"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "000000000000047A"
+					type: "item"
+					item: "pamhc2foodcore:caramelappleitem"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 1.5d
+			dependencies: ["00000000000001F9"]
+			id: "00000000000001FB"
+			tasks: [{
+				id: "00000000000001FC"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+			rewards: [{
+				id: "000000000000047B"
+				type: "item"
+				item: "forbidden_arcanus:boom_arrow"
+				count: 4
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.5d
+			dependencies: ["00000000000001F3"]
+			id: "00000000000001FE"
+			tasks: [{
+				id: "00000000000001FF"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [{
+				id: "0000000000000479"
+				type: "item"
+				item: "silentgems:summon_puppy"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			dependencies: ["00000000000001FE"]
+			id: "0000000000000200"
+			tasks: [{
+				id: "0000000000000201"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004EF"
+				type: "item"
+				item: {
+					id: "curios:crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.5d
+			dependencies: ["0000000000000200"]
+			id: "0000000000000202"
+			tasks: [{
+				id: "0000000000000203"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004F0"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			dependencies: ["0000000000000202"]
+			id: "0000000000000204"
+			tasks: [{
+				id: "0000000000000205"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004F1"
+				type: "item"
+				item: { id: "minecraft:brain_coral_block", Count: 8b }
+				count: 8
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			dependencies: ["0000000000000204"]
+			id: "0000000000000206"
+			tasks: [{
+				id: "0000000000000207"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004F2"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "forbidden_arcanus:indestructible"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:feather_falling"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.0d
+			dependencies: ["0000000000000206"]
+			id: "0000000000000208"
+			tasks: [{
+				id: "0000000000000209"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004F3"
+				type: "item"
+				item: { id: "minecraft:netherite_ingot", Count: 4b }
+				count: 4
+			}]
+		}
+		{
+			x: -11.0d
+			y: 6.0d
+			dependencies: ["00000000000001FE"]
+			id: "000000000000020A"
+			tasks: [{
+				id: "000000000000020B"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004F6"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			dependencies: ["00000000000001FE"]
+			id: "000000000000020C"
+			tasks: [{
+				id: "000000000000020D"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004F4"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.5d
+			dependencies: ["00000000000001FE"]
+			id: "000000000000020E"
+			tasks: [{
+				id: "000000000000020F"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000004F5"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:water_breathing"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["00000000000001BC"]
+			id: "000000000000046E"
+			tasks: [{
+				id: "000000000000046F"
+				type: "item"
+				item: "metalbarrels:diamond_to_obsidian"
+			}]
+			rewards: [{
+				id: "0000000000000476"
+				type: "item"
+				item: "minecraft:dragon_breath"
+				count: 8
+			}]
+		}
+		{
+			title: "Refined Storage"
+			icon: "refinedstorage:creative_controller"
+			x: 0.0d
+			y: 4.5d
+			shape: "diamond"
+			description: ["Make sure you have some power. You will want to have started the mod, Create and then move into Create Craft \\& Additions to craft an Alternator. Be aware as your Refined Storage system grows so will your power requirements."]
+			size: 1.5d
+			id: "0000000000000482"
+			tasks: [
+				{
+					id: "0000000000000483"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "0000000000000484"
+					type: "item"
+					item: "refinedstorage:grid"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000485"
+					type: "item"
+					item: "refinedstorage:cable"
+					count: 12
+				}
+				{
+					id: "0000000000000486"
+					type: "item"
+					item: "refinedstorage:external_storage"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["0000000000000482"]
+			id: "0000000000000487"
+			tasks: [{
+				id: "0000000000000488"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [
+				{
+					id: "00000000000004AD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0000000000000566"
+					type: "item"
+					item: "minecraft:magma_cream"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.0d
+			dependencies: ["0000000000000499"]
+			id: "0000000000000489"
+			tasks: [{
+				id: "000000000000048A"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "000000000000049F"
+					type: "item"
+					item: "refinedstorage:1k_storage_part"
+				}
+				{
+					id: "00000000000005A3"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			dependencies: ["0000000000000489"]
+			id: "000000000000048B"
+			tasks: [{
+				id: "000000000000048C"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A0"
+					type: "item"
+					item: "refinedstorage:4k_storage_part"
+				}
+				{
+					id: "00000000000005A4"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 12.0d
+			dependencies: ["000000000000048B"]
+			id: "000000000000048D"
+			tasks: [{
+				id: "000000000000048E"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A1"
+					type: "item"
+					item: "refinedstorage:16k_storage_part"
+				}
+				{
+					id: "00000000000005A5"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 13.5d
+			dependencies: ["000000000000048D"]
+			id: "000000000000048F"
+			tasks: [{
+				id: "0000000000000490"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A2"
+					type: "item"
+					item: "refinedstorage:64k_storage_part"
+				}
+				{
+					id: "00000000000005A6"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 9.0d
+			dependencies: ["0000000000000499"]
+			id: "0000000000000491"
+			tasks: [{
+				id: "0000000000000492"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A3"
+					type: "item"
+					item: "refinedstorage:64k_fluid_storage_part"
+				}
+				{
+					id: "00000000000005A7"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			dependencies: ["0000000000000491"]
+			id: "0000000000000493"
+			tasks: [{
+				id: "0000000000000494"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A4"
+					type: "item"
+					item: "refinedstorage:256k_fluid_storage_part"
+				}
+				{
+					id: "00000000000005A8"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 12.0d
+			dependencies: ["0000000000000493"]
+			id: "0000000000000495"
+			tasks: [{
+				id: "0000000000000496"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A5"
+					type: "item"
+					item: "refinedstorage:1024k_fluid_storage_part"
+				}
+				{
+					id: "00000000000005A9"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 13.5d
+			dependencies: ["0000000000000495"]
+			id: "0000000000000497"
+			tasks: [{
+				id: "0000000000000498"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A6"
+					type: "item"
+					item: "refinedstorage:4096k_fluid_storage_part"
+				}
+				{
+					id: "00000000000005AA"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			description: ["Storage Disks require a Storage Housing"]
+			dependencies: ["0000000000000487"]
+			id: "0000000000000499"
+			tasks: [{
+				id: "000000000000049A"
+				type: "item"
+				item: "refinedstorage:storage_housing"
+			}]
+			rewards: [{
+				id: "00000000000004A7"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["0000000000000487"]
+			id: "000000000000049B"
+			tasks: [{
+				id: "000000000000049C"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "000000000000049D"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["0000000000000487"]
+			id: "00000000000004A8"
+			tasks: [{
+				id: "00000000000004A9"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+			rewards: [{
+				id: "00000000000004AA"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004AE"
+			tasks: [{
+				id: "00000000000004AF"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "00000000000004B6"
+				type: "item"
+				item: {
+					id: "silentgems:enchantment_token"
+					Count: 1b
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s
+							id: "silentgems:supercharged"
+						}]
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["00000000000004AE"]
+			id: "00000000000004B0"
+			tasks: [{
+				id: "00000000000004B1"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+			rewards: [{
+				id: "00000000000004B2"
+				type: "item"
+				item: "refinedstorage:pattern"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["0000000000000487"]
+			id: "00000000000004B3"
+			tasks: [{
+				id: "00000000000004B4"
+				type: "item"
+				item: "refinedstorage:storage_monitor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "00000000000004B5"
+				type: "item"
+				item: "refinedstorage:storage_monitor"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["00000000000004AE"]
+			id: "00000000000004B7"
+			tasks: [{
+				id: "00000000000004B8"
+				type: "item"
+				item: "refinedstorage:constructor"
+			}]
+			rewards: [{
+				id: "00000000000004C0"
+				type: "item"
+				item: "apotheosis:obsidian_arrow"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["00000000000004AE"]
+			id: "00000000000004B9"
+			tasks: [{
+				id: "00000000000004BA"
+				type: "item"
+				item: "refinedstorage:destructor"
+			}]
+			rewards: [{
+				id: "00000000000004BF"
+				type: "item"
+				item: "refinedstorage:fortune_1_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004BB"
+			tasks: [{
+				id: "00000000000004BC"
+				type: "item"
+				item: "refinedstorage:relay"
+			}]
+			rewards: [{
+				id: "00000000000004C1"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3
+							id: "bluepower:disjunction"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["00000000000004BB"]
+			id: "00000000000004BD"
+			tasks: [{
+				id: "00000000000004BE"
+				type: "item"
+				item: "refinedstorage:detector"
+			}]
+			rewards: [{
+				id: "00000000000004C2"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["00000000000004AE"]
+			id: "00000000000004C3"
+			tasks: [{
+				id: "00000000000004C4"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "00000000000004C9"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["00000000000004C3"]
+			id: "00000000000004C5"
+			tasks: [{
+				id: "00000000000004C6"
+				type: "item"
+				item: "refinedstorage:fluid_interface"
+			}]
+			rewards: [{
+				id: "00000000000004CA"
+				type: "item"
+				item: "usefulbackpacks:backpack_enderchest"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["00000000000004AE"]
+			id: "00000000000004C7"
+			tasks: [{
+				id: "00000000000004C8"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			rewards: [{
+				id: "00000000000004CD"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["00000000000004B0"]
+			id: "00000000000004CB"
+			tasks: [{
+				id: "00000000000004CC"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+			rewards: [{
+				id: "0000000000000652"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["00000000000004B0"]
+			id: "00000000000004CE"
+			tasks: [{
+				id: "00000000000004CF"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [{
+				id: "00000000000004D0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004D1"
+			tasks: [{
+				id: "00000000000004D2"
+				type: "item"
+				item: {
+					id: "refinedstorage:portable_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0000000000000564"
+				type: "item"
+				item: {
+					id: "silentgems:enchantment_token"
+					Count: 1b
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s
+							id: "minecraft:thorns"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004D3"
+			tasks: [
+				{
+					id: "00000000000004D4"
+					type: "item"
+					item: "refinedstorage:security_manager"
+				}
+				{
+					id: "00000000000004D5"
+					type: "item"
+					item: "refinedstorage:security_card"
+				}
+			]
+			rewards: [{
+				id: "0000000000000565"
+				type: "item"
+				item: {
+					id: "pickletweaks:night_vision_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004D6"
+			tasks: [{
+				id: "00000000000004D7"
+				type: "item"
+				item: "refinedstorage:network_transmitter"
+			}]
+			rewards: [{
+				id: "00000000000004DA"
+				type: "item"
+				item: "refinedstorage:network_card"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["00000000000004D6"]
+			id: "00000000000004D8"
+			tasks: [{
+				id: "00000000000004D9"
+				type: "item"
+				item: "refinedstorage:network_receiver"
+			}]
+			rewards: [{
+				id: "00000000000004DF"
+				type: "item"
+				item: {
+					id: "silentgems:enchantment_token"
+					Count: 1b
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s
+							id: "minecraft:power"
+						}]
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004DB"
+			tasks: [
+				{
+					id: "00000000000004DC"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+				{
+					id: "00000000000004DD"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+			rewards: [{
+				id: "00000000000004DE"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["0000000000000106"]
+			id: "00000000000005EE"
+			tasks: [{
+				id: "00000000000005EF"
+				type: "item"
+				item: "metalbarrels:wood_to_copper"
+			}]
+			rewards: [{
+				id: "00000000000005F4"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["00000000000005EE"]
+			id: "00000000000005F0"
+			tasks: [{
+				id: "00000000000005F1"
+				type: "item"
+				item: "metalbarrels:copper_to_silver"
+			}]
+			rewards: [{
+				id: "00000000000005F5"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 32
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["00000000000005F0"]
+			id: "00000000000005F2"
+			tasks: [{
+				id: "00000000000005F3"
+				type: "item"
+				item: "metalbarrels:silver_to_gold"
+			}]
+			rewards: [{
+				id: "4EBE02E3B50516FE"
+				type: "item"
+				item: "silentgems:carnelian_teleporter"
+				count: 2
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["00000000000005F2"]
+			id: "00000000000005F7"
+			tasks: [{
+				id: "00000000000005F8"
+				type: "item"
+				item: "metalbarrels:copper_to_diamond"
+			}]
+			rewards: [{
+				id: "00000000000005FB"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 8
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["00000000000005F7"]
+			id: "00000000000005F9"
+			tasks: [{
+				id: "00000000000005FA"
+				type: "item"
+				item: "metalbarrels:wood_to_obsidian"
+			}]
+			rewards: [{
+				id: "00000000000005FC"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["Well you will need to charge up that new wireless grid, so this should get you going!"]
+			dependencies: ["00000000000004DB"]
+			id: "73AFD42597D9DBCF"
+			tasks: [{
+				id: "0CFE1DA0EF5F54A8"
+				type: "item"
+				item: {
+					id: "charginggadgets:charging_station"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6767DD5CFC633290"
+				type: "item"
+				item: "silentgear:netherwood_charcoal"
+			}]
+		}
+	]
+}

@@ -1,0 +1,438 @@
+{
+	id: "00000000000000AF"
+	group: ""
+	order_index: 2
+	filename: "farmer"
+	title: "Let's Get Farming \\& Ranching"
+	icon: "minecraft:wheat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
+			size: 1.5d
+			id: "00000000000000B0"
+			tasks: [{
+				id: "00000000000000B1"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 12L
+			}]
+			rewards: [{
+				id: "00000000000005E8"
+				type: "item"
+				item: "pamhc2foodcore:chocolaterollitem"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "00000000000000B6"
+			tasks: [{
+				id: "00000000000000B7"
+				type: "item"
+				item: "minecraft:string"
+				count: 24L
+			}]
+			rewards: [{
+				id: "00000000000000BF"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["00000000000000B6"]
+			id: "00000000000000B8"
+			tasks: [{
+				id: "00000000000000B9"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "00000000000000C0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0000000000000519"
+					type: "item"
+					item: "minecraft:villager_spawn_egg"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			id: "00000000000000BA"
+			tasks: [{
+				id: "00000000000000BB"
+				type: "item"
+				item: "minecraft:feather"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "00000000000000BC"
+					type: "item"
+					item: "minecraft:flint"
+					count: 10
+				}
+				{
+					id: "00000000000000BD"
+					type: "xp"
+					xp: 25
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["00000000000000B0"]
+			id: "000000000000036F"
+			tasks: [{
+				id: "0000000000000370"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "0000000000000518"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000371"
+			tasks: [{
+				id: "0000000000000372"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+				count: 3L
+			}]
+			rewards: [{
+				id: "0000000000000651"
+				type: "item"
+				item: "minecraft:rabbit_spawn_egg"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000373"
+			tasks: [{
+				id: "0000000000000374"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
+				count: 3L
+			}]
+			rewards: [{
+				id: "000000000000050B"
+				type: "item"
+				item: "farmingforblockheads:green_fertilizer"
+				count: 4
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["08BE2FAC175E4F61"]
+			id: "58A0817160D96360"
+			tasks: [{
+				id: "2EDF18FBF83FBA4D"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["As a reward, you will receive a rabbit spawn egg. Use it wisely as you will need it for another quest."]
+			id: "08BE2FAC175E4F61"
+			tasks: [{
+				id: "6C8A05C62C24A46F"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [{
+				id: "2B4D7EF3807C973F"
+				type: "item"
+				item: "minecraft:rabbit_spawn_egg"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["As a reward, you will receive a squid spawn egg. Use it wisely as you will need it for another quest."]
+			dependencies: ["58A0817160D96360"]
+			id: "583C7A4FE8D984CB"
+			tasks: [{
+				id: "5E0C719D4DFBB8FE"
+				type: "item"
+				item: "minecraft:pumpkin"
+			}]
+			rewards: [{
+				id: "69844C77C4BC8705"
+				type: "item"
+				item: "minecraft:squid_spawn_egg"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["3FC4295847723271"]
+			id: "4AD3D33CC7F2C87B"
+			tasks: [{
+				id: "4F7B97AD12E30E83"
+				type: "item"
+				item: "minecraft:melon"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			id: "3FC4295847723271"
+			tasks: [{
+				id: "39508657AC6DA729"
+				type: "item"
+				item: "minecraft:beetroot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["4AD3D33CC7F2C87B"]
+			id: "5AB17565CCA74C58"
+			tasks: [{
+				id: "51F57AA941D8153F"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["As a reward, you will receive a lobster spawn egg. Use it wisely as you will need it for another quest."]
+			dependencies: [
+				"058852DD03C8D49D"
+				"583C7A4FE8D984CB"
+			]
+			id: "69D63CAEFC10E53D"
+			tasks: [{
+				id: "250EAA1AAB00AFA2"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+			rewards: [{
+				id: "470142E30AB45D5D"
+				type: "item"
+				item: "alexsmobs:spawn_egg_lobster"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["4FD111B5C2DFCC94"]
+			id: "518B3FF9DCABDCB9"
+			tasks: [{
+				id: "58FD2FC0A9FEF366"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "2772160249E18CF4"
+			tasks: [{
+				id: "25E70B79BC72DBE4"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["69D63CAEFC10E53D"]
+			id: "228834E80C9D580F"
+			tasks: [{
+				id: "325E23B384478C7F"
+				type: "item"
+				item: "minecraft:crimson_fungus"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["5AB17565CCA74C58"]
+			id: "058852DD03C8D49D"
+			tasks: [{
+				id: "0C03C8E0E1E978C2"
+				type: "item"
+				item: "minecraft:vine"
+			}]
+		}
+		{
+			title: "Ready for the Slaughter"
+			x: 7.0d
+			y: -2.5d
+			description: [""]
+			dependencies: ["0000000000000373"]
+			id: "27DF8606C56037DD"
+			tasks: [{
+				id: "74E8680A8FB78598"
+				type: "stat"
+				stat: "minecraft:animals_bred"
+				value: 100
+			}]
+			rewards: [{
+				id: "3AEBD63B0B27C836"
+				type: "item"
+				item: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["518B3FF9DCABDCB9"]
+			size: 2.0d
+			id: "02315A8C83FA7D53"
+			tasks: [{
+				id: "2ABBF9213FC0826C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "58EDE99BAF4D2E8D"
+				type: "item"
+				item: "createaddition:creative_energy"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "03F291ACDBA1DBEE"
+			tasks: [{
+				id: "3A4CFD2D5B769692"
+				type: "kill"
+				entity: "minecraft:chicken"
+				value: 10L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "295F3C124EBC2FA7"
+			tasks: [{
+				id: "05877E9674BE25C4"
+				type: "kill"
+				entity: "minecraft:cow"
+				value: 10L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "0295D56733275C84"
+			tasks: [{
+				id: "6C7FA3C9E8959D66"
+				type: "kill"
+				entity: "minecraft:sheep"
+				value: 10L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "4F5953DFCA0C460D"
+			tasks: [{
+				id: "1E171E4EDB7454C9"
+				type: "kill"
+				entity: "minecraft:pig"
+				value: 10L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "48A506E3650ECB1E"
+			tasks: [{
+				id: "44A0F68E90B3952B"
+				type: "kill"
+				entity: "minecraft:rabbit"
+				value: 10L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "15494CE3719EEF68"
+			tasks: [{
+				id: "22FD29019E1C39F5"
+				type: "kill"
+				entity: "minecraft:salmon"
+				value: 10L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: [
+				"02315A8C83FA7D53"
+				"27DF8606C56037DD"
+			]
+			id: "05E530DC06491CDF"
+			tasks: [{
+				id: "64A13E62554EA873"
+				type: "kill"
+				entity: "minecraft:squid"
+				value: 10L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["2772160249E18CF4"]
+			id: "4FD111B5C2DFCC94"
+			tasks: [{
+				id: "430401B0234016CA"
+				type: "item"
+				item: "minecraft:chorus_flower"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["02315A8C83FA7D53"]
+			id: "07AB2698FFAF22F0"
+			tasks: [{
+				id: "2411408B69B91C9D"
+				type: "kill"
+				entity: "alexsmobs:lobster"
+				value: 10L
+			}]
+		}
+	]
+}
