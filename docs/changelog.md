@@ -1,19 +1,28 @@
 # Create on a Potato PC Change Log
 
-## Create on a Potato PC 1.18.1-2.4.1
+## Create on a Potato PC 1.18.1-2.4.2
 
 Dec. 29, 2021
 
 - Mods Added:
   - comforts-forge-1.18-5.0.0.1 (VTweaks sleeping bags were removed)
   - CraftPresence-Forge-1.18.1-Release-1.8.8
+  - kubejs-create-1801.2.0-build.14
   - livingthings-1.18.1-1.4.1
+  - Placebo-1.18.1-6.0.3
   - WaterStrainer-1.18-12.1.0
 - Mods Updated:
+  - architectury-3.3.5
+  - balm-2.4.0+0
+  - BetterCompatibilityChecker-1.1.10-build.21+mc1.18.1
+  - craftingtweaks-forge-1.18.1-14.0.2
   - create-mc1.18.1_v0.4b
+  - curios-forge-1.18.1-5.0.4.2
   - EnchantmentDescriptions-Forge-1.18.1-9.0.5
   - ExtraStorage-1.18.1-2.0.1
+  - farmingforblockheads-forge-1.18.1-9.0.2
   - flywheel-forge-1.18-0.5.0a
+  - kubejs-forge-1801.4.0-build.257
   - lootr-1.18-0.0.12.37
   - Patchouli-1.18.1-63
   - refinedstorage-1.10.0-beta.4
@@ -27,6 +36,7 @@ Dec. 29, 2021
 - Other Changes:
   - Updated Forge 39.0.9
   - Have started adding quests (Pre-release Alpha FTB mods not included in this release)
+  - Added a few recipes for Create
   - Initial CraftPresence config set
 
 ## Create on a Potato PC 1.18.1-2.3.1
