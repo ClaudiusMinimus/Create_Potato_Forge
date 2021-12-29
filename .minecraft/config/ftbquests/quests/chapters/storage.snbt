@@ -9,23 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -7.5d
-			y: 9.0d
-			shape: "diamond"
-			size: 1.5d
-			id: "0000000000000106"
-			tasks: [{
-				id: "0000000000000107"
-				type: "item"
-				item: "minecraft:barrel"
-			}]
-			rewards: [{
-				id: "000000000000022C"
-				type: "item"
-				item: "minecraft:hopper"
-			}]
-		}
-		{
 			title: "Storage Drawers"
 			x: -12.5d
 			y: 4.5d
@@ -45,19 +28,12 @@
 				}
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "0000000000000228"
-					type: "item"
-					item: { id: "minecraft:honeycomb", Count: 3b }
-					count: 8
-				}
-				{
-					id: "0000000000000517"
-					type: "item"
-					item: "theoneprobe:probe"
-				}
-			]
+			rewards: [{
+				id: "0000000000000228"
+				type: "item"
+				item: { id: "minecraft:honeycomb", Count: 3b }
+				count: 8
+			}]
 		}
 		{
 			x: -12.5d
@@ -883,6 +859,8 @@
 		{
 			x: -6.0d
 			y: 6.0d
+			shape: "diamond"
+			size: 1.5d
 			id: "7B7DB78E5D9CFF05"
 			tasks: [{
 				id: "30E59A26E6797D7E"
@@ -973,6 +951,88 @@
 				id: "6C4FAD8C5E06CE04"
 				type: "item"
 				item: "bettercrates:up_obsidian"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "2A3649A8DF93E99E"
+			tasks: [{
+				id: "11848E6C420D97EA"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "240BD00BF1B853B7"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			dependencies: ["2A3649A8DF93E99E"]
+			id: "407535360688B167"
+			tasks: [{
+				id: "60A1482CA9612761"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "0CD5A60BD5B595AF"
+				type: "item"
+				item: "constructionwand:core_angel"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 11.0d
+			dependencies: ["407535360688B167"]
+			id: "0ACD48246B342E81"
+			tasks: [{
+				id: "7B27D36E46171D17"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "3FFD3B8E817FF95B"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 12.5d
+			dependencies: ["0ACD48246B342E81"]
+			id: "67B8966CFC01C9A7"
+			tasks: [{
+				id: "4048B17419E37FCA"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "62F1C5864C4DC0F9"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 14.0d
+			dependencies: ["67B8966CFC01C9A7"]
+			id: "6001D065A214E371"
+			tasks: [{
+				id: "4637625B06BC0879"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "0664CE9BF9C80116"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 4
 			}]
 		}
 	]

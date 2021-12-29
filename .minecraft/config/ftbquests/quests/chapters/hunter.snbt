@@ -26,28 +26,12 @@
 				entity: "minecraft:skeleton"
 				value: 10L
 			}]
-			rewards: [
-				{
-					id: "0000000000000045"
-					type: "item"
-					item: "minecraft:chicken_spawn_egg"
-					count: 4
-				}
-				{
-					id: "0000000000000568"
-					type: "item"
-					item: {
-						id: "silentgems:enchantment_token"
-						Count: 1b
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1
-								id: "minecraft:multishot"
-							}]
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "0000000000000045"
+				type: "item"
+				item: "minecraft:chicken_spawn_egg"
+				count: 4
+			}]
 		}
 		{
 			icon: "minecraft:skeleton_skull"
@@ -68,27 +52,26 @@
 					id: "0000000000000046"
 					type: "item"
 					item: {
-						id: "silentgems:enchantment_token"
+						id: "minecraft:enchanted_book"
 						Count: 1b
 						tag: {
-							TokenEnchantments: [{
-								lvl: 1
-								id: "minecraft:smite"
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:power"
 							}]
 						}
 					}
-					count: 2
 				}
 				{
 					id: "0000000000000567"
 					type: "item"
 					item: {
-						id: "silentgems:enchantment_token"
+						id: "minecraft:enchanted_book"
 						Count: 1b
 						tag: {
-							TokenEnchantments: [{
-								lvl: 1
-								id: "apotheosis:true_infinity"
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:infinity"
 							}]
 						}
 					}
@@ -138,11 +121,11 @@
 					id: "0000000000000569"
 					type: "item"
 					item: {
-						id: "silentgems:enchantment_token"
+						id: "quark:ancient_tome"
 						Count: 1b
 						tag: {
-							TokenEnchantments: [{
-								lvl: 1s
+							StoredEnchantments: [{
+								lvl: 3s
 								id: "minecraft:sweeping"
 							}]
 						}
@@ -166,16 +149,7 @@
 			rewards: [{
 				id: "0000000000000054"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1
-							id: "minecraft:sharpness"
-						}]
-					}
-				}
+				item: "minecraft:netherite_ingot"
 				count: 2
 			}]
 		}
@@ -211,28 +185,12 @@
 				entity: "minecraft:spider"
 				value: 10L
 			}]
-			rewards: [
-				{
-					id: "0000000000000212"
-					type: "item"
-					item: "minecraft:cow_spawn_egg"
-					count: 4
-				}
-				{
-					id: "000000000000056A"
-					type: "item"
-					item: {
-						id: "silentgems:enchantment_token"
-						Count: 1b
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1s
-								id: "minecraft:looting"
-							}]
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "0000000000000212"
+				type: "item"
+				item: "minecraft:cow_spawn_egg"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
@@ -247,21 +205,18 @@
 				entity: "minecraft:spider"
 				value: 100L
 			}]
-			rewards: [{
-				id: "000000000000064F"
-				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:protection"
-						}]
-					}
+			rewards: [
+				{
+					id: "000000000000064F"
+					type: "item"
+					item: "powder_power:token_greater_resistance"
 				}
-				count: 4
-			}]
+				{
+					id: "7FF232DBEB5A8B7D"
+					type: "item"
+					item: "powder_power:token_healing"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -276,16 +231,18 @@
 				entity: "minecraft:spider"
 				value: 1000L
 			}]
-			rewards: [{
-				id: "0000000000000060"
-				type: "item"
-				item: {
-					id: "forbidden_arcanus:eternal_stella"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "0000000000000060"
+					type: "item"
+					item: "powder_power:token_conduit_power"
 				}
-				count: 4
-			}]
+				{
+					id: "1E321C1FC565B277"
+					type: "item"
+					item: "sophisticatedbackpacks:netherite_backpack"
+				}
+			]
 		}
 		{
 			x: 0.0d
