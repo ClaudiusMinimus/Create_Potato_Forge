@@ -1,8 +1,8 @@
 # Create on a Potato PC Change Log
 
-## Create on a Potato PC 1.18.1-2.4.0
+## Create on a Potato PC 1.18.1-2.4.1
 
-Dec. 28, 2021
+Dec. 29, 2021
 
 - Mods Added:
   - comforts-forge-1.18-5.0.0.1 (VTweaks sleeping bags were removed)
@@ -12,11 +12,13 @@ Dec. 28, 2021
 - Mods Updated:
   - create-mc1.18.1_v0.4b
   - EnchantmentDescriptions-Forge-1.18.1-9.0.5
-  - flywheel-forge-1.18-0.5.0
+  - ExtraStorage-1.18.1-2.0.1
+  - flywheel-forge-1.18-0.5.0a
   - lootr-1.18-0.0.12.37
   - Patchouli-1.18.1-63
   - refinedstorage-1.10.0-beta.4
   - refinedstorageaddons-0.8.1
+  - rhino-forge-1800.1.7-build.92
   - VTweaks-1.18-3.5.4
   - Xaeros_Minimap_21.23.0_Forge_1.18
   - XaerosWorldMap_1.19.0_Forge_1.18
@@ -24,6 +26,8 @@ Dec. 28, 2021
   - trashslot-forge-1.18-11.0.0 (Has caused several crashes. Can use /trash command instead)
 - Other Changes:
   - Updated Forge 39.0.9
+  - Have started adding quests (Pre-release Alpha FTB mods not included in this release)
+  - Initial CraftPresence config set
 
 ## Create on a Potato PC 1.18.1-2.3.1
 
