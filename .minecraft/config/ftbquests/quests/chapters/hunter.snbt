@@ -387,16 +387,7 @@
 			rewards: [{
 				id: "000000000000056D"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:hell_infusion"
-						}]
-					}
-				}
+				item: "powder_power:token_good_omen"
 			}]
 		}
 		{
@@ -412,19 +403,12 @@
 				entity: "minecraft:wither_skeleton"
 				value: 100L
 			}]
-			rewards: [
-				{
-					id: "0000000000000220"
-					type: "item"
-					item: "minecraft:netherite_ingot"
-					count: 4
-				}
-				{
-					id: "7CEAE86AFCDA0A3F"
-					type: "item"
-					item: "minecraft:end_portal_frame"
-				}
-			]
+			rewards: [{
+				id: "0000000000000220"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -4.5d
@@ -449,17 +433,8 @@
 				{
 					id: "32202C3190364DF8"
 					type: "item"
-					item: {
-						id: "silentgems:enchantment_token"
-						Count: 1b
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1s
-								id: "apotheosis:capturing"
-							}]
-						}
-					}
-					count: 3
+					item: "minecraft:end_crystal"
+					count: 4
 				}
 			]
 		}
@@ -479,16 +454,7 @@
 			rewards: [{
 				id: "000000000000056C"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:aqua_affinity"
-						}]
-					}
-				}
+				item: "powder_power:token_absorption"
 			}]
 		}
 		{
@@ -522,13 +488,7 @@
 			rewards: [{
 				id: "0000000000000217"
 				type: "item"
-				item: {
-					id: "silentgems:chaos_rune"
-					Count: 1b
-					tag: {
-						SGems_BuffRune: "silentgems:fire_resistance"
-					}
-				}
+				item: "powder_power:token_healing"
 			}]
 		}
 		{
@@ -543,220 +503,17 @@
 				entity: "minecraft:blaze"
 				value: 100L
 			}]
-			rewards: [
-				{
-					id: "0000000000000221"
-					type: "item"
-					item: {
-						id: "silentgear:blueprint_book"
-						Count: 1b
-						tag: {
-							Inventory: {
-								Items: [
-									{
-										Slot: 0
-										id: "silentgear:jeweler_tools"
-										Count: 1b
-									}
-									{
-										Slot: 1
-										id: "silentgear:rod_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 2
-										id: "silentgear:tip_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 3
-										id: "silentgear:coating_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 4
-										id: "silentgear:grip_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 5
-										id: "silentgear:binding_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 6
-										id: "silentgear:lining_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 7
-										id: "silentgear:bowstring_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 8
-										id: "silentgear:fletching_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 9
-										id: "silentgear:sword_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 10
-										id: "silentgear:katana_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 11
-										id: "silentgear:machete_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 12
-										id: "silentgear:spear_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 13
-										id: "silentgear:knife_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 14
-										id: "silentgear:dagger_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 15
-										id: "silentgear:pickaxe_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 16
-										id: "silentgear:shovel_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 17
-										id: "silentgear:axe_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 18
-										id: "silentgear:paxel_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 19
-										id: "silentgear:hammer_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 20
-										id: "silentgear:excavator_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 21
-										id: "silentgear:saw_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 22
-										id: "silentgear:mattock_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 23
-										id: "silentgear:prospector_hammer_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 24
-										id: "silentgear:sickle_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 25
-										id: "silentgear:shears_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 26
-										id: "silentgear:bow_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 27
-										id: "silentgear:crossbow_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 28
-										id: "silentgear:slingshot_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 29
-										id: "silentgear:shield_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 30
-										id: "silentgear:helmet_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 31
-										id: "silentgear:chestplate_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 32
-										id: "silentgear:leggings_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 33
-										id: "silentgear:boots_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 34
-										id: "silentgear:elytra_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 35
-										id: "silentgear:arrow_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 36
-										id: "silentgear:ring_blueprint"
-										Count: 1b
-									}
-									{
-										Slot: 37
-										id: "silentgear:bracelet_blueprint"
-										Count: 1b
-									}
-								]
-							}
-							display: {
-								Name: "{\"text\":\"Fully-Loaded Blueprint Book\"}"
-							}
-						}
+			rewards: [{
+				id: "0000000000000221"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
 					}
 				}
-				{
-					id: "3C3847A99F23372B"
-					type: "item"
-					item: "minecraft:end_portal_frame"
-				}
-			]
+			}]
 		}
 		{
 			x: -4.5d
@@ -773,7 +530,8 @@
 			rewards: [{
 				id: "000000000000023B"
 				type: "item"
-				item: "refinedstorage:64k_storage_block"
+				item: "refinedstorage:64k_storage_part"
+				count: 4
 			}]
 		}
 		{
@@ -829,12 +587,12 @@
 				id: "000000000000046C"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "quark:ancient_tome"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1
-							id: "minecraft:silk_touch"
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:soul_speed"
 						}]
 					}
 				}
@@ -856,7 +614,7 @@
 			rewards: [{
 				id: "000000000000046D"
 				type: "item"
-				item: "silentgems:super_charging_agent"
+				item: "minecraft:ender_eye"
 				count: 16
 			}]
 		}
@@ -946,8 +704,8 @@
 				{
 					id: "7C157791D469CF91"
 					type: "item"
-					item: "forbidden_arcanus:dragon_scale"
-					count: 32
+					item: "minecraft:netherite_block"
+					count: 4
 				}
 			]
 		}
@@ -966,72 +724,8 @@
 			rewards: [{
 				id: "0000000000000583"
 				type: "item"
-				item: "silentgear:crimson_steel_ingot"
-				count: 16
-			}]
-		}
-		{
-			x: -1.5d
-			y: 3.0d
-			id: "0589E9190651D0D4"
-			tasks: [{
-				id: "21C315533C500E0E"
-				type: "kill"
-				entity: "alexsmobs:mimicube"
-				value: 10L
-			}]
-			rewards: [{
-				id: "05FFF203AE0AB8B8"
-				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:scavenger"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: -3.0d
-			y: 3.0d
-			dependencies: ["0589E9190651D0D4"]
-			id: "785CB9B3BF03BC5E"
-			tasks: [{
-				id: "0394D5E7BC85F2F8"
-				type: "kill"
-				entity: "alexsmobs:mimicube"
-				value: 100L
-			}]
-			rewards: [{
-				id: "3724FA476B946458"
-				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:scavenger"
-						}]
-					}
-				}
+				item: "powder_power:block_quadrilium"
 				count: 2
-			}]
-		}
-		{
-			x: -4.5d
-			y: 3.0d
-			dependencies: ["785CB9B3BF03BC5E"]
-			id: "52A6B024BD68AC6D"
-			tasks: [{
-				id: "6AE748759FAB9130"
-				type: "kill"
-				entity: "alexsmobs:mimicube"
-				value: 1000L
 			}]
 		}
 		{
@@ -1079,7 +773,7 @@
 		}
 		{
 			title: "Wither Slayer"
-			x: -2.5d
+			x: -1.5d
 			y: -4.5d
 			id: "29FFE1F7BC45D711"
 			tasks: [{
@@ -1093,12 +787,13 @@
 				{
 					id: "184618A1633008DF"
 					type: "item"
-					item: "silentgear:tyrian_steel_block"
+					item: "minecraft:netherite_block"
 				}
 				{
-					id: "6A2E3B9EFF94AE9C"
+					id: "7842E12A39E6650F"
 					type: "item"
-					item: "minecraft:end_portal_frame"
+					item: "powder_power:block_trilium"
+					count: 3
 				}
 			]
 		}

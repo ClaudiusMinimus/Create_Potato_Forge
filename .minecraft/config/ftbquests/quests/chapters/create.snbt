@@ -16,9 +16,7 @@
 			description: [
 				"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine."
 				""
-				"With the Create .3.1 update when holding the \"w\" key while hovering over a kinetic block in your inventory or JEI will show detailed information. In other items, the shift key will reveal information."
-				""
-				""
+				"When holding the \"w\" key while hovering over a kinetic block in your inventory or JEI will show detailed information. In other items, the shift key will reveal information."
 			]
 			size: 1.5d
 			id: "000000000000062C"
@@ -30,7 +28,7 @@
 			rewards: [{
 				id: "000000000000078E"
 				type: "item"
-				item: "pamhc2foodcore:applesmoothieitem"
+				item: "farmersdelight:honey_cookie"
 				count: 8
 			}]
 		}
@@ -68,7 +66,7 @@
 			rewards: [{
 				id: "000000000000085F"
 				type: "item"
-				item: "silentgems:cup_of_coffee"
+				item: "farmersdelight:stuffed_pumpkin"
 				count: 4
 			}]
 		}
@@ -125,7 +123,8 @@
 			rewards: [{
 				id: "0000000000000866"
 				type: "item"
-				item: "create:adjustable_pulse_repeater"
+				item: "farmersdelight:sweet_berry_cheesecake_slice"
+				count: 8
 			}]
 		}
 		{
@@ -142,8 +141,14 @@
 			rewards: [{
 				id: "2B5FE7896E86C918"
 				type: "item"
-				item: "apotheosis:obsidian_arrow"
-				count: 4
+				item: {
+					id: "minecraft:tipped_arrow"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				count: 8
 			}]
 		}
 		{
@@ -160,10 +165,7 @@
 			rewards: [{
 				id: "0000000000000860"
 				type: "item"
-				item: {
-					id: "pamhc2foodcore:fishsticksitem"
-					Count: 8b
-				}
+				item: "farmersdelight:fish_stew"
 				count: 8
 			}]
 		}
@@ -180,7 +182,7 @@
 			rewards: [{
 				id: "000000000000086C"
 				type: "item"
-				item: "silentgems:fishy_stew"
+				item: "farmersdelight:beef_stew"
 				count: 4
 			}]
 		}
@@ -203,8 +205,8 @@
 			rewards: [{
 				id: "000000000000086A"
 				type: "item"
-				item: "silentgems:corrupting_powder"
-				count: 4
+				item: "minecraft:gunpowder"
+				count: 16
 			}]
 		}
 		{
@@ -238,7 +240,8 @@
 			rewards: [{
 				id: "0000000000000863"
 				type: "item"
-				item: "create:adjustable_repeater"
+				item: "powder_power:ingot_redium"
+				count: 2
 			}]
 		}
 		{
@@ -344,7 +347,7 @@
 			rewards: [{
 				id: "000000000000086B"
 				type: "item"
-				item: "alexsmobs:lobster_bucket"
+				item: "minecraft:axolotl_bucket"
 			}]
 		}
 		{
@@ -409,7 +412,7 @@
 			rewards: [{
 				id: "000000000000085D"
 				type: "item"
-				item: "biomesoplenty:rainbow_birch_sapling"
+				item: "quark:blue_blossom_sapling"
 			}]
 		}
 		{
@@ -486,7 +489,7 @@
 			rewards: [{
 				id: "17FF93A3BF60BD44"
 				type: "item"
-				item: "pamhc2foodcore:bakedvegetablemedlyitem"
+				item: "farmersdelight:egg_sandwich"
 				count: 8
 			}]
 		}
@@ -628,12 +631,12 @@
 				id: "00000000000008CD"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "quark:ancient_tome"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:shield_bash"
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:sharpness"
 						}]
 					}
 				}
@@ -650,34 +653,17 @@
 				item: "create:linear_chassis"
 				count: 3L
 			}]
-			rewards: [
-				{
-					id: "00000000000008CE"
-					type: "item"
-					item: {
-						id: "silentgems:enchantment_token"
-						Count: 1b
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1s
-								id: "minecraft:looting"
-							}]
-						}
-					}
-					count: 2
-				}
-				{
-					id: "00000000000008D3"
-					type: "item"
-					item: {
-						id: "create:super_glue"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "00000000000008D3"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: -1.5d
@@ -696,8 +682,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 14.5d
+			x: 6.0d
+			y: 12.5d
 			dependencies: ["00000000000008DD"]
 			id: "00000000000008D1"
 			tasks: [{
@@ -769,8 +755,8 @@
 			rewards: [{
 				id: "2954C4FF91E930CD"
 				type: "item"
-				item: "pamhc2foodcore:sweetberryjellytoastitem"
-				count: 8
+				item: "farmersdelight:roasted_mutton_chops"
+				count: 4
 			}]
 		}
 		{
@@ -787,13 +773,13 @@
 			rewards: [{
 				id: "2A18446A57A19AA1"
 				type: "item"
-				item: "silentgems:potato_on_a_stick"
+				item: "easy_emerald:ruby_potato"
 				count: 8
 			}]
 		}
 		{
-			x: 7.5d
-			y: 13.5d
+			x: 4.5d
+			y: 14.0d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008DF"
 			tasks: [{
@@ -805,20 +791,20 @@
 				id: "16DA9389063EC0FC"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "quark:ancient_tome"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:protection"
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:looting"
 						}]
 					}
 				}
 			}]
 		}
 		{
-			x: 5.0d
-			y: 17.0d
+			x: 6.0d
+			y: 14.5d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008E1"
 			tasks: [{
@@ -835,7 +821,7 @@
 		}
 		{
 			x: 8.0d
-			y: 14.5d
+			y: 12.5d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008E3"
 			tasks: [{
@@ -846,13 +832,12 @@
 			rewards: [{
 				id: "3DAC20191628DBDA"
 				type: "item"
-				item: "pamhc2foodcore:p8juiceitem"
-				count: 8
+				item: "bettercrates:golden_crate"
 			}]
 		}
 		{
-			x: 3.5d
-			y: 16.5d
+			x: 4.0d
+			y: 12.5d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008E5"
 			tasks: [
@@ -957,20 +942,20 @@
 				id: "66CBEFA36A0C1867"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "quark:ancient_tome"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:scavenger"
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
 						}]
 					}
 				}
 			}]
 		}
 		{
-			x: 6.5d
-			y: 16.5d
+			x: 7.5d
+			y: 14.0d
 			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			dependencies: ["00000000000008D1"]
 			id: "1BBEEF19114688A9"
@@ -989,12 +974,12 @@
 				id: "3073DBD47D347721"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "quark:ancient_tome"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:efficiency"
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:respiration"
 						}]
 					}
 				}
@@ -1075,7 +1060,16 @@
 			rewards: [{
 				id: "1D6189B8DE5FD067"
 				type: "item"
-				item: "forbidden_arcanus:stella_arcanum"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -1097,17 +1091,8 @@
 			rewards: [{
 				id: "0504A23E2B1FE5CD"
 				type: "item"
-				item: {
-					id: "apotheosis:hellshelf"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							lvl: 5s
-							id: "apotheosis:hell_infusion"
-						}]
-					}
-				}
-				count: 2
+				item: "quark:warped_bookshelf"
+				count: 8
 			}]
 		}
 		{
@@ -1126,8 +1111,8 @@
 			rewards: [{
 				id: "09281869C8ED265A"
 				type: "item"
-				item: "forbidden_arcanus:aquatic_dragon_scale"
-				count: 2
+				item: "minecraft:dragon_breath"
+				count: 4
 			}]
 		}
 		{
@@ -1146,7 +1131,7 @@
 			rewards: [{
 				id: "735F65B1B6C2C586"
 				type: "item"
-				item: "apotheosis:endshelf"
+				item: "easy_emerald:ruby_juju"
 				count: 2
 			}]
 		}
@@ -1253,7 +1238,8 @@
 			rewards: [{
 				id: "3C78DC7687EF31A8"
 				type: "item"
-				item: "biomesoplenty:jacaranda_sapling"
+				item: "minecraft:gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1274,8 +1260,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 15.5d
+			x: 4.5d
+			y: 11.0d
 			dependencies: ["00000000000008D1"]
 			id: "0D63EF41017B4EC9"
 			tasks: [{
@@ -1286,13 +1272,7 @@
 			rewards: [{
 				id: "462C861464D608FA"
 				type: "item"
-				item: {
-					id: "curios:crown"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "easy_emerald:amethyst_juju"
 			}]
 		}
 		{
@@ -1354,7 +1334,7 @@
 			rewards: [{
 				id: "61A912E49F5BA2F6"
 				type: "item"
-				item: "forbidden_arcanus:arcane_gold_ingot"
+				item: "storagedrawers:quantify_key"
 			}]
 		}
 		{
@@ -1392,8 +1372,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 12.5d
+			x: 7.5d
+			y: 11.0d
 			dependencies: ["00000000000008D1"]
 			id: "51CA42B8F1642023"
 			tasks: [{
@@ -1431,8 +1411,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 12.0d
+			x: 6.0d
+			y: 10.5d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
 			tasks: [{
@@ -1472,7 +1452,7 @@
 			rewards: [{
 				id: "5E32A03469E2041E"
 				type: "item"
-				item: "create:adjustable_repeater"
+				item: "create:pulse_repeater"
 			}]
 		}
 		{
@@ -1494,7 +1474,7 @@
 			rewards: [{
 				id: "7B0073D765E75F7C"
 				type: "item"
-				item: "create:adjustable_pulse_repeater"
+				item: "minecraft:observer"
 			}]
 		}
 		{
@@ -1544,8 +1524,13 @@
 			rewards: [{
 				id: "1D1D56ED06D69395"
 				type: "item"
-				item: "botania:grass_seeds"
-				count: 4
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -1563,9 +1548,14 @@
 				id: "35502B756B837E0E"
 				type: "item"
 				item: {
-					id: "forbidden_arcanus:eternal_stella"
+					id: "minecraft:enchanted_book"
 					Count: 1b
-					tag: { }
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:mending"
+						}]
+					}
 				}
 			}]
 		}

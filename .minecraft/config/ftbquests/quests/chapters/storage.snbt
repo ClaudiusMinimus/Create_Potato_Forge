@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -6.0d
-			y: 4.5d
+			x: -7.5d
+			y: 9.0d
 			shape: "diamond"
 			size: 1.5d
 			id: "0000000000000106"
@@ -23,85 +23,6 @@
 				id: "000000000000022C"
 				type: "item"
 				item: "minecraft:hopper"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 3.0d
-			dependencies: ["0000000000000106"]
-			id: "00000000000001B6"
-			tasks: [{
-				id: "00000000000001B7"
-				type: "item"
-				item: "metalbarrels:wood_to_iron"
-			}]
-			rewards: [{
-				id: "000000000000022D"
-				type: "item"
-				item: "minecraft:totem_of_undying"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 1.5d
-			dependencies: ["00000000000001B6"]
-			id: "00000000000001B8"
-			tasks: [{
-				id: "00000000000001B9"
-				type: "item"
-				item: "metalbarrels:iron_to_gold"
-			}]
-			rewards: [{
-				id: "0000000000000472"
-				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:fire_protection"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: -5.0d
-			y: 0.0d
-			dependencies: ["00000000000001B8"]
-			id: "00000000000001BA"
-			tasks: [{
-				id: "00000000000001BB"
-				type: "item"
-				item: "metalbarrels:gold_to_diamond"
-			}]
-			rewards: [{
-				id: "0000000000000473"
-				type: "item"
-				item: "curios:ring"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -1.5d
-			dependencies: ["00000000000001BA"]
-			id: "00000000000001BC"
-			tasks: [{
-				id: "00000000000001BD"
-				type: "item"
-				item: "metalbarrels:diamond_to_crystal"
-			}]
-			rewards: [{
-				id: "0000000000000474"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
 		}
 		{
@@ -151,7 +72,7 @@
 			rewards: [{
 				id: "0000000000000478"
 				type: "item"
-				item: "alexsmobs:cooked_moose_ribs"
+				item: "burgermod:fries"
 				count: 8
 			}]
 		}
@@ -174,7 +95,7 @@
 				{
 					id: "000000000000047A"
 					type: "item"
-					item: "pamhc2foodcore:caramelappleitem"
+					item: "farmersdelight:vegetable_noodles"
 					count: 8
 				}
 			]
@@ -192,7 +113,7 @@
 			rewards: [{
 				id: "000000000000047B"
 				type: "item"
-				item: "forbidden_arcanus:boom_arrow"
+				item: "minecraft:end_rod"
 				count: 4
 			}]
 		}
@@ -209,7 +130,7 @@
 			rewards: [{
 				id: "0000000000000479"
 				type: "item"
-				item: "silentgems:summon_puppy"
+				item: "minecraft:wolf_spawn_egg"
 			}]
 		}
 		{
@@ -225,13 +146,8 @@
 			rewards: [{
 				id: "00000000000004EF"
 				type: "item"
-				item: {
-					id: "curios:crown"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "minecraft:experience_bottle"
+				count: 8
 			}]
 		}
 		{
@@ -361,30 +277,7 @@
 			rewards: [{
 				id: "00000000000004F5"
 				type: "item"
-				item: {
-					id: "apotheosis:potion_charm"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Potion: "minecraft:water_breathing"
-					}
-				}
-			}]
-		}
-		{
-			x: -5.0d
-			y: -3.0d
-			dependencies: ["00000000000001BC"]
-			id: "000000000000046E"
-			tasks: [{
-				id: "000000000000046F"
-				type: "item"
-				item: "metalbarrels:diamond_to_obsidian"
-			}]
-			rewards: [{
-				id: "0000000000000476"
-				type: "item"
-				item: "minecraft:dragon_breath"
+				item: "minecraft:blaze_powder"
 				count: 8
 			}]
 		}
@@ -694,17 +587,8 @@
 			rewards: [{
 				id: "00000000000004B6"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "silentgems:supercharged"
-						}]
-					}
-				}
-				count: 3
+				item: "minecraft:prismarine_shard"
+				count: 8
 			}]
 		}
 		{
@@ -755,7 +639,7 @@
 			rewards: [{
 				id: "00000000000004C0"
 				type: "item"
-				item: "apotheosis:obsidian_arrow"
+				item: "minecraft:dragon_breath"
 				count: 4
 			}]
 		}
@@ -788,16 +672,7 @@
 			rewards: [{
 				id: "00000000000004C1"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3
-							id: "bluepower:disjunction"
-						}]
-					}
-				}
+				item: "create:creative_blaze_cake"
 			}]
 		}
 		{
@@ -813,12 +688,8 @@
 			rewards: [{
 				id: "00000000000004C2"
 				type: "item"
-				item: {
-					id: "forbidden_arcanus:eternal_stella"
-					Count: 1b
-					tag: { }
-				}
-				count: 8
+				item: "minecraft:anvil"
+				count: 2
 			}]
 		}
 		{
@@ -850,7 +721,7 @@
 			rewards: [{
 				id: "00000000000004CA"
 				type: "item"
-				item: "usefulbackpacks:backpack_enderchest"
+				item: "minecraft:ender_chest"
 			}]
 		}
 		{
@@ -920,16 +791,7 @@
 			rewards: [{
 				id: "0000000000000564"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:thorns"
-						}]
-					}
-				}
+				item: "minecraft:shulker_box"
 			}]
 		}
 		{
@@ -990,17 +852,8 @@
 			rewards: [{
 				id: "00000000000004DF"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:power"
-						}]
-					}
-				}
-				count: 2
+				item: "minecraft:amethyst_shard"
+				count: 8
 			}]
 		}
 		{
@@ -1028,113 +881,98 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 3.0d
-			dependencies: ["0000000000000106"]
-			id: "00000000000005EE"
+			x: -6.0d
+			y: 6.0d
+			id: "7B7DB78E5D9CFF05"
 			tasks: [{
-				id: "00000000000005EF"
+				id: "30E59A26E6797D7E"
 				type: "item"
-				item: "metalbarrels:wood_to_copper"
+				item: "bettercrates:wooden_crate"
 			}]
 			rewards: [{
-				id: "00000000000005F4"
+				id: "229E0AB52875E9C3"
 				type: "item"
-				item: "minecraft:bucket"
+				item: "bettercrates:up_wooden"
 			}]
 		}
 		{
-			x: -7.0d
+			x: -6.0d
+			y: 4.5d
+			dependencies: ["7B7DB78E5D9CFF05"]
+			id: "34C0C7C901E0CE70"
+			tasks: [{
+				id: "0AF3FD3A39020D61"
+				type: "item"
+				item: "bettercrates:copper_crate"
+			}]
+			rewards: [{
+				id: "430AAC4726D1517D"
+				type: "item"
+				item: "bettercrates:up_copper"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["34C0C7C901E0CE70"]
+			id: "1BAC05163F0CCF79"
+			tasks: [{
+				id: "2F1D90F60E8B90D1"
+				type: "item"
+				item: "bettercrates:iron_crate"
+			}]
+			rewards: [{
+				id: "770992141E426818"
+				type: "item"
+				item: "bettercrates:up_iron"
+			}]
+		}
+		{
+			x: -6.0d
 			y: 1.5d
-			dependencies: ["00000000000005EE"]
-			id: "00000000000005F0"
+			dependencies: ["1BAC05163F0CCF79"]
+			id: "5BA256F44E04C55A"
 			tasks: [{
-				id: "00000000000005F1"
+				id: "6B15BDBD3240EF5D"
 				type: "item"
-				item: "metalbarrels:copper_to_silver"
+				item: "bettercrates:golden_crate"
 			}]
 			rewards: [{
-				id: "00000000000005F5"
+				id: "46DC9209D3090DCC"
 				type: "item"
-				item: "minecraft:quartz"
-				count: 32
+				item: "bettercrates:up_golden"
 			}]
 		}
 		{
-			x: -7.0d
+			x: -6.0d
 			y: 0.0d
-			dependencies: ["00000000000005F0"]
-			id: "00000000000005F2"
+			dependencies: ["5BA256F44E04C55A"]
+			id: "16D51F124F2C75B9"
 			tasks: [{
-				id: "00000000000005F3"
+				id: "272B6BED6E7BD7AB"
 				type: "item"
-				item: "metalbarrels:silver_to_gold"
+				item: "bettercrates:diamond_crate"
 			}]
 			rewards: [{
-				id: "4EBE02E3B50516FE"
+				id: "729F1DD7ACAF03D5"
 				type: "item"
-				item: "silentgems:carnelian_teleporter"
-				count: 2
+				item: "bettercrates:up_diamond"
 			}]
 		}
 		{
-			x: -7.0d
+			x: -6.0d
 			y: -1.5d
-			dependencies: ["00000000000005F2"]
-			id: "00000000000005F7"
+			dependencies: ["16D51F124F2C75B9"]
+			id: "7BE806837CB0581C"
 			tasks: [{
-				id: "00000000000005F8"
+				id: "18A3EC6191A6CF29"
 				type: "item"
-				item: "metalbarrels:copper_to_diamond"
+				item: "bettercrates:obsidian_crate"
 			}]
 			rewards: [{
-				id: "00000000000005FB"
+				id: "6C4FAD8C5E06CE04"
 				type: "item"
-				item: "minecraft:redstone_block"
-				count: 8
-			}]
-		}
-		{
-			x: -7.0d
-			y: -3.0d
-			dependencies: ["00000000000005F7"]
-			id: "00000000000005F9"
-			tasks: [{
-				id: "00000000000005FA"
-				type: "item"
-				item: "metalbarrels:wood_to_obsidian"
-			}]
-			rewards: [{
-				id: "00000000000005FC"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:long_fire_resistance"
-					}
-				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: 3.0d
-			description: ["Well you will need to charge up that new wireless grid, so this should get you going!"]
-			dependencies: ["00000000000004DB"]
-			id: "73AFD42597D9DBCF"
-			tasks: [{
-				id: "0CFE1DA0EF5F54A8"
-				type: "item"
-				item: {
-					id: "charginggadgets:charging_station"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "6767DD5CFC633290"
-				type: "item"
-				item: "silentgear:netherwood_charcoal"
+				item: "bettercrates:up_obsidian"
 			}]
 		}
 	]
