@@ -41,17 +41,6 @@
 					item: "minecraft:ladder"
 					count: 10
 				}
-				{
-					id: "5651DB4750EB2E9E"
-					type: "item"
-					item: {
-						id: "patchouli:guide_book"
-						Count: 1b
-						tag: {
-							"patchouli:book": "patchouli:potato"
-						}
-					}
-				}
 			]
 		}
 		{
