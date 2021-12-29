@@ -1,0 +1,14 @@
+{
+    "name": "Known Issues",
+    "icon": "minecraft:written_book",
+    "category": "patchouli:support",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": ["potato:assets/blockheads_error.png"]
+        },{
+            "type": "patchouli:text",
+            "text": "Farming For Blockheads error on world load shown at left. This issue has been submitted and is non-critical. Will be fixed as soon as Farming For Blockheads updates."
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Early Game Farms",
+    "icon": "minecraft:composter",
+    "category": "patchouli:game_tips",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Early game farms are one of the best ways to quickly gather resources. Here is a list of some of my favorites."
+        },{
+            "title": "Iron Farm",
+            "type": "patchouli:text",
+            "text": "It is possbible to have a good iron farm up and going really fast! Here is a link to a very easy and productive iron farm by ianxofour, titled: $(l:https://www.youtube.com/watch?v=-oYyJ6jfSPU)Iron Farm on Day 1 of Survival$(/l), though I never am able to do this on day one."
+        },
+        {
+            "title": "Village Breeder",
+            "type": "patchouli:text",
+            "text": "ImpulseSV has one of the most popular and easy to make villager breeders. However, since 1.17, the breeder breaks. You will need to make as few tweaks.$(li)$(l:https://www.youtube.com/watch?v=VTseLpa9Iyc)Easy Infinite Villager Breeder$()$(li)$(l:https://i.imgur.com/ZaPQifs.png)Modified bed area$(/l). You will also need to put a second villager in with the farmer. Here is a $(l:https://i.imgur.com/Vq79tGm.jpg)cross-secion view$(/l) of my farm after a few hours"
+        },
+        {
+            "title": "Sugarcane Farm",
+            "type": "patchouli:text",
+            "text": "Dusty Dude's $(l:https://www.youtube.com/watch?v=Mo6bcbPjyRA)Flying Machine Sugarcane Farm$(). This farm can really kick out a lot of sugarcane. I made one three chunks long and I had TONS of sugarcane!"
+        }
+    ]
+}
