@@ -36,6 +36,7 @@ potato-1.18.x.code-workspace
 # Stop ignoring these files
 !.minecraft/TrashSlotSaveState.json
 !.minecraft/config/bcc-common.toml
+!.minecraft/config/craftpresence.properties
 !.minecraft/config/quark-common.toml
 !.minecraft/config/theoneprobe-client.toml
 !.minecraft/config/vtweaks-common.toml
