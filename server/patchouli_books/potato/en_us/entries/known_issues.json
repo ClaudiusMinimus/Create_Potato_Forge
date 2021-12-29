@@ -1,0 +1,11 @@
+{
+    "name": "Known Issues",
+    "icon": "minecraft:written_book",
+    "category": "patchouli:support",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "None at this time."
+        }
+    ]
+}
