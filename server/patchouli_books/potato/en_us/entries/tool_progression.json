@@ -1,0 +1,14 @@
+{
+    "name": "Armor/Tool Progression",
+    "icon": "easy_emerald:copper_body",
+    "category": "patchouli:game_tips",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Repair your broken armor/tools/weapons in a crafting grid with the material used to craft them.$(br2)I found the following armor/tool/weapon progression helpful:$(li)After making customary stone tools, gather a stack of copper ore, then after smelting, craft the following $(l:easy_emerald)Easy Emerald$(/l) copper items in this order:"
+        },{
+            "type": "text",
+            "text": "$(li)Tree Axe, hammer, paxel, sword, and armor.$(li) Excavators are also very useful.$(li)If you have a good supply of emeralds, craft some rubies, which make excellent tools. (See $(l:easy_emerald)Easy Emerald$(/l) for more info.)$(li)Follow the $(l:powder_power)Powder Power$(/l) material progression."
+        }
+    ]
+}

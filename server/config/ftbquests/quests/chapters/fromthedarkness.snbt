@@ -1,0 +1,615 @@
+{
+	id: "0000000000000004"
+	group: ""
+	order_index: 0
+	filename: "fromthedarkness"
+	title: "In the beginning..."
+	icon: "minecraft:campfire"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Think like a Hobbit"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"Hobbits really are amazing creatures. Well now it is time to dig like a hobbit and get safe. Dig 10 dirt blocks, so you can make a temp shelter. We will provide a door."
+				""
+				""
+			]
+			dependencies: ["4566ABBC235069E9"]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "0000000000000005"
+			tasks: [{
+				id: "0000000000000006"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "0000000000000008"
+					type: "item"
+					item: "minecraft:oak_door"
+				}
+				{
+					id: "3754B942D67E38EA"
+					type: "item"
+					item: "minecraft:ladder"
+					count: 10
+				}
+				{
+					id: "5651DB4750EB2E9E"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:potato"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Don't Punch a Tree"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Use you axe and save your knuckles"
+				"Now chop down 16 logs."
+			]
+			dependencies: ["0000000000000005"]
+			id: "000000000000000D"
+			tasks: [{
+				id: "000000000000000E"
+				type: "item"
+				title: "Any minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "000000000000000F"
+				type: "item"
+				item: {
+					id: "quark:seed_pouch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["000000000000000D"]
+			id: "0000000000000010"
+			tasks: [{
+				id: "0000000000000011"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "0000000000000013"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0000000000000048"
+					type: "item"
+					item: "burgermod:beef_champignon_burger"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Any Minecraft Bed"
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["0000000000000010"]
+			id: "0000000000000014"
+			tasks: [{
+				id: "0000000000000015"
+				type: "item"
+				title: "Any minecraft:beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000016"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "000000000000001A"
+					type: "item"
+					item: "torchmaster:megatorch"
+				}
+			]
+		}
+		{
+			title: "Don't Throw it Out!"
+			x: 3.0d
+			y: 1.5d
+			description: ["Make a Composter so you can recycle a lot of your plant based organic leftovers."]
+			dependencies: ["0000000000000010"]
+			id: "000000000000001B"
+			tasks: [{
+				id: "000000000000001C"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [{
+				id: "000000000000001D"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 64
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["Let's go get some iron!"]
+			dependencies: ["00000000000000C7"]
+			id: "000000000000001E"
+			tasks: [{
+				id: "000000000000001F"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 12L
+			}]
+			rewards: [{
+				id: "0000000000000020"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			title: "Over an Open Fire"
+			disable_toast: true
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"There is nothing quite like cooking over an open campfire, as long as it isn't me."
+				""
+				"Make a campfire and enjoy the meats!"
+			]
+			dependencies: ["0000000000000010"]
+			id: "0000000000000025"
+			tasks: [{
+				id: "0000000000000026"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [
+				{
+					id: "0000000000000027"
+					type: "item"
+					item: "minecraft:beef"
+					count: 4
+				}
+				{
+					id: "0000000000000028"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 4
+				}
+				{
+					id: "0000000000000514"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["The allusive bamboo. We have found they can be crafted if you look in JEI"]
+			dependencies: ["0000000000000005"]
+			id: "00000000000000C1"
+			tasks: [{
+				id: "00000000000000C2"
+				type: "item"
+				item: "minecraft:bamboo"
+			}]
+			rewards: [{
+				id: "00000000000000C5"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"]
+			dependencies: ["00000000000000C1"]
+			id: "00000000000000C3"
+			tasks: [{
+				id: "00000000000000C4"
+				type: "item"
+				item: "minecraft:scaffolding"
+				count: 18L
+			}]
+			rewards: [{
+				id: "00000000000000C6"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["0000000000000005"]
+			id: "00000000000000C7"
+			tasks: [{
+				id: "00000000000000C8"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "00000000000000E3"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["00000000000000C7"]
+			id: "00000000000000C9"
+			tasks: [{
+				id: "00000000000000CA"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "00000000000000E2"
+				type: "item"
+				item: {
+					id: "pickletweaks:watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: [
+				"00000000000000C7"
+				"00000000000000C9"
+			]
+			id: "00000000000000CB"
+			tasks: [{
+				id: "00000000000000CC"
+				type: "item"
+				item: "minecraft:smooth_stone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "000000000000050A"
+				type: "item"
+				item: "create:zinc_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["000000000000001E"]
+			id: "00000000000005C8"
+			tasks: [{
+				id: "00000000000005C9"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 24L
+			}]
+			rewards: [{
+				id: "00000000000005CA"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["000000000000001E"]
+			id: "39FE13E8A6B4F49A"
+			tasks: [{
+				id: "2BA3D35B3019EDCF"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+			}]
+			rewards: [{
+				id: "3C3F6503890C02C5"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["39FE13E8A6B4F49A"]
+			id: "454647B9AE66B110"
+			tasks: [{
+				id: "1678322DBD167282"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33CC373CF433F7DE"
+				type: "item"
+				item: {
+					id: "resourceful_tools:hook_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["454647B9AE66B110"]
+			id: "5EA5AAE1B05909DB"
+			tasks: [{
+				id: "04EDC0BB13A4F3CC"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_solid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4879F113D2A63B4A"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["5EA5AAE1B05909DB"]
+			id: "4EF265E0B71814B5"
+			tasks: [{
+				id: "06D17746F39361D2"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_reinforced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "12A5FC2B7C248FEC"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["39FE13E8A6B4F49A"]
+			id: "59C58358A8692B47"
+			tasks: [{
+				id: "26D61F86880ACB13"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36771F758A297477"
+					type: "item"
+					item: "waterstrainer:worm"
+					count: 32
+				}
+				{
+					id: "68DB630A1D806ED2"
+					type: "item"
+					item: {
+						id: "waterstrainer:bait_pot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["59C58358A8692B47"]
+			id: "563372AFF860B5F3"
+			tasks: [{
+				id: "67F2A0E54F12AAE1"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman_solid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04BD29105DDABFD9"
+					type: "item"
+					item: "waterstrainer:worm_bin"
+				}
+				{
+					id: "54BE741541029A08"
+					type: "item"
+					item: "easy_emerald:emerald_juju"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			dependencies: ["563372AFF860B5F3"]
+			id: "61F1A7B35D9600A5"
+			tasks: [{
+				id: "248EE68A5FCDFC3F"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman_reinforced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "495D8F521CF89B3A"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "pentagon"
+			description: [
+				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with."
+				""
+				"**IMPORTANT:**"
+				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step."
+			]
+			size: 2.0d
+			id: "1AF057F95637D8A7"
+			tasks: [{
+				id: "28BFC4F2477199D4"
+				type: "checkmark"
+				title: "Quest Basics"
+			}]
+			rewards: [{
+				id: "74959768F0A77D52"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"JEI is an item and recipe viewing mod for Minecraft."
+				"Basic Controls:"
+				"- Inventory:"
+				"  - (Minecraft Options -> Controls)"
+				"  - Show Recipes: Hover over item + R"
+				"  - Show Uses: Hover over item + U"
+				"  - Toggle Item List Overlay:"
+				"     Control + O"
+				"For more information visit curseforge.com and serach mods for 'jei'"
+			]
+			dependencies: ["1AF057F95637D8A7"]
+			id: "6FD173B38832C0B1"
+			tasks: [{
+				id: "49B075A7F04A6B9C"
+				type: "checkmark"
+				title: "Just Enough Items (JEI)"
+			}]
+			rewards: [{
+				id: "705A315C877CC55D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:"
+				"/sethome will set a waypoint for your home"
+				"/home will teleport you to the home you set"
+				"/delhome delete your current home"
+				"/spawn teleport you to spawn"
+				"/tpa allows you to request a teleport to another player. The player on the other end must accept your request for the teleport to be completed."
+				"/rndtp executes a teleport to a random location. Please note there is a cooldown period between random teleport."
+				"/back after death you can teleport to your death point or can be used to return to a previous location."
+				"/trash opens a trashcan from your inventory."
+			]
+			dependencies: ["6FD173B38832C0B1"]
+			id: "4566ABBC235069E9"
+			tasks: [{
+				id: "7AD9D444872F43EA"
+				type: "checkmark"
+				title: "Basic Commands"
+			}]
+			rewards: [{
+				id: "36768AF86403FDD9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

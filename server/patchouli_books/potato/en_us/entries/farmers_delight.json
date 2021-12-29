@@ -1,0 +1,23 @@
+{
+    "name": "Farmer's Delight",
+    "icon": "farmersdelight:basket",
+    "category": "patchouli:mods",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Farmer's Delight",
+            "text": "Farmer's Delight is a mod that gently expands upon farming and cooking in Minecraft.Using a simple cooking system and a few familiar ingredients, you'll be able to prepare a wide variety of hearty meals: from sandwiches to salads and stews, from beautiful desserts to mouth-watering feasts, no ingredient will be left behind in your kitchen!"
+        },{
+            "type": "text",
+            "text": "It also introduces a rich set of utilities: a way to improve the very soil your crops grow in, a brand new kind of tool to scavenge resources with, cute decorations for your builds, and many blocks and items to help you on your adventure!$(li)$(l:https://github.com/vectorwing/FarmersDelight/wiki)Wiki$(/l)$(li)$(l:https://twitter.com/vectorwing)Twitter$(/l)$(li)$(l:https://www.youtube.com/watch?v=kxocezdpoEA)Spotlight$(/l)$()$(br2)To get you started turn the page - beyond that you need to check out the $(l:https://github.com/vectorwing/FarmersDelight/wiki)wiki$(/l)!"            
+        },{
+            "type": "spotlight",
+            "item": "farmersdelight:flint_knife",
+            "title": "Knives",
+            "text": "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora.$(li)Any animals you slay using a Knife are guaranteed to drop secondary items, such as Leather and Feathers;$(li)Grassy plants (grass, wheat, rice etc) cut with a Knife will occasionally yield Straw, a firm and useful fiber;"            
+        },{
+            "type": "text",
+            "text": "$(li)They act as a modest melee weapon: swings faster than a sword for lesser damage;$(li)Later on, they are also useful for cutting and portioning ingredients when preparing meals.$(br2)Knives are tiered like standard tools, except they cannot be made out of wood or stone. The simplest one you can make is the Flint Knife. Now is the time to find and dig up some gravel!"            
+        }
+    ]
+}

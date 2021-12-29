@@ -1,8 +1,7 @@
 {
     "name": "Create",
     "icon": "create:large_cogwheel",
-    "category": "patchouli:videos",
-    "sortnum": 1,
+    "category": "patchouli:mods",
     "pages": [
         {
             "type": "text",
