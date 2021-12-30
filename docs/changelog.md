@@ -35,7 +35,7 @@ Dec. 29, 2021
   - trashslot-forge-1.18-11.0.0 (Has caused several crashes. Can use /trash command instead)
 - Other Changes:
   - Updated Forge 39.0.9
-  - Have started adding quests (Pre-release Alpha FTB mods not included in this release)
+  - Have started adding quests (Pre-release Alpha FTB mods not included in this release. If you want to use quests, then please join CM's World discord at: https://discord.com/invite/jXrx4Tu and read this post: https://discord.com/channels/445225930554605578/921179185253326878/925909348222386286)
   - Added a few recipes for Create
   - Initial CraftPresence config set
 
