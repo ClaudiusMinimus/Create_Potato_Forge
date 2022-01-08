@@ -2,6 +2,16 @@
 
 ## Create on a Potato PC 1.18.1-2.5.1
 
+Known Issues:
+
+- FTB Chunks is in ALPHA and just found out it is very buggy.
+  - Rendering is messed up for the maps
+  - Need to manually disable minimap (see known issues in Potato book)
+  - Creeper will crash server
+    - Temp fix is a command block running this command `/kill @e[type=creeper]`  
+    - Set the command block to ‘always active’ instead of ‘need redstone’
+    - Set to ‘repeating’
+
 Jan. 07, 2022
 
 - Mods Added:
