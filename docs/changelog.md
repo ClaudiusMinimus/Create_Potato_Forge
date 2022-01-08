@@ -11,6 +11,7 @@ Known Issues:
     - Temp fix is a command block running this command `/kill @e[type=creeper]`  
     - Set the command block to ‘always active’ instead of ‘need redstone’
     - Set to ‘repeating’
+  - TNT and other explosions may also crash server. Issue has been [reported](https://github.com/FTBTeam/FTB-Mods-Issues/issues/161)
 
 Jan. 07, 2022
 
