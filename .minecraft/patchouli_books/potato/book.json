@@ -2,5 +2,5 @@
 	"name": "Create on a Potato PC",
 	"landing_text": "$(playername), Howdy and Welcome!$(br2)This book is a reference guide to help with basic commands, showing links to useful videos, and more to come...",
 	"show_progress": false,
-	"version": 2
+	"version": 3
 }

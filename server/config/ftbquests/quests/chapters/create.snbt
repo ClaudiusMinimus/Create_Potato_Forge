@@ -4,7 +4,7 @@
 	order_index: 1
 	filename: "create"
 	title: "Create"
-	icon: { id: "create:large_cogwheel", Count: 2b }
+	icon: "create:large_cogwheel"
 	subtitle: ["Build amazing things with Create!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -778,7 +778,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.5d
 			y: 14.0d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008DF"
@@ -804,7 +804,7 @@
 		}
 		{
 			x: 6.0d
-			y: 14.5d
+			y: 15.5d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008E1"
 			tasks: [{
@@ -820,7 +820,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 12.5d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008E3"
@@ -836,7 +836,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.0d
 			y: 12.5d
 			dependencies: ["00000000000008D1"]
 			id: "00000000000008E5"
@@ -954,8 +954,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 14.0d
+			x: 8.5d
+			y: 11.0d
 			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			dependencies: ["00000000000008D1"]
 			id: "1BBEEF19114688A9"
@@ -1373,7 +1373,7 @@
 		}
 		{
 			x: 7.5d
-			y: 11.0d
+			y: 10.0d
 			dependencies: ["00000000000008D1"]
 			id: "51CA42B8F1642023"
 			tasks: [{
@@ -1412,7 +1412,7 @@
 		}
 		{
 			x: 6.0d
-			y: 10.5d
+			y: 9.5d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
 			tasks: [{
@@ -1555,6 +1555,131 @@
 							lvl: 1s
 							id: "minecraft:mending"
 						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 14.0d
+			dependencies: ["00000000000008D1"]
+			id: "0351BF8137FCC36B"
+			tasks: [{
+				id: "65BF807ED7A583DF"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "2A2885D00F0AE8A4"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 15.0d
+			description: ["It has been found it may take more than one alternator to power your Refined Storage system."]
+			dependencies: ["00000000000008D1"]
+			id: "1C613BBF8E00B7D2"
+			tasks: [{
+				id: "1F259EB580A21F83"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "31AD34AA299469BD"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 15.0d
+			dependencies: ["00000000000008D1"]
+			id: "5699077B8E2106C1"
+			tasks: [{
+				id: "429F8B16CFC4A40D"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+			rewards: [{
+				id: "5A1FFEE033F80F06"
+				type: "item"
+				item: "powder_power:token_exp"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 6.0d
+			dependencies: ["57E407DCFD4531C4"]
+			id: "3BE33364CD46C62D"
+			tasks: [{
+				id: "2A1461B7A5627F0A"
+				type: "item"
+				item: "createaddition:heater"
+			}]
+			rewards: [{
+				id: "0E23E8F2DB0B7B84"
+				type: "item"
+				item: "powder_power:token_affliction"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 7.0d
+			dependencies: ["57E407DCFD4531C4"]
+			id: "3C1F30450727C97C"
+			tasks: [{
+				id: "6E45778F56FA4D76"
+				type: "item"
+				item: "createaddition:redstone_relay"
+			}]
+			rewards: [{
+				id: "3F9685B716E4CCAA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.0d
+			dependencies: ["00000000000007A1"]
+			id: "57E407DCFD4531C4"
+			tasks: [{
+				id: "4CB08F300BBBA825"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "2C97849B9AA4D580"
+				type: "item"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			dependencies: ["57E407DCFD4531C4"]
+			id: "2D874710EB4C2EF3"
+			tasks: [{
+				id: "7261A8E8C7B03CA9"
+				type: "item"
+				item: "createaddition:gold_spool"
+			}]
+			rewards: [{
+				id: "2FD3012A81BFF26C"
+				type: "item"
+				item: {
+					id: "resourceful_tools:glass_placer"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]

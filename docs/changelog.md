@@ -1,5 +1,45 @@
 # Create on a Potato PC Change Log
 
+## Create on a Potato PC 1.18.1-2.5.1
+
+Jan. 07, 2022
+
+- Mods Added:
+  - alexsmobs-1.15.1
+  - citadel-1.10.8-1.18
+  - crashutilities-4.0
+  - createaddition-1.18.1-20220105a
+  - ftb-chunks-forge-1801.3.3-build.108
+  - ftb-library-forge-1801.3.5-build.106
+  - ftb-quests-forge-1801.3.7-build.87
+  - ftb-teams-forge-1801.2.4-build.46
+  - item-filters-forge-1801.2.6-build.16
+- Mods Updated:
+  - architectury-3.4.9
+  - Controlling-forge-1.18.1-9.0.8
+  - createdeco-1.2.2-1.18
+  - Cucumber-1.18.1-5.0.2
+  - EnchantmentDescriptions-Forge-1.18.1-9.0.8
+  - fancymenu_forge_2.5.0_MC_1.18-1.18.1
+  - FarmersDelight-1.18.1-1.0.1
+  - jei-1.18.1-9.1.2.61
+  - konkrete_forge_1.3.3_MC_1.18-1.18.1
+  - kubejs-forge-1801.4.1-build.271
+  - lootr-1.18-0.0.12.38
+  - Patchouli-1.18.1-64
+  - PickleTweaks-1.18.1-6.0.1
+  - polymorph-forge-1.18.1-0.35
+  - repurposed_structures_forge-4.1.0+1.18.1
+  - SimpleStorageNetwork-1.18.1-1.5.2
+  - sophisticatedbackpacks-1.18.1-3.15.1.505
+  - StorageDrawers-1.18.1-10.1.0
+  - theoneprobe-1.18-5.0.2
+- Mods Removed:
+  - livingthings-1.18.1-1.4.1 (replaced with Alex's Mobs)
+- Other Changes:
+  - Updated Forge to 39.0.10
+  - Updated quests
+
 ## Create on a Potato PC 1.18.1-2.4.2
 
 Dec. 29, 2021
@@ -35,7 +75,7 @@ Dec. 29, 2021
   - trashslot-forge-1.18-11.0.0 (Has caused several crashes. Can use /trash command instead)
 - Other Changes:
   - Updated Forge 39.0.9
-  - Have started adding quests (Pre-release Alpha FTB mods not included in this release. If you want to use quests, then please join CM's World discord at: https://discord.com/invite/jXrx4Tu and read this post: https://discord.com/channels/445225930554605578/921179185253326878/925909348222386286)
+  - Have started adding quests (Pre-release Alpha FTB mods not included in this release. If you want to use quests, then please join [CM's World discord](https://discord.com/invite/jXrx4Tu) and read this [post](https://discord.com/channels/445225930554605578/921179185253326878/925909348222386286)
   - Added a few recipes for Create
   - Initial CraftPresence config set
 
