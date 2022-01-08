@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "None at this time."
+            "text": "$(l)FTB Chunks $(o)ALPHA$() has two issues:$(li)Minimap is on by default despite attempts to set it to disabled. This CM's World $(l:https://discord.com/channels/445225930554605578/925174132499431454/929212618554613850)video$(/l) will show you how to disable the minimap. $(o)Please join $(l:https://discord.com/invite/jXrx4Tu)CM's World discord$(/l) before viewing.$()$(li)FTB Chunks world/chunk maps may not render properly.$()"
         }
     ]
 }
