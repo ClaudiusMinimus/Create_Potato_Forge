@@ -1,5 +1,22 @@
 # Create on a Potato PC Change Log
 
+## Create on a Potato PC 1.18.1-2.6.0
+
+Jan. 08, 2022
+
+- Mods Added:
+- Mods Updated:
+  - Controlling-forge-1.18.1-9.0.10
+  - curios-forge-1.18.1-5.0.5.0
+  - ftb-chunks-forge-1801.3.3-build.110 (fixes explosion crash issue)
+  - ftb-library-forge-1801.3.5-build.109
+  - lootr-1.18-0.1.13.40
+- Mods Removed:
+- Other Changes:
+  - Updated Forge to 39.0.14
+  - Added quests for armor, tools, and weapons. No rewards have been added yet
+  - Minor quest updates
+
 ## Create on a Potato PC 1.18.1-2.5.1
 
 Known Issues:
