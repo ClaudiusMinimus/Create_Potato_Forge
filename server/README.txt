@@ -1,4 +1,4 @@
-Thank you for downloading Create Potato server!
+Thank you for downloading Create on a Potato PC server!
 
 1. To install forge, read "How To Install Servers" by  Kreezxil at: 
 https://kreezcraft.com/info__trashed/servers/how-to-install-servers/
