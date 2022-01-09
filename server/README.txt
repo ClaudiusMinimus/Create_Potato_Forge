@@ -13,6 +13,8 @@ https://kreezcraft.com/info__trashed/servers/how-to-install-servers/
 
 5. You will need to start the server again if it did not automatically start
 
+6. When complete delete the forge-[version]-installer.jar
+
 Please visit our discord at: https://discord.com/invite/jXrx4Tu
 
 Thank you and have fun!
