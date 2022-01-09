@@ -11,6 +11,8 @@ https://kreezcraft.com/info__trashed/servers/how-to-install-servers/
 
 4. You will then need to open the EULA and change from eula=false to eula=true
 
+5. You will need to start the server again if it did not automatically start
+
 Please visit our discord at: https://discord.com/invite/jXrx4Tu
 
 Thank you and have fun!
