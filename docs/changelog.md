@@ -2,6 +2,8 @@
 
 ## Create on a Potato PC 1.18.1-2.6.0
 
+This release fixes a critical issue where any explosion can crash a server or singleplayer.
+
 Jan. 08, 2022
 
 - Mods Added:
