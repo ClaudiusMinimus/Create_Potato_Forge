@@ -1,0 +1,9 @@
+                    **** IMPORTANT ****
+You must be using Java 17 otherwise the server will not start!
+Download Java 17 from one of the locations shown below:
+- https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+- https://jdk.java.net/17/
+- https://docs.microsoft.com/en-us/java/openjdk/download
+
+Use the below location to download the correct version of Forge:
+ - https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.18.1-39.0.14/forge-1.18.1-39.0.14-installer.jar
