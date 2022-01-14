@@ -7,7 +7,9 @@
 .minecraft/mods/*
 .minecraft/resourcepacks/*
 .minecraft/saves/*
+.minecraft/schematics/*
 .minecraft/screenshots/*
+.minecraft/shrines-data/*
 .minecraft/shrines-saves/*
 .minecraft/Xaero*/*
 builds/*server*.zip
