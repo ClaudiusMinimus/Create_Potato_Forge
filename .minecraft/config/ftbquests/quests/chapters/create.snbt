@@ -52,10 +52,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
+			x: -2.5d
+			y: -1.0d
 			description: ["You will need LOTS of these little guys!"]
-			dependencies: ["000000000000078F"]
+			dependencies: ["0000000000000795"]
 			id: "0000000000000791"
 			tasks: [{
 				id: "0000000000000792"
@@ -71,9 +71,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.5d
-			dependencies: ["000000000000078F"]
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["0000000000000795"]
 			id: "0000000000000793"
 			tasks: [{
 				id: "0000000000000794"
@@ -88,9 +88,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
-			dependencies: ["0000000000000793"]
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["000000000000078F"]
 			id: "0000000000000795"
 			tasks: [{
 				id: "0000000000000796"
@@ -152,8 +152,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.0d
+			x: -2.5d
+			y: -4.0d
 			dependencies: ["0000000000000795"]
 			id: "000000000000079B"
 			tasks: [{
@@ -277,14 +277,14 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: -4.5d
+			y: -2.5d
 			description: [
 				"A water wheel is great for early game Rotational Force."
 				""
 				"Your reward is a Stressometer--this useful tool shows you the kinetic stress at that point in the system. Each kinetic block adds stress to the system. Therefore, if your system stops or slows down you may need additional rotational force."
 			]
-			dependencies: ["0000000000000795"]
+			dependencies: ["0000000000000793"]
 			id: "00000000000007AB"
 			tasks: [{
 				id: "00000000000007AC"
@@ -399,8 +399,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -2.0d
+			x: -1.0d
+			y: 1.5d
 			description: ["The Millstone is used for grinding all kinds of items. Be sure to check JEI for what it can do. You can even make a needed material for crafting slime balls."]
 			dependencies: ["000000000000078F"]
 			id: "00000000000007BB"
@@ -494,7 +494,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -1.0d
 			y: -9.5d
 			description: ["The Spout is for refilling your fluid items. Can also be automated."]
 			dependencies: ["00000000000007CD"]
@@ -836,22 +836,15 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 12.5d
-			dependencies: ["00000000000008D1"]
+			x: 1.0d
+			y: -9.5d
+			dependencies: ["00000000000007CD"]
 			id: "00000000000008E5"
-			tasks: [
-				{
-					id: "00000000000008E6"
-					type: "item"
-					item: "create:furnace_engine"
-				}
-				{
-					id: "00000000000008E7"
-					type: "item"
-					item: "create:flywheel"
-				}
-			]
+			tasks: [{
+				id: "00000000000008E7"
+				type: "item"
+				item: "create:steam_engine"
+			}]
 			rewards: [{
 				id: "116A70DC2D5ED396"
 				type: "item"
@@ -1225,8 +1218,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
+			x: 1.5d
+			y: -2.5d
 			description: ["A nice sturdy decoration."]
 			dependencies: ["000000000000078F"]
 			id: "404D832597883CA2"
@@ -1260,8 +1253,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 11.0d
+			x: 3.0d
+			y: 12.5d
 			dependencies: ["00000000000008D1"]
 			id: "0D63EF41017B4EC9"
 			tasks: [{
@@ -1338,7 +1331,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 1.0d
 			y: 1.5d
 			dependencies: ["000000000000078F"]
 			id: "7C2067E003760D5E"
@@ -1391,7 +1384,6 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			dependencies: ["0000000000000795"]
 			id: "3B92E29596B40569"
 			tasks: [{
 				id: "48889F50EF1F80BD"
@@ -1612,22 +1604,6 @@
 				id: "5A1FFEE033F80F06"
 				type: "item"
 				item: "powder_power:token_exp"
-			}]
-		}
-		{
-			x: -8.5d
-			y: 6.0d
-			dependencies: ["57E407DCFD4531C4"]
-			id: "3BE33364CD46C62D"
-			tasks: [{
-				id: "2A1461B7A5627F0A"
-				type: "item"
-				item: "createaddition:heater"
-			}]
-			rewards: [{
-				id: "0E23E8F2DB0B7B84"
-				type: "item"
-				item: "powder_power:token_affliction"
 			}]
 		}
 		{

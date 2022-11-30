@@ -9,7 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Storage Drawers"
 			x: -12.5d
 			y: 4.5d
 			shape: "diamond"
@@ -18,32 +17,30 @@
 			tasks: [{
 				id: "00000000000001F4"
 				type: "item"
-				title: "Any storagedrawers:drawers"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "storagedrawers:drawers"
-					}
-				}
+				item: "storagenetwork:kabel"
 				count: 8L
 			}]
 			rewards: [{
-				id: "0000000000000228"
+				id: "2A95B72820AD19D5"
 				type: "item"
-				item: { id: "minecraft:honeycomb", Count: 3b }
-				count: 8
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
 			}]
 		}
 		{
 			x: -12.5d
-			y: 6.0d
-			dependencies: ["00000000000001F3"]
+			y: 0.0d
+			dependencies: ["00000000000001FB"]
 			id: "00000000000001F7"
 			tasks: [{
 				id: "00000000000001F8"
 				type: "item"
-				item: "storagedrawers:compacting_drawers_3"
+				item: "storagenetwork:request"
 			}]
 			rewards: [{
 				id: "0000000000000478"
@@ -60,13 +57,14 @@
 			tasks: [{
 				id: "00000000000001FA"
 				type: "item"
-				item: "storagedrawers:controller"
+				item: "storagenetwork:master"
 			}]
 			rewards: [
 				{
 					id: "00000000000001FD"
 					type: "item"
-					item: "storagedrawers:drawer_key"
+					item: "storagenetwork:kabel"
+					count: 8
 				}
 				{
 					id: "000000000000047A"
@@ -84,7 +82,7 @@
 			tasks: [{
 				id: "00000000000001FC"
 				type: "item"
-				item: "storagedrawers:controller_slave"
+				item: "storagenetwork:inventory"
 			}]
 			rewards: [{
 				id: "000000000000047B"
@@ -94,14 +92,15 @@
 			}]
 		}
 		{
-			x: -11.0d
+			x: -14.0d
 			y: 4.5d
 			dependencies: ["00000000000001F3"]
 			id: "00000000000001FE"
 			tasks: [{
 				id: "00000000000001FF"
 				type: "item"
-				item: "storagedrawers:upgrade_template"
+				item: "storagenetwork:storage_kabel"
+				count: 4L
 			}]
 			rewards: [{
 				id: "0000000000000479"
@@ -110,64 +109,46 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 3.0d
-			dependencies: ["00000000000001FE"]
+			x: -11.5d
+			y: 6.5d
+			dependencies: ["00000000000001F3"]
 			id: "0000000000000200"
 			tasks: [{
 				id: "0000000000000201"
 				type: "item"
-				item: "storagedrawers:obsidian_storage_upgrade"
+				item: "storagenetwork:import_filter_kabel"
 			}]
 			rewards: [{
-				id: "00000000000004EF"
+				id: "325668D29015D57E"
 				type: "item"
-				item: "minecraft:experience_bottle"
-				count: 8
+				item: "storagenetwork:stack_upgrade"
 			}]
 		}
 		{
-			x: -11.0d
-			y: 1.5d
-			dependencies: ["0000000000000200"]
+			x: -13.5d
+			y: 6.5d
+			dependencies: ["00000000000001F3"]
 			id: "0000000000000202"
 			tasks: [{
 				id: "0000000000000203"
 				type: "item"
-				item: "storagedrawers:iron_storage_upgrade"
+				item: "storagenetwork:export_kabel"
 			}]
 			rewards: [{
-				id: "00000000000004F0"
-				type: "xp"
-				xp: 50
+				id: "3FB12BAEE3484702"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
 			}]
 		}
 		{
-			x: -11.0d
-			y: 0.0d
-			dependencies: ["0000000000000202"]
-			id: "0000000000000204"
-			tasks: [{
-				id: "0000000000000205"
-				type: "item"
-				item: "storagedrawers:gold_storage_upgrade"
-			}]
-			rewards: [{
-				id: "00000000000004F1"
-				type: "item"
-				item: { id: "minecraft:brain_coral_block", Count: 8b }
-				count: 8
-			}]
-		}
-		{
-			x: -11.0d
-			y: -1.5d
-			dependencies: ["0000000000000204"]
+			x: -9.0d
+			y: 2.5d
+			dependencies: ["0000000000000208"]
 			id: "0000000000000206"
 			tasks: [{
 				id: "0000000000000207"
 				type: "item"
-				item: "storagedrawers:diamond_storage_upgrade"
+				item: "storagenetwork:crafting_remote"
 			}]
 			rewards: [{
 				id: "00000000000004F2"
@@ -193,13 +174,13 @@
 		}
 		{
 			x: -11.0d
-			y: -3.0d
-			dependencies: ["0000000000000206"]
+			y: 2.5d
+			dependencies: ["00000000000001F9"]
 			id: "0000000000000208"
 			tasks: [{
 				id: "0000000000000209"
 				type: "item"
-				item: "storagedrawers:emerald_storage_upgrade"
+				item: "storagenetwork:inventory_remote"
 			}]
 			rewards: [{
 				id: "00000000000004F3"
@@ -210,13 +191,13 @@
 		}
 		{
 			x: -11.0d
-			y: 6.0d
-			dependencies: ["00000000000001FE"]
+			y: 4.5d
+			dependencies: ["00000000000001F3"]
 			id: "000000000000020A"
 			tasks: [{
 				id: "000000000000020B"
 				type: "item"
-				item: "storagedrawers:void_upgrade"
+				item: "storagenetwork:import_kabel"
 			}]
 			rewards: [{
 				id: "00000000000004F6"
@@ -225,36 +206,19 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 3.0d
-			dependencies: ["00000000000001FE"]
+			x: -10.0d
+			y: 1.5d
+			dependencies: ["0000000000000208"]
 			id: "000000000000020C"
 			tasks: [{
 				id: "000000000000020D"
 				type: "item"
-				item: "storagedrawers:conversion_upgrade"
+				item: "storagenetwork:collector_remote"
 			}]
 			rewards: [{
 				id: "00000000000004F4"
 				type: "xp"
 				xp: 50
-			}]
-		}
-		{
-			x: -9.5d
-			y: 4.5d
-			dependencies: ["00000000000001FE"]
-			id: "000000000000020E"
-			tasks: [{
-				id: "000000000000020F"
-				type: "item"
-				item: "storagedrawers:redstone_upgrade"
-			}]
-			rewards: [{
-				id: "00000000000004F5"
-				type: "item"
-				item: "minecraft:blaze_powder"
-				count: 8
 			}]
 		}
 		{
@@ -865,13 +829,20 @@
 			tasks: [{
 				id: "30E59A26E6797D7E"
 				type: "item"
-				item: "bettercrates:wooden_crate"
+				item: "minecraft:barrel"
 			}]
-			rewards: [{
-				id: "229E0AB52875E9C3"
-				type: "item"
-				item: "bettercrates:up_wooden"
-			}]
+			rewards: [
+				{
+					id: "31D0D13C6853C083"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6D91D7144D21C6BD"
+					type: "item"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -881,12 +852,19 @@
 			tasks: [{
 				id: "0AF3FD3A39020D61"
 				type: "item"
-				item: "bettercrates:copper_crate"
+				item: {
+					id: "sophisticatedstorage:iron_barrel"
+					Count: 1b
+					tag: {
+						mainColor: 16383998
+						accentColor: 16383998
+					}
+				}
 			}]
 			rewards: [{
 				id: "430AAC4726D1517D"
 				type: "item"
-				item: "bettercrates:up_copper"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
 			}]
 		}
 		{
@@ -897,12 +875,19 @@
 			tasks: [{
 				id: "2F1D90F60E8B90D1"
 				type: "item"
-				item: "bettercrates:iron_crate"
+				item: {
+					id: "sophisticatedstorage:gold_barrel"
+					Count: 1b
+					tag: {
+						mainColor: 16701501
+						accentColor: 16701501
+					}
+				}
 			}]
 			rewards: [{
 				id: "770992141E426818"
 				type: "item"
-				item: "bettercrates:up_iron"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
 			}]
 		}
 		{
@@ -913,12 +898,19 @@
 			tasks: [{
 				id: "6B15BDBD3240EF5D"
 				type: "item"
-				item: "bettercrates:golden_crate"
+				item: {
+					id: "sophisticatedstorage:diamond_barrel"
+					Count: 1b
+					tag: {
+						mainColor: 3847130
+						accentColor: 3847130
+					}
+				}
 			}]
 			rewards: [{
 				id: "46DC9209D3090DCC"
 				type: "item"
-				item: "bettercrates:up_golden"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
 			}]
 		}
 		{
@@ -929,28 +921,19 @@
 			tasks: [{
 				id: "272B6BED6E7BD7AB"
 				type: "item"
-				item: "bettercrates:diamond_crate"
+				item: {
+					id: "sophisticatedstorage:netherite_barrel"
+					Count: 1b
+					tag: {
+						mainColor: 4673362
+						accentColor: 4673362
+					}
+				}
 			}]
 			rewards: [{
 				id: "729F1DD7ACAF03D5"
 				type: "item"
-				item: "bettercrates:up_diamond"
-			}]
-		}
-		{
-			x: -6.0d
-			y: -1.5d
-			dependencies: ["16D51F124F2C75B9"]
-			id: "7BE806837CB0581C"
-			tasks: [{
-				id: "18A3EC6191A6CF29"
-				type: "item"
-				item: "bettercrates:obsidian_crate"
-			}]
-			rewards: [{
-				id: "6C4FAD8C5E06CE04"
-				type: "item"
-				item: "bettercrates:up_obsidian"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
 			}]
 		}
 		{
@@ -1033,6 +1016,17 @@
 				type: "item"
 				item: "minecraft:ancient_debris"
 				count: 4
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.5d
+			dependencies: ["0000000000000208"]
+			id: "75B664FAC2A1BBC7"
+			tasks: [{
+				id: "62B1A43518BA39FC"
+				type: "item"
+				item: "storagenetwork:picker_remote"
 			}]
 		}
 	]

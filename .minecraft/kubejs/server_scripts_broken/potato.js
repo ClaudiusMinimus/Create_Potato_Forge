@@ -3,7 +3,7 @@
 // settings.logRemovedRecipes = true
 
 // Listen to server recipe event
-onEvent('recipes', event => {
+ServerEvents.recipes('recipes', event => {
 //events.listen('recipes', function (event) {
 
     // Add shaped recipe for chests

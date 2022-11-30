@@ -3,9 +3,11 @@
 .minecraft/config/*
 .minecraft/craftpresence/*
 .minecraft/crash-reports/*
+.minecraft/kubejs/exported/*
 .minecraft/local/*
 .minecraft/logs/*
 .minecraft/mods/*
+.minecraft/mods*/*
 .minecraft/resourcepacks/*
 .minecraft/saves/*
 .minecraft/screenshots/*
@@ -18,6 +20,7 @@ server/logs/*
 server/mods/*
 
 # Ignore these files
+*.code-workspace
 .minecraft/knownkeys.txt
 .minecraft/realms_persistence.json
 .minecraft/user*.json
@@ -26,7 +29,7 @@ server/mods/*
 .minecraft/servers.dat*
 .minecraft/config/fancymenu/menu_identifiers.db
 instance.cfg
-*.code-workspace
+potato-1.18.x.code-workspace
 
 # Stop ignoring these folgers
 !.minecraft/config/alexsmobs.toml

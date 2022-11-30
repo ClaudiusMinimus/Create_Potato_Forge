@@ -12,27 +12,26 @@
             "cachedName": "Minecraft",
             "cachedRequires": [
                 {
-                    "equals": "3.2.2",
-                    "suggests": "3.2.2",
+                    "suggests": "3.3.1",
                     "uid": "org.lwjgl3"
                 }
             ],
-            "cachedVersion": "1.18.1",
+            "cachedVersion": "1.19.2",
             "important": true,
             "uid": "net.minecraft",
-            "version": "1.18.1"
+            "version": "1.19.2"
         },
         {
             "cachedName": "Forge",
             "cachedRequires": [
                 {
-                    "equals": "1.18.1",
+                    "equals": "1.19.2",
                     "uid": "net.minecraft"
                 }
             ],
-            "cachedVersion": "39.0.14",
+            "cachedVersion": "43.1.57",
             "uid": "net.minecraftforge",
-            "version": "39.0.14"
+            "version": "43.1.57"
         }
     ],
     "formatVersion": 1

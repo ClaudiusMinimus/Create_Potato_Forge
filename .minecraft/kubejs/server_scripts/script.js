@@ -1,35 +1,37 @@
 // priority: 0
 
-settings.logAddedRecipes = true
-settings.logRemovedRecipes = true
-settings.logSkippedRecipes = false
-settings.logErroringRecipes = true
+console.info('Hello, World! (You will see this line every time server resources reload)')
 
-// console.info('Hello, World! (You will see this line every time server resources reload)')
+ServerEvents.recipes(event => {
+    // Add shaped recipe for chests
+    event.shaped('4x minecraft:chest', [
+        'WWW',
+        'W W',
+        'WWW'
+    ], {
+        W: '#minecraft:logs'
+    })
 
-onEvent('recipes', event => {
-	// Change recipes here
+    // Add shapeless recipe for Create Potato book
+    event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:potato"}'), ['minecraft:book', 'minecraft:potato'])
+
+    // Add shapeless recipe for making sticks from logs
+    event.shapeless('16x minecraft:stick', [
+        '#minecraft:logs', '#minecraft:logs'
+    ])
+
+    // Add shapeless recipe for oak slab to oak planks
+    event.shapeless('minecraft:oak_planks', ['minecraft:oak_slab', 'minecraft:oak_slab'])
+
+    // Add shapeless recipe for cobblestone slabs to cobblestone
+    event.shapeless('minecraft:cobblestone', ['minecraft:cobblestone_slab', 'minecraft:cobblestone_slab'])    
+
 })
 
-onEvent('item.tags', event => {
+ServerEvents.tags('item', event => {
 	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
 	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
 
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
 })
-
-// Listen to player login event
-onEvent('player.logged_in', event => {
-	// Check if player doesn't have "starting_items" stage yet
-	if (!event.player.stages.has('starting_items')) {
-	  // Add the stage
-	  event.player.stages.add('starting_items')
-	  // Give some items to player
-	  event.player.give('minecraft:stone_sword')
-	  event.player.give('minecraft:stone_pickaxe')
-	  event.player.give('minecraft:stone_axe')
-	  event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:potato"}'))
-	  event.player.give('30x minecraft:apple')
-	}
-  })
