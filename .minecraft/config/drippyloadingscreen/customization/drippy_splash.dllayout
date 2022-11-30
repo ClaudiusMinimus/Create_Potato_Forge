@@ -6,6 +6,7 @@ customization-meta {
   backgroundimage = config/fancymenu/assets/background.png
   renderorder = foreground
   randommode = false
+  scale = 3
   randomonlyfirsttime = false
 }
 
@@ -16,8 +17,8 @@ customization {
 
 customization {
   action = editprogressbar
-  y = -13
-  barcolor = e0ad54
+  y = -88
+  barcolor = #B8DFFF
 }
 
 customization {
@@ -40,5 +41,48 @@ customization {
   actionid = ca4cfd61-bc8e-481f-a26d-0eb96ff082b11640372713278
   y = 73
   height = 7
+}
+
+customization {
+  orientation = mid-left
+  basecolor = #F0CA78
+  shadow = true
+  splashfilepath = config/fancymenu/assets/splashs.txt
+  rotation = -20.0
+  x = 402
+  actionid = 395cefa6-e525-45d5-8ba8-60268d106eb21669841240059
+  action = addsplash
+  y = -188
+  scale = 1.0
+  refresh = false
+  bouncing = true
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -3
+  textcolor = #ffffff
+  action = addtext
+  actionid = 55189e4e-4ad7-43ff-9ab6-709194a8fbac1669842125761
+  y = -3
+  scale = 1.0
+  alignment = left
+  value = Create on a Potato PC: Forge Edition 1.19.2-3.1.0
+}
+
+customization {
+  orientation = mid-left
+  basecolor = #F0CA78
+  shadow = true
+  splashfilepath = config/fancymenu/assets/splashs.txt
+  rotation = -20.0
+  x = 373
+  actionid = d21764fc-8338-4935-9993-97df3c5734dc1669842607126
+  action = addsplash
+  y = -104
+  scale = 1.0
+  refresh = false
+  bouncing = true
 }
 
