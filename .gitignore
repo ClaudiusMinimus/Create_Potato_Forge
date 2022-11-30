@@ -45,10 +45,9 @@ instance.cfg
 # Stop ignoring these files
 !.minecraft/TrashSlotSaveState.json
 !.minecraft/config/bcc-common.toml
-!.minecraft/config/craftpresence.properties
-!.minecraft/config/quark-common.toml
-!.minecraft/config/theoneprobe-client.toml
-!.minecraft/config/vtweaks-common.toml
-!.minecraft/config/xaerominimap.txt
+#!.minecraft/config/craftpresence.properties
+#!.minecraft/config/quark-common.toml
+#!.minecraft/config/theoneprobe-client.toml
+#!.minecraft/config/xaerominimap.txt
 !server/config/bcc-common.toml
 !server/config/quark-common.toml
