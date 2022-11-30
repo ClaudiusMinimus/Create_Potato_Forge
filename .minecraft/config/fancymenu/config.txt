@@ -1,7 +1,5 @@
 ##[general]
 
-[Stop vanilla world music when in a customizable menu.]
-B:stopworldmusicwhencustomizable = 'false';
 [If menu background sounds added by FancyMenu should be played when a world is loaded.]
 B:playbackgroundsoundsinworld = 'false';
 B:forcefullscreen = 'false';
@@ -21,27 +19,6 @@ B:advancedmode = 'true';
 B:showcustomizationbuttons = 'false';
 
 
-##[mainmenu]
-
-S:copyrightposition = 'top-right';
-B:hidebranding = 'true';
-S:copyrightcolor = '#ffffff';
-B:hidelogo = 'true';
-B:hiderealmsnotifications = 'true';
-B:hideforgenotifications = 'true';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
-B:hidesplashtext = 'true';
-S:splashtextfile = '';
-S:splashorientation = 'original';
-
-
 ##[loading]
 
 B:allowgameintroskip = 'true';
@@ -55,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Create on a Potato PC';
+S:customwindowtitle = 'Create on a Potato PC: Forge Edition';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
@@ -78,3 +55,18 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 F:uiscale = '2.0';
+
+
+##[multiplayer_screen]
+
+B:show_server_icons = 'true';
+
+
+##[singleplayer_screen]
+
+B:show_world_icons = 'true';
+
+
+##[compatibility]
+
+B:allow_level_registry_interactions = 'true';
