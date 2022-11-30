@@ -1,8 +1,9 @@
 # Ignore these folders
+.minecraft/backups/*
 .minecraft/config/*
 .minecraft/craftpresence/*
 .minecraft/crash-reports/*
-.minecraft/local/ftbchunks/data/*
+.minecraft/local/*
 .minecraft/logs/*
 .minecraft/mods/*
 .minecraft/resourcepacks/*
@@ -25,7 +26,7 @@ server/mods/*
 .minecraft/servers.dat*
 .minecraft/config/fancymenu/menu_identifiers.db
 instance.cfg
-potato-1.18.x.code-workspace
+*.code-workspace
 
 # Stop ignoring these folgers
 !.minecraft/config/alexsmobs.toml
