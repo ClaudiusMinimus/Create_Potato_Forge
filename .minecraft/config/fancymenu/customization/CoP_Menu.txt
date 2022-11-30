@@ -30,7 +30,15 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = top-right
+  x = -199
+  action = movebutton
+  y = 3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
   x = 78
   action = movebutton
@@ -38,20 +46,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 150
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -60,13 +68,13 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttondescription
   description = Hi, %playername%,%n%The official server is now whitelisted.%n%To join, please visit our discord to apply.%n%%n%We look forward to seeing you in-game!
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-left
   x = 78
   action = movebutton
@@ -74,20 +82,20 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   width = 70
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -101,7 +109,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
   x = 158
   action = movebutton
@@ -109,20 +117,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 70
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -131,7 +139,7 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
   x = 158
   action = movebutton
@@ -139,20 +147,20 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 70
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -161,7 +169,7 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
   x = 78
   action = movebutton
@@ -169,20 +177,20 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   width = 70
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -191,7 +199,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
   x = 78
   action = movebutton
@@ -199,20 +207,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 150
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -221,7 +229,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
   x = 78
   action = movebutton
@@ -229,20 +237,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 70
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -251,8 +259,77 @@ customization {
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 208
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 5fb03955-c893-4963-af11-3c6c2c5d51ec1669839214081
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = ad37aa10-3c64-46c2-83f3-c89f2bed08d81669839214083
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 455
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = eb86d338-eb7a-420b-9791-4ca09aba3e5c1669839214083
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 445
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 12641ff9-f6f7-41a5-a5fb-e4065c29bc641669839214083
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 205
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 2c77d797-98bc-4d33-8c68-0ac0e1ca9bd01669839214083
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #F0CA78
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = b13b84b8-ce14-4996-ae18-cb892b911cf21669839214083
+  y = 0
+  splash_file_path = config/fancymenu/assets/splashs.txt
+  height = 30
 }
 
 customization {
@@ -328,7 +405,7 @@ customization {
   y = -20
   backgroundnormal = config/fancymenu/assets/buttons/tumblr.png
   value = https://cms-world.tumblr.com/
-  height = 12
+  height = 10
 }
 
 customization {
@@ -381,17 +458,28 @@ customization {
 customization {
   orientation = bottom-right
   shadow = false
-  x = -176
+  x = -247
   action = addtext
   actionid = 98415145-b3f2-4453-b502-3975b82fa4481640365180519
-  y = -13
+  y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC 1.18.1-2.6.0
+  value = Create on a Potato PC: Forge Edition 1.19.2-3.1.0
 }
 
 customization {
-  identifier = %id=376346%
-  action = hidebutton
+  orientation = mid-left
+  basecolor = #F0CA78
+  shadow = true
+  splashfilepath = config/fancymenu/assets/splashs.txt
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 402
+  actionid = 9ae89b30-5c61-4a6b-a34e-ff86a0d475031669841593453
+  action = addsplash
+  y = -125
 }
 
