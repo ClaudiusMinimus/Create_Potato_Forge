@@ -17,7 +17,7 @@ customization {
 
 customization {
   action = editprogressbar
-  y = -88
+  y = -30
   barcolor = #B8DFFF
 }
 
@@ -41,21 +41,6 @@ customization {
   actionid = ca4cfd61-bc8e-481f-a26d-0eb96ff082b11640372713278
   y = 73
   height = 7
-}
-
-customization {
-  orientation = mid-left
-  basecolor = #F0CA78
-  shadow = true
-  splashfilepath = config/fancymenu/assets/splashs.txt
-  rotation = -20.0
-  x = 402
-  actionid = 395cefa6-e525-45d5-8ba8-60268d106eb21669841240059
-  action = addsplash
-  y = -188
-  scale = 1.0
-  refresh = false
-  bouncing = true
 }
 
 customization {
