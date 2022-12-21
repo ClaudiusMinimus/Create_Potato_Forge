@@ -1,5 +1,164 @@
 # Create on a Potato PC Change Log
 
+## Create on a Potato PC: Forge Edition 1.19.2-4.1.0
+Dec. 21, 2022
+- Mods Added: 
+  - elevatorid-1.19.2-1.8.9.jar (__added back__)
+- Mods Updated: 
+  - AngelRing2-1.19.2-2.1.5.jar
+  - architectury-6.4.62-forge.jar
+  - Bookshelf-Forge-1.19.2-16.2.16.jar
+  - Clumps-forge-1.19.2-9.0.0+14.jar
+  - crashutilities-6.2.jar
+  - create-1.19.2-0.5.0.g.jar
+  - createaddition-1.19.2-20221220a.jar
+  - createdeco-1.2.12-1.19.2.jar
+  - drippyloadingscreen_forge_1.6.6_MC_1.19-1.19.2.jar
+  - elevatorid-1.19.2-1.8.9.jar
+  - EnchantmentDescriptions-Forge-1.19.2-13.0.13.jar
+  - fancymenu_forge_2.13.1_MC_1.19-1.19.2.jar
+  - ftb-chunks-forge-1902.3.14-build.218.jar
+  - ftb-library-forge-1902.3.11-build.166.jar
+  - ftb-quests-forge-1902.4.4-build.150.jar
+  - ftb-ranks-forge-1902.1.14-build.70.jar
+  - ftb-teams-forge-1902.2.11-build.87.jar
+  - jei-1.19.2-forge-11.5.0.296.jar
+  - konkrete_forge_1.6.0_MC_1.19-1.19.2.jar
+  - kubejs-forge-1902.6.0-build.135.jar
+  - lootr-1.19-0.3.22.59.jar
+  - mcw-bridges-2.0.6-mc1.19.2forge.jar
+  - NoChatReports-FORGE-1.19.2-v1.5.1.jar
+  - PickleTweaks-1.19.2-7.0.2.jar
+  - Quark-3.3-377.jar
+  - refinedstorage-1.11.4.jar
+  - sophisticatedbackpacks-1.19.2-3.18.40.775.jar
+  - sophisticatedcore-1.19.2-0.5.37.198.jar
+  - sophisticatedstorage-1.19.2-0.6.16.276.jar
+  - Xaeros_Minimap_22.17.0_Forge_1.19.1.jar
+  - XaerosWorldMap_1.28.7_Forge_1.19.1.jar
+- Mods Removed: 
+- Other Changes: 
+  - Forge 43.2.0
+
+## Create on a Potato PC: Forge Edition 1.19.2-3.1.0
+
+**IMPORTANT: This is a version update from 1.18.1 to 1.19.2**
+
+Dec. 1, 2022
+- Mods Added: 
+  - Apotheosis-1.19.2-6.0.1.jar
+  - Bookshelf-Forge-1.19.2-16.1.11.jar
+  - cloth-config-8.2.88-forge.jar
+  - EdivadLib-1.19.2-1.2.0.jar
+  - ftb-essentials-1902.1.10-build.47.jar
+  - ftbbackups2-forge-1.19.2-1.0.17.jar
+  - NoChatReports-FORGE-1.19.2-v1.5.0.jar
+  - polylib-forge-1900.0.2-build.42.jar
+  - shutupexperimentalsettings-1.0.5.jar (only partially works)
+  - sophisticatedcore-1.19.2-0.5.15.142.jar
+  - sophisticatedstorage-1.19.2-0.5.18.151.jar
+- Mods Updated: 
+  - AngelRing2-1.19.2-2.1.4.jar
+  - appleskin-forge-mc1.19-2.4.2.jar
+  - architectury-6.3.56-forge.jar
+  - AutoRegLib-1.8.2-55.jar
+  - balm-4.5.3.jar
+  - BetterCompatibilityChecker-1.0.9-build.38+mc1.19.2.jar
+  - BorderlessWindow-1.19.1-1.5.2.jar
+  - burgermod-2.9.1-1.19.2.jar
+  - clienttweaks-forge-1.19-8.1.0.jar
+  - Clumps-forge-1.19.2-9.0.0+11.jar
+  - comforts-forge-6.0.3+1.19.2.jar
+  - constructionwand-1.19.1-2.8.jar
+  - Controlling-forge-1.19.2-10.0+7.jar
+  - craftingstation-1.19.2-6.jar
+  - craftingtweaks-forge-1.19-15.1.0.jar
+  - CraftPresence-1.19.2-Release-1.9.6-universal.jar
+  - crashutilities-6.1.jar
+  - create-1.19.2-0.5.0.f.jar
+  - createaddition-1.19.2-20221124a.jar
+  - createdeco-1.2.11-1.19.2.jar
+  - creativewirelesstransmitter-1.19.2-1.2.jar
+  - Cucumber-1.19.2-6.0.3.jar
+  - curios-forge-1.19.2-5.1.1.0.jar
+  - defaultoptions-forge-1.19-15.0.0.jar
+  - drippyloadingscreen_forge_1.6.5_MC_1.19-1.19.2.jar
+  - EasyEmerald-Forge-1.19.2-1.4.15.jar
+  - EnchantmentDescriptions-Forge-1.19.2-13.0.8.jar
+  - ExtraStorage-1.19.2-3.0.1.jar
+  - fancymenu_forge_2.12.9_MC_1.19-1.19.2.jar
+  - FarmersDelight-1.19-1.2.0.jar
+  - farmingforblockheads-forge-1.19-11.1.0.jar
+  - ftb-chunks-forge-1902.3.9-build.168.jar
+  - ftb-library-forge-1902.3.10-build.156.jar (__somehow did not get deleted before release__)
+  - ftb-library-forge-1902.3.10-build.162.jar
+  - ftb-quests-forge-1902.4.3-build.140.jar
+  - ftb-ranks-forge-1902.1.12-build.52.jar
+  - ftb-teams-forge-1902.2.9-build.61.jar
+  - globalxp-1.19-1.10.2.jar
+  - gravestone-1.19.2-1.0.1.jar
+  - inventoryessentials-forge-1.19-5.0.0.jar
+  - inventorysorter-1.19.2-21.0.4.jar
+  - item-filters-forge-1902.2.9-build.46.jar
+  - jei-1.19.2-forge-11.4.0.274.jar
+  - JustEnoughResources-1.19.2-1.1.0.179.jar
+  - konkrete_forge_1.5.3_MC_1.19-1.19.2.jar
+  - kubejs-forge-1902.6.0-build.128.jar
+  - lootr-1.19-0.3.21.58.jar
+  - mcw-bridges-2.0.5-mc1.19.2forge.jar
+  - MobCatcher-Forge-1.19.2-1.2.12.jar
+  - moreoverlays-1.21.3-mc1.19.jar
+  - MouseTweaks-forge-mc1.19-2.23.jar
+  - netherportalfix-forge-1.19-10.0.0.jar
+  - PackingTape-1.19-0.14.0.jar
+  - Patchouli-1.19.2-77.jar
+  - PickleTweaks-1.19.2-7.0.1.jar
+  - Placebo-1.19.2-7.0.1.jar
+  - polymorph-forge-0.46.1+1.19.2.jar
+  - PowderPower-Forge-1.19.2-3.6.13.jar
+  - Quark-3.3-373.jar
+  - QuarkOddities-1.18.jar
+  - RapidLeafDecay-1.19.2-2.0.2.jar
+  - refinedstorage-1.11.1.jar
+  - refinedstorageaddons-0.9.0.jar
+  - repurposed_structures_forge-6.3.8+1.19.2.jar
+  - ResourcefulTools-Forge-1.19.2-1.5.11.jar
+  - rhino-forge-1902.2.2-build.264.jar
+  - RingOfMiner-Forge-1.19.2-1.5.4.jar
+  - RingOfRepair-Forge-1.19.2-1.5.4.jar
+  - SimpleStorageNetwork-1.19-1.6.4.jar
+  - SoL-Carrot-1.19.2-1.14.0.jar
+  - sophisticatedbackpacks-1.19.2-3.18.29.719.jar
+  - spawnermod-1.19.0-1.9.1+Forge.jar
+  - swingthroughgrass-1.19.2-1.10.0.jar
+  - theoneprobe-1.19-6.2.2.jar
+  - torchmaster-19.2.0.jar
+  - WaterStrainer-1.19-14.1.1.jar
+  - waystones-forge-1.19-11.1.0.jar
+  - WitherSkeletonTweaks-1.19.2-8.0.0.jar
+  - Xaeros_Minimap_22.16.2_Forge_1.19.1.jar
+  - XaerosWorldMap_1.28.3_Forge_1.19.1.jar
+- Mods Removed: __Most of these mods are not available for 1.19.2 or proved unstable__
+  - alexsmobs-1.15.1.jar
+  - BetterCrates-1.18.1-1.0.0.jar
+  - castle_dungeons-3.1-1.18-forge.jar
+  - citadel-1.10.8-1.18.jar
+  - FastFurnace-1.18.1-6.0.1.jar
+  - FastWorkbench-1.18.1-6.0.0.jar
+  - filteredchests-1.18.1-1.0.2.jar
+  - flywheel-forge-1.18-0.5.0a.jar
+  - kubejs-create-1801.2.0-build.14.jar
+  - maessentials-1.18-3.7.1.jar
+  - mcw-windows-2.0.2-mc1.18.1.jar
+  - Shrines-1.18.1-3.0.0-Beta4.jar
+  - StorageDrawers-1.18.1-10.1.0.jar
+  - VTweaks-1.18-3.5.4.jar
+- Other Changes: 
+ - Minecraft 1.19.2
+ - Forge 43.1.57
+ - Tweaked kubejs recipes for update to 1.19.2
+ - Edited quests - still more to change
+
 ## Create on a Potato PC 1.18.1-2.6.0
 
 This release fixes a critical issue where any explosion can crash a server or singleplayer.
