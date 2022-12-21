@@ -464,7 +464,7 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC: Forge Edition 1.19.2-3.1.0
+  value = Create on a Potato PC: Forge Edition 1.19.2-3.2.0
 }
 
 customization {
