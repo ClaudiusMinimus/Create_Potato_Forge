@@ -6,6 +6,7 @@
 3. Sophisticated Storage is replacing Storage Drawers and Better Crates.
 4. For those playing with single player worlds or are running servers. If you manually add Sophisticated Storage to the current 1.18 version of the pack, then you should be able to make a smoother transition upgrading.
 5. You will want to export ALL inventory that uses either Storage Drawers or Better Crates into some vanilla storage or Refined Storage.
+6. Before migrating any old worlds, PLEASE BACK THEM UP!
 
 ## Create on a Potato PC: Forge Edition 1.19.2-3.2.0
 Dec. 21, 2022
