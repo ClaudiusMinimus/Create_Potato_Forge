@@ -62,12 +62,27 @@ customization {
   shadow = true
   splashfilepath = config/fancymenu/assets/splashs.txt
   rotation = -20.0
-  x = 373
+  x = 344
   actionid = d21764fc-8338-4935-9993-97df3c5734dc1669842607126
   action = addsplash
-  y = -104
+  y = -95
   scale = 1.0
   refresh = false
+  bouncing = true
+}
+
+customization {
+  orientation = mid-left
+  basecolor = #F0CA78
+  shadow = true
+  rotation = -20.0
+  x = 342
+  actionid = 81358851-b6b0-401f-a3fe-99897a6e5a741671674063891
+  action = addsplash
+  y = -110
+  scale = 0.75
+  refresh = false
+  text = Now 1.19.2 BETA
   bouncing = true
 }
 
