@@ -1,9 +1,16 @@
 # Create on a Potato PC Change Log
 
+**Starting with version 1.19.2-3.1.0**
+1. Better Crates and Storage Drawers have not been released for 1.19.2 and does not look like they will be. 
+2. Both Storage Drawers and Better Crates are not in the new version of the pack. 
+3. Sophisticated Storage is replacing Storage Drawers and Better Crates.
+4. For those playing with single player worlds or are running servers. If you manually add Sophisticated Storage to the current 1.18 version of the pack, then you should be able to make a smoother transition upgrading.
+5. You will want to export ALL inventory that uses either Storage Drawers or Better Crates into some vanilla storage or Refined Storage.
+
 ## Create on a Potato PC: Forge Edition 1.19.2-3.2.0
 Dec. 21, 2022
 - Mods Added: 
-  - elevatorid-1.19.2-1.8.9.jar (__added back__)
+  - elevatorid-1.19.2-1.8.9.jar (added back)
 - Mods Updated: 
   - AngelRing2-1.19.2-2.1.5.jar
   - architectury-6.4.62-forge.jar
@@ -90,7 +97,7 @@ Dec. 1, 2022
   - FarmersDelight-1.19-1.2.0.jar
   - farmingforblockheads-forge-1.19-11.1.0.jar
   - ftb-chunks-forge-1902.3.9-build.168.jar
-  - ftb-library-forge-1902.3.10-build.156.jar (__somehow did not get deleted before release__)
+  - ftb-library-forge-1902.3.10-build.156.jar (somehow did not get deleted before release)
   - ftb-library-forge-1902.3.10-build.162.jar
   - ftb-quests-forge-1902.4.3-build.140.jar
   - ftb-ranks-forge-1902.1.12-build.52.jar
@@ -139,7 +146,7 @@ Dec. 1, 2022
   - WitherSkeletonTweaks-1.19.2-8.0.0.jar
   - Xaeros_Minimap_22.16.2_Forge_1.19.1.jar
   - XaerosWorldMap_1.28.3_Forge_1.19.1.jar
-- Mods Removed: __Most of these mods are not available for 1.19.2 or proved unstable__
+- Mods Removed: Most of these mods are not available for 1.19.2 or proved unstable
   - alexsmobs-1.15.1.jar
   - BetterCrates-1.18.1-1.0.0.jar
   - castle_dungeons-3.1-1.18-forge.jar
