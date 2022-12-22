@@ -104,6 +104,7 @@ Dec. 1, 2022
   - JustEnoughResources-1.19.2-1.1.0.179.jar
   - konkrete_forge_1.5.3_MC_1.19-1.19.2.jar
   - kubejs-forge-1902.6.0-build.128.jar
+  - light-overlay-7.0.1-forge.jar
   - lootr-1.19-0.3.21.58.jar
   - mcw-bridges-2.0.5-mc1.19.2forge.jar
   - MobCatcher-Forge-1.19.2-1.2.12.jar
