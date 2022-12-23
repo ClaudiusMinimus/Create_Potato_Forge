@@ -1,18 +1,30 @@
 # Create on a Potato PC: Forge Edition
 ## IMPORTANT Upgrade Information
 
- - [Upgrading from 1.18-2.6.0 to 1.18.2-2.7.0](#upgrading-from-118-260-to-1182-270)
- - [Upgrading from 1.18.2-2.7.0 to 1.19.2-x.x.x](#upgrading-from-1182-270-to-1192-xxx)
- - [Upgrading from 1.18-2.6.0 to 1.19.2-x.x.x](#upgrading-from-118-260-to-1192-xxx)
+ - [Upgrading from 1.18-2.6.0 to 1.18.2-2.7.0](#1)
+ - [Upgrading from 1.18.2-2.7.0 to 1.19.2-x.x.x](#2)
+ - [Upgrading from 1.18-2.6.0 to 1.19.2-x.x.x](#3)
 
-### Upgrading from 1.18-2.6.0 to 1.18.2-2.7.0
-
-### Upgrading from 1.18.2-2.7.0 to 1.19.2-x.x.x
-
-### Upgrading from 1.18-2.6.0 to 1.19.2-x.x.x
+### <a name="1"></a>Upgrading from 1.18-2.6.0 to 1.18.2-2.7.0
 
 **Significant Changes**
-- Minecraft Version: 1.18.1 to 
+- Minecraft Version: 1.18.1 to 1.18.2
+- Mods Added: 
+- Mods Removed: 
+- Other Changes: 
+
+### <a name="2"></a>Upgrading from 1.18.2-2.7.0 to 1.19.2-x.x.x
+
+**Significant Changes**
+- Minecraft Version: 1.18.2 to 1.19.2
+- Mods Added: 
+- Mods Removed: 
+- Other Changes: 
+
+### <a name="3"></a>Upgrading from 1.18-2.6.0 to 1.19.2-x.x.x
+
+**Significant Changes**
+- Minecraft Version: 1.18.1 to 1.19.2
 - Mods Added: 
 - Mods Removed: 
 - Other Changes: 
