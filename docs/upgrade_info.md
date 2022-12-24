@@ -21,6 +21,8 @@
 
 *If migrating world to 1.18.2, then all inventory from Filtered Chests will be lost! Transfer all inventory from Filtered Chests to some other storage: Vanilla, Sophisticated Storage, or Refined Storage. If you plan to also migrate to 1.19.2, then do not use Storage Drawers or Better Crates since they were not ported to 1.19.2*
 
+Both of these updates include the Trains update for Create. Some builds will be broken, such as Furnace Engines.
+
 [Top](#top)
 
 ### <a name="2"></a>Upgrading from 1.18.2-2.7.0 to 1.19.2-x.x.x
