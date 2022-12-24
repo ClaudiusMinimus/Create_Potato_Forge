@@ -281,7 +281,7 @@ customization {
   width = 108
   action = deep_customization_element:title_screen_branding
   actionid = ad37aa10-3c64-46c2-83f3-c89f2bed08d81669839214083
-  y = 318
+  y = 333
   height = 40
 }
 
@@ -500,40 +500,19 @@ customization {
 }
 
 customization {
-  orientation = bottom-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.25
-  source = %n%If you are upgrading from 1.18 and %n%plan to migrate your world(s), please %n%backup your world before opening!!! %n%Carefully review the change logs %n%starting with version 1.19.2-3.1.0.%n%For more information, please visit %n%our discord.
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -99
-  width = 298
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 11550429-231a-4d52-83ef-771c4b7ee53a1671671569303
-  y = -157
-  alignment = left
-  base_color = #F0CA78
-  height = 103
-}
-
-customization {
-  orientation = bottom-left
+  orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/assets/buttons/discordh.png
-  description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
+  backgroundhovered = config/fancymenu/assets/buttons/importanth.png
   label = 
   loopbackgroundanimations = true
-  x = 326
-  width = 34
-  actionid = 2161f88c-8b69-49bc-9fa6-dfbc4ba6db7f1671673311278
+  x = 78
+  width = 150
+  actionid = aa2029dc-479f-485a-8f59-3fbd407f15751671848685997
   action = addbutton
-  y = -72
-  backgroundnormal = config/fancymenu/assets/buttons/discord.png
-  value = https://discord.com/invite/jXrx4Tu
-  height = 24
+  y = 83
+  backgroundnormal = config/fancymenu/assets/buttons/important.png
+  value = https://github.com/ClaudiusMinimus/Create_Potato_Forge/blob/main/docs/upgrade_info.md
+  height = 31
 }
 
