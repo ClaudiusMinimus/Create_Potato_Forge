@@ -1,7 +1,7 @@
 # Create on a Potato PC Change Log
 
 **Starting with version 1.19.2-3.1.0**
-1. Better Crates and Storage Drawers have not been released for 1.19.2 and does not look like they will be. 
+1. Better Crates, Filtered Chests, and Storage Drawers have not been released for 1.19.2 and does not look like they will be. 
 2. Sophisticated Storage is replacing Storage Drawers and Better Crates.
 3. For those playing with single player worlds or are running servers. If you manually add Sophisticated Storage to the current 1.18 version of the pack, then you should be able to make a smoother transition upgrading.
 4. You will want to export ALL inventory that uses either Storage Drawers or Better Crates into some vanilla storage or Refined Storage.
