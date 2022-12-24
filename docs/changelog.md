@@ -8,6 +8,110 @@
 
 *For more detailed upgrade information and instructions, see [IMPORTANT Upgrade Information](./upgrade_info.md).*
 
+## Create on a Potato PC: Forge Edition 1.18.2-2.7.0
+
+***This version of the pack is intended to ease the migration of worlds from 1.18.1 to 1.19.2. Support for this version will only apply as it pertains to upgrading to 1.19.2! This is NOT a long-term supported version!***
+
+Dec. 23, 2022
+- Mods Added: 
+  - sophisticatedcore-1.18.2-0.5.36.199.jar
+  - sophisticatedstorage-1.18.2-0.6.16.274.jar
+- Mods Updated:
+  - alexsmobs-1.18.6.jar
+  - angelring-1.18.2-2.0.2.jar
+  - appleskin-forge-mc1.18.2-2.4.1.jar
+  - architectury-4.10.88-forge.jar
+  - AutoRegLib-1.7-53.jar
+  - balm-3.2.1+0.jar
+  - BetterCompatibilityChecker-1.1.18-build.42+mc1.18.2.jar
+  - BetterCrates-1.18.2-1.0.0.jar
+  - Bookshelf-Forge-1.18.2-13.2.50.jar
+  - burgermod-2.8.0-1.18.2.jar
+  - citadel-1.11.3-1.18.2.jar
+  - clienttweaks-forge-1.18.1-7.1.0.jar
+  - Clumps-forge-1.18.2-8.0.0+17.jar
+  - comforts-forge-1.18.2-5.0.0.5.jar
+  - constructionwand-1.18.2-2.7.jar
+  - Controlling-forge-1.18.2-9.0+22.jar
+  - craftingtweaks-forge-1.18.2-14.0.3.jar
+  - CraftPresence-2.0.0-alpha.1+1.18.2-universal.jar
+  - crashutilities-4.1.jar
+  - create-1.18.2-0.5.0.g.jar
+  - createaddition-1.18.2-20221219a.jar
+  - createdeco-1.2.12-1.18.2.jar
+  - creativewirelesstransmitter-1.18.2-1.2.jar
+  - Cucumber-1.18.2-5.1.3.jar
+  - curios-forge-1.18.2-5.0.7.1.jar
+  - defaultoptions-forge-1.18.2-14.1.1.jar
+  - drippyloadingscreen_forge_1.6.6_MC_1.18-1.18.2.jar
+  - EasyEmerald-Forge-1.18.2-1.3.13.jar
+  - elevatorid-1.18.2-1.8.4.jar
+  - EnchantmentDescriptions-Forge-1.18.2-10.0.11.jar
+  - ExtraStorage-1.18.2-2.2.0.jar
+  - fancymenu_forge_2.13.1_MC_1.18.2.jar
+  - FarmersDelight-1.18.2-1.2.0.jar
+  - farmingforblockheads-forge-1.18.2-10.0.2.jar
+  - FastFurnace-1.18.2-6.0.3.jar
+  - FastWorkbench-1.18.2-6.1.1.jar
+  - feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar
+  - flywheel-forge-1.18.2-0.6.8.jar
+  - ftb-chunks-forge-1802.3.12-build.217.jar
+  - ftb-library-forge-1802.3.9-build.167.jar
+  - ftb-quests-forge-1802.3.11-build.151.jar
+  - ftb-teams-forge-1802.2.9-build.88.jar
+  - globalxp-1.18.2-1.10.1.jar
+  - gravestone-1.18.2-1.0.2.jar
+  - inventorysorter-1.18.2-19.0.4.jar
+  - item-filters-forge-1802.2.8-build.47.jar
+  - jei-1.18.2-forge-10.2.1.283.jar
+  - JustEnoughResources-1.18.2-0.14.1.171.jar
+  - konkrete_forge_1.6.0_MC_1.18-1.18.2.jar
+  - kubejs-create-forge-1802.2.2-build.28.jar
+  - kubejs-forge-1802.5.5-build.562.jar
+  - lootr-1.18.2-0.2.23.60.jar
+  - maessentials-1.18-3.7.1.jar
+  - mcw-bridges-2.0.6-mc1.18.2forge.jar
+  - mcw-windows-2.1.1-mc1.18.2forge.jar
+  - MouseTweaks-forge-mc1.18-2.21.jar
+  - netherportalfix-forge-1.18-9.0.0.jar
+  - PackingTape-1.18.2-0.12.7.jar
+  - Patchouli-1.18.2-71.1.jar
+  - PickleTweaks-1.18.2-6.1.1.jar
+  - Placebo-1.18.2-6.6.6.jar
+  - polymorph-forge-1.18.2-0.46.jar
+  - PowderPower-Forge-1.18.2-3.5.19.jar
+  - Quark-3.2-358.jar
+  - QuarkOddities-1.18.jar
+  - RapidLeafDecay-1.18.2-2.0.2.jar
+  - refinedstorage-1.10.4.jar
+  - repurposed_structures_forge-5.1.14+1.18.2.jar
+  - ResourcefulTools-Forge-1.18.2-1.4.13.jar
+  - rhino-forge-1802.2.1-build.255.jar
+  - RingOfMiner-Forge-1.18.2-1.4.8.jar
+  - RingOfRepair-Forge-1.18.2-1.4.7.jar
+  - Shrines-1.18.2-4.1.0.jar
+  - SimpleStorageNetwork-1.18.2-1.6.2.jar
+  - SoL-Carrot-1.18.1-1.12.0.jar
+  - sophisticatedbackpacks-1.18.2-3.18.40.773.jar
+  - StorageDrawers-1.18.2-10.2.1.jar
+  - swingthroughgrass-1.18.2-1.9.1.jar
+  - theoneprobe-1.18-5.1.2.jar
+  - torchmaster-18.1.0.jar
+  - VTweaks-1.18.2-3.6.7.jar
+  - WaterStrainer-1.18.2-13.0.0.jar
+  - waystones-forge-1.18.2-10.1.0.jar
+  - WitherSkeletonTweaks-1.18.2-7.1.3.jar
+  - Xaeros_Minimap_22.17.0_Forge_1.18.2.jar
+  - XaerosWorldMap_1.28.7_Forge_1.18.2.jar
+- Mods Removed: 
+  - castle_dungeons-3.3-1.18-forge.jar
+  - dynamicregistries-1.18.1-1.0.0.jar
+  - filteredchests-1.18.1-1.0.2.jar
+  - no_null_processors_forge-2.0.3+1.18.1.jar
+- Other Changes: 
+  - Minecraft 1.18.2
+  - Forge 40.1.92
+
 ## Create on a Potato PC: Forge Edition 1.19.2-3.2.0
 Dec. 21, 2022
 - Mods Added: 
