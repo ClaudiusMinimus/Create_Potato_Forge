@@ -12,6 +12,7 @@
 - Mods Added: 
 - Mods Removed: 
 - Other Changes: 
+
 [Top](#top)
 
 ### <a name="2"></a>Upgrading from 1.18.2-2.7.0 to 1.19.2-x.x.x
@@ -21,6 +22,7 @@
 - Mods Added: 
 - Mods Removed: 
 - Other Changes: 
+
 [Top](#top)
 
 ### <a name="3"></a>Upgrading from 1.18-2.6.0 to 1.19.2-x.x.x
