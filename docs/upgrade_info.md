@@ -7,9 +7,10 @@
 
 ### <a name="1"></a>Upgrading from 1.18-2.6.0 to 1.18.2-2.7.0
 
+***This version of the pack is intended to ease the migration of worlds from 1.18.1 to 1.19.2. Support for this version will only apply as it pertains to upgrading to 1.19.2! This is NOT a long-term supported version!***
+
 **Significant Changes**
 - Minecraft Version: 1.18.1 to 1.18.2
-- **This version of the pack is intended to ease the migration of worlds from 1.18.1 to 1.19.2. Support for this version will only apply as it pertains to upgrading to 1.19.2! This is NOT a long-term supported version**
 - Mods Added: 
   - [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
 - Mods Removed: 
