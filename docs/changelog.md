@@ -8,6 +8,16 @@
 
 *For more detailed upgrade information and instructions, see [IMPORTANT Upgrade Information](./upgrade_info.md).*
 
+Dec. 26, 2022
+
+## Create on a Potato PC: Forge Edition 1.18.2-2.7.1
+
+**Patch for 1.18.2-2.7.0**
+
+Patched: Corrects parsing error in configs.
+
+Dec. 23, 2022
+
 ## Create on a Potato PC: Forge Edition 1.18.2-2.7.0
 
 ***This version of the pack is intended to ease the migration of worlds from 1.18.1 to 1.19.2. Support for this version will only apply as it pertains to upgrading to 1.19.2! This is NOT a long-term supported version!***
