@@ -8,7 +8,7 @@
 
 *For more detailed upgrade information and instructions, see [IMPORTANT Upgrade Information](./upgrade_info.md).*
 
-## Create on a Potato PC: Forge Edition 1.19.2-3.3.0
+## Create on a Potato PC: Forge Edition 1.19.2-3.3.1
 Jan. 09, 2023
 - Mods Added:
   - configured-2.0.1-1.19.2.jar
