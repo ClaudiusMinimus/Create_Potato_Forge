@@ -1,6 +1,0 @@
-{
-	"name": "Mods",
-	"description": "The plan is to add useful mod specific information, such as: $(li)Links to wikis$(li)Discord server invites$(li)Links to videos",
-	"icon": "refinedstorage:creative_wireless_grid",
-	"sortnum": 2
-}
