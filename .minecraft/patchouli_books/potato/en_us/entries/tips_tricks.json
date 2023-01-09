@@ -1,0 +1,45 @@
+{
+    "name": "Tips & Tricks",
+    "icon": "create:brass_hand",
+    "category": "patchouli:getting_started",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In this section I will try to show some tips and tricks that may prove helpful.$(br2)$(l)Fool Proof Cobble Generator $() If you do not want to turn your precious-gollum lava into obsidian, then this fool proof cobble generator is for you!$(li)Dig a 1 x 3 x 1 hole $(li)Place a non-flamable stair as shown."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "title": "Fool Proof Cobble Gen",
+            "text": "$(li)Waterlog the stair $(li)Place lava as shown $(li)Mine cobble!",
+            "multiblock": {
+                "pattern": [
+                    [ "L0S" ]
+                ],
+                "mapping": {
+                    "G": "minecraft:grass_block",
+                    "W": "minecraft:water",
+                    "L": "minecraft:lava",
+                    "S": "minecraft:cobblestone_stairs[waterlogged=true]"
+                },
+                "symmetrical": true,
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "text",
+            "title": "Easy Tool Repair",
+            "text": "Repair most of your broken armor/tools/weapons in a crafting grid with the material used to craft them."
+        },        
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:large_cogwheel",
+            "title": "Create Mod",
+            "text": "A wonderful feature in Create is Ponder. Put your cursor over the Large Cogwheel image, then press and hold the W key to view an animation using the cogwheel. Ponder is available for many Create blocks and items."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Lookup Mods",
+            "text": "If you want to learn about a particular mod, then open the Mods menu page.$(li)From the main menu page, click on the  Mods icon. From within a world, open Game Menu page ($(o)default Esc key$()).$(li)Click on Mods.$(li)Search for the mod you are interested in.$(li)Click on the mod icon to show the details. You can find issue trackers, website links, and mod settings."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Quark",
+    "icon": "quark:blue_rune",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "title": "Quark",
+            "type": "image",
+            "images": [
+                "potato:assets/quark/images/variant-chests.jpg",
+                "potato:assets/quark/images/chests-in-boats.jpg",
+                "potato:assets/quark/images/color-slime.jpg",
+                "potato:assets/quark/images/pistons-move-tes.jpg"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "In the words of the Quark developer, Vaskii \"Quark is a fully modular mod with the objective of improving the vanilla gameplay experience. In other words, I would call it 'what I would add if I was hired at mojang - the mod'. Modules can be turned off and all features can be turned off individually. Some even have more in-depth configs.\"$(li)$(l:http://vazkii.us/discord)Offical Discord$(/l) and $(l:https://quarkmod.net/)Wiki$(/l)$(li)$(l:https://gist.github.com/Vazkii/dc394f05cf280fa1b43c104e40bbf0b4)1.18.1 Release Notes$(/l)$(li)$(l:https://www.youtube.com/watch?v=B85DXBPsEUI)Mod Spotlight$(/l) (out of date)$()"
+        }
+    ]
+}

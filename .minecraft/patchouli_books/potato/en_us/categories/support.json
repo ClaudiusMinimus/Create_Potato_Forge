@@ -1,5 +1,5 @@
 {
     "name": "Support",
-    "description": "Support can be found in two places:$(li)$(l:https://discord.com/invite/jXrx4Tu)CM's World discord$(/l)$(li)$(l:https://github.com/ClaudiusMinimus/Create_Potato_1.18.x/issues)Github$(/l)$()$(br2)If you feel a topic needs to be added to this book, please post it on our $(l:https://discord.com/invite/jXrx4Tu)discord$(/l).",
+    "description": "Please use the links provided to recieve support or want more information:$(li)$(l:https://discord.com/invite/jXrx4Tu)CM's World discord$(/l)$(li)$(l:https://www.curseforge.com/minecraft/modpacks/create-on-a-potato)Create on a Potato PC: Forge Edition$(/l) on Curseforge $(li)$(l:https://github.com/ClaudiusMinimus/Create_Potato_Forge/issues)Issue Tracker$(/l)",
     "icon": "potato:assets/icons/support.png"
 }

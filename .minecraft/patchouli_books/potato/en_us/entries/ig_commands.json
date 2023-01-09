@@ -1,7 +1,7 @@
 {
     "name": "In-game Commands",
     "icon": "minecraft:writable_book",
-    "category": "patchouli:game_tips",
+    "category": "patchouli:getting_started",
     "pages": [
         {
             "type": "text",

@@ -1,0 +1,11 @@
+{
+    "name": "Resourceful Tools",
+    "icon": "resourceful_tools:hand_tiller",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Allows players to obtain useful resources with much greater ease.$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/vanilla-plus-resourceful-tools)Curseforge page$(/l) lots of information.$(li)$(l:https://discord.gg/j7bYbkW)Discord$(/l)$()"
+        }
+    ]
+}

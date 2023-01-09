@@ -1,0 +1,13 @@
+{
+    "name": "Refined Storage",
+    "icon": "refinedstorage:creative_controller",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Refined Storage",
+            "item": "refinedstorage:creative_controller",
+            "text": "Refined Storage is a mass storage mod for Minecraft that offers the player a network-based storage system, allowing them to store items and fluids on a massively expandable device network.$(li)$(l:https://refinedmods.com/refined-storage)Wiki$(/l)$(li)$(l:https://discord.com/invite/VYzsydb)Discord$(/l)$(li)$(l:https://www.youtube.com/watch?v=cL9waY82pS4)Spotlight$(/l) (it's old, but still mostly good. Part 1 of 3)$()"
+        }
+    ]
+}

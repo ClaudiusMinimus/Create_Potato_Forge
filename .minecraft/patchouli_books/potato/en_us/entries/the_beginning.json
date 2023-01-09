@@ -1,0 +1,18 @@
+{
+    "name": "Early Game",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:getting_started",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "ftbquests:book",
+            "title": "Quest Book",
+            "text": "Your quest book will become your best friend. Quests are typically sequential and build on each other.$(br2)Assign a Hotkey to your quest book: $(li)Open: Menu$(li)Go to: Controls...$(li)Then: Key Binds$(li)And search: \"quests\"."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Find a Village",
+            "text": "Finding a village early on is a great way to start out. In a village all of your basic needs are easily obtained: food, shelter, and a bed! Once you find a village, start $(l:videos_farms)farming$(/l)."
+        }
+    ]
+}
