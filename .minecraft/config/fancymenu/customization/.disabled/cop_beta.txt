@@ -478,6 +478,22 @@ customization {
 }
 
 customization {
+  orientation = mid-centered
+  basecolor = #F0CA78
+  shadow = true
+  rotation = -20.0
+  scale = 0.75
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 0
+  actionid = 1dccf8c9-8971-44c2-a064-3e1d8e5adc601671671119880
+  action = addsplash
+  y = -128
+  text = Now 1.19.2 BETA
+}
+
+customization {
   orientation = mid-left
   restartbackgroundanimations = true
   delayappearanceseconds = 1.0
