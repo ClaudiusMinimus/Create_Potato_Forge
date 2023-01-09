@@ -256,28 +256,12 @@
 				entity: "minecraft:creeper"
 				value: 10L
 			}]
-			rewards: [
-				{
-					id: "0000000000000213"
-					type: "item"
-					item: "minecraft:sheep_spawn_egg"
-					count: 4
-				}
-				{
-					id: "000000000000056B"
-					type: "item"
-					item: {
-						id: "silentgems:enchantment_token"
-						Count: 1b
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1s
-								id: "apotheosis:true_infinity"
-							}]
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "0000000000000213"
+				type: "item"
+				item: "minecraft:sheep_spawn_egg"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
@@ -320,13 +304,7 @@
 			rewards: [{
 				id: "000000000000023D"
 				type: "item"
-				item: {
-					id: "forbidden_arcanus:draco_arcanus_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "create:creative_fluid_tank"
 			}]
 		}
 		{
@@ -503,28 +481,12 @@
 				entity: "minecraft:enderman"
 				value: 10L
 			}]
-			rewards: [
-				{
-					id: "000000000000046B"
-					type: "item"
-					item: {
-						id: "pamhc2foodcore:fishsticksitem"
-						Count: 8b
-					}
-					count: 16
-				}
-				{
-					id: "7245E06B78584D52"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:pixie"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "000000000000046B"
+				type: "item"
+				item: "farmersdelight:smoked_ham"
+				count: 16
+			}]
 		}
 		{
 			icon: "minecraft:cauldron"
@@ -591,7 +553,16 @@
 			rewards: [{
 				id: "000000000000046A"
 				type: "item"
-				item: "silentgear:spoon_upgrade"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:piercing"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -633,11 +604,18 @@
 				entity: "minecraft:wither"
 				value: 100L
 			}]
-			rewards: [{
-				id: "0000000000000466"
-				type: "item"
-				item: "create:creative_motor"
-			}]
+			rewards: [
+				{
+					id: "0000000000000466"
+					type: "item"
+					item: "create:creative_motor"
+				}
+				{
+					id: "70900FDEF20327A5"
+					type: "item"
+					item: "createaddition:creative_energy"
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -655,8 +633,8 @@
 				{
 					id: "0000000000000467"
 					type: "item"
-					item: "minecraft:diamond_block"
-					count: 10
+					item: "create:creative_blaze_cake"
+					count: 9
 				}
 				{
 					id: "7C157791D469CF91"
@@ -681,7 +659,7 @@
 			rewards: [{
 				id: "0000000000000583"
 				type: "item"
-				item: "powder_power:block_quadrilium"
+				item: "create_sa:creative_filling_tank"
 				count: 2
 			}]
 		}
@@ -699,16 +677,7 @@
 			rewards: [{
 				id: "5D53D0B97057F269"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:capturing"
-						}]
-					}
-				}
+				item: "powder_power:token_good_omen"
 			}]
 		}
 		{
@@ -755,4 +724,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

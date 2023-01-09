@@ -773,14 +773,14 @@
 			rewards: [{
 				id: "2A18446A57A19AA1"
 				type: "item"
-				item: "easy_emerald:ruby_potato"
+				item: "createaddition:honey_cake"
 				count: 8
 			}]
 		}
 		{
-			x: 3.5d
-			y: 14.0d
-			dependencies: ["00000000000008D1"]
+			x: -2.5d
+			y: 14.5d
+			dependencies: ["00000000000008E8"]
 			id: "00000000000008DF"
 			tasks: [{
 				id: "00000000000008E0"
@@ -803,9 +803,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 15.5d
-			dependencies: ["00000000000008D1"]
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["00000000000008DD"]
 			id: "00000000000008E1"
 			tasks: [{
 				id: "00000000000008E2"
@@ -820,9 +820,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 12.5d
-			dependencies: ["00000000000008D1"]
+			x: -0.5d
+			y: 14.5d
+			dependencies: ["00000000000008E8"]
 			id: "00000000000008E3"
 			tasks: [{
 				id: "00000000000008E4"
@@ -832,7 +832,14 @@
 			rewards: [{
 				id: "3DAC20191628DBDA"
 				type: "item"
-				item: "bettercrates:golden_crate"
+				item: {
+					id: "sophisticatedstorage:gold_shulker_box"
+					Count: 1b
+					tag: {
+						mainColor: 16701501
+						accentColor: 16701501
+					}
+				}
 			}]
 		}
 		{
@@ -948,7 +955,7 @@
 		}
 		{
 			x: 8.5d
-			y: 11.0d
+			y: 12.5d
 			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			dependencies: ["00000000000008D1"]
 			id: "1BBEEF19114688A9"
@@ -1066,73 +1073,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 13.0d
-			description: ["While this may be used in a few recipes, a conversion is required to unlock its full potential."]
-			dependencies: ["70CA0859E8976BEB"]
-			id: "688A222392CF08AA"
-			tasks: [{
-				id: "184B5389E877F3BB"
-				type: "item"
-				item: {
-					id: "create:chromatic_compound"
-					Count: 1b
-					tag: { }
-				}
-				count: 32L
-			}]
-			rewards: [{
-				id: "0504A23E2B1FE5CD"
-				type: "item"
-				item: "quark:warped_bookshelf"
-				count: 8
-			}]
-		}
-		{
-			title: "Into the Void"
-			x: -7.0d
-			y: 14.5d
-			description: ["If you jump into the void you will die, but what will happen to some Chromatic Compound thrown in?"]
-			dependencies: ["688A222392CF08AA"]
-			id: "120FDBE3D5A86446"
-			tasks: [{
-				id: "1D0B39C475B265E7"
-				type: "item"
-				item: "create:shadow_steel"
-				count: 16L
-			}]
-			rewards: [{
-				id: "09281869C8ED265A"
-				type: "item"
-				item: "minecraft:dragon_breath"
-				count: 4
-			}]
-		}
-		{
-			title: "Go Towards the Light"
-			x: -8.5d
-			y: 13.0d
-			description: ["What would happen if you threw a Chromatic Compound into a beam of light or on a bunch of glowstone?"]
-			dependencies: ["688A222392CF08AA"]
-			id: "2EC000DBE2E8AEB0"
-			tasks: [{
-				id: "60E082759F2C004C"
-				type: "item"
-				item: "create:refined_radiance"
-				count: 16L
-			}]
-			rewards: [{
-				id: "735F65B1B6C2C586"
-				type: "item"
-				item: "easy_emerald:ruby_juju"
-				count: 2
-			}]
-		}
-		{
-			x: -10.0d
-			y: 13.0d
+			x: 4.0d
+			y: 14.0d
 			description: ["This can help with your OCD wanting blocks to be symmetrical!"]
-			dependencies: ["2EC000DBE2E8AEB0"]
+			dependencies: ["00000000000008D1"]
 			id: "5C6483EDD2B8F901"
 			tasks: [{
 				id: "5F01387E7F118B48"
@@ -1253,7 +1197,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: 12.5d
 			dependencies: ["00000000000008D1"]
 			id: "0D63EF41017B4EC9"
@@ -1366,7 +1310,7 @@
 		}
 		{
 			x: 7.5d
-			y: 10.0d
+			y: 11.0d
 			dependencies: ["00000000000008D1"]
 			id: "51CA42B8F1642023"
 			tasks: [{
@@ -1404,7 +1348,7 @@
 		}
 		{
 			x: 6.0d
-			y: 9.5d
+			y: 10.0d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
 			tasks: [{
@@ -1552,7 +1496,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.5d
 			y: 14.0d
 			dependencies: ["00000000000008D1"]
 			id: "0351BF8137FCC36B"
@@ -1568,8 +1512,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 15.0d
+			x: 4.5d
+			y: 10.5d
 			description: ["It has been found it may take more than one alternator to power your Refined Storage system."]
 			dependencies: ["00000000000008D1"]
 			id: "1C613BBF8E00B7D2"
@@ -1581,17 +1525,11 @@
 			rewards: [{
 				id: "31AD34AA299469BD"
 				type: "item"
-				item: {
-					id: "alexsmobs:crocodile_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "globalxp:xp_block"
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.0d
 			y: 15.0d
 			dependencies: ["00000000000008D1"]
 			id: "5699077B8E2106C1"
@@ -1661,4 +1599,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
