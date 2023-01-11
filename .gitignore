@@ -26,6 +26,10 @@ server/mods/*
 .minecraft/config/fancymenu/menu_identifiers.db
 .minecraft/config/fancymenu/user_variables.db
 .minecraft/knownkeys.txt
+.minecraft/config/NoChatReports/NCR-Common.json
+.minecraft/config/NoChatReports/NCR-Encryption.json
+.minecraft/config/NoChatReports/NCR-ServerWhitelist.json
+.minecraft/config/NoChatReports/README.md
 .minecraft/options.txt
 .minecraft/patchouli_data.json
 .minecraft/realms_persistence.json
@@ -36,7 +40,7 @@ instance.cfg
 *.code-workspace
 
 # Stop ignoring these folgers
-!.minecraft/config/alexsmobs.toml
+!.minecraft/config/NoChatReports/
 !.minecraft/config/defaultoptions
 !.minecraft/config/drippyloadingscreen/
 !.minecraft/config/fancymenu/
