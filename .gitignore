@@ -23,6 +23,7 @@ server/mods/*
 
 # Ignore these files
 *.code-workspace
+.minecraft/config/defaultoptions/servers.dat
 .minecraft/config/fancymenu/menu_identifiers.db
 .minecraft/config/fancymenu/user_variables.db
 .minecraft/knownkeys.txt
