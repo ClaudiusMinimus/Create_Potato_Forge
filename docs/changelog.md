@@ -8,7 +8,7 @@
 
 *For more detailed upgrade information and instructions, see [IMPORTANT Upgrade Information](./upgrade_info.md).*
 
-## Create on a Potato PC: Forge Edition 1.19.2-3.3.1
+## Create on a Potato PC: Forge Edition 1.19.2-3.3.2
 Jan. 11, 2023
 - Mods Added:
   - configured-2.0.1-1.19.2.jar
@@ -34,6 +34,7 @@ Jan. 11, 2023
   - PackingTape-1.19-0.14.0.jar (similar functionality in create-stuff-additions)
   - WaterStrainer-1.19-14.1.1.jar (not needed)
 - Other Changes:
+  - A few changes to the quests to reflect some mod updates.
 
 Dec. 26, 2022
 
