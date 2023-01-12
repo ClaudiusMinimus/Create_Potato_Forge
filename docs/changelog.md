@@ -8,8 +8,8 @@
 
 *For more detailed upgrade information and instructions, see [IMPORTANT Upgrade Information](./upgrade_info.md).*
 
-## Create on a Potato PC: Forge Edition 1.19.2-3.3.2
-Jan. 11, 2023
+## Create on a Potato PC: Forge Edition 1.19.2-3.3.3
+Jan. 12, 2023
 - Mods Added:
   - configured-2.0.1-1.19.2.jar
   - create-stuff-additions1.19.2_v2.0.2a.jar
@@ -17,7 +17,6 @@ Jan. 11, 2023
   - mcw-fences-1.0.7-mc1.19.2forge.jar
   - mcw-trapdoors-1.0.8-mc1.19.2forge.jar
   - mcw-windows-2.1.1-mc1.19.2forge.jar
-  - moreoverlays-1.21.5-mc1.19.2.jar
 - Mods Updated:
   - createaddition-1.19.2-20221230a.jar
   - EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar
@@ -25,13 +24,10 @@ Jan. 11, 2023
   - ftb-quests-forge-1902.4.5-build.156.jar
   - jei-1.19.2-forge-11.5.0.297.jar
   - kubejs-forge-1902.6.0-build.138.jar
+  - Placebo-1.19.2-7.1.1.jar
 - Mods Removed:
   - Apotheosis-1.19.2-6.0.1.jar (redundant with Quark and spawner mod)
-  - EasyEmerald-Forge-1.19.2-1.4.15.jar (not need with create-stuff-additions and Powder Power)
-  - elevatorid-1.19.2-1.8.9.jar (Create make elevators)
-  - light-overlay-7.0.1-forge.jar (not need with moreoverlays)
-  - MobCatcher-Forge-1.19.2-1.2.12.jar (similar functionality in create-stuff-additions)
-  - PackingTape-1.19-0.14.0.jar (similar functionality in create-stuff-additions)
+  - elevatorid-1.19.2-1.8.9.jar (Create can make elevators)
   - WaterStrainer-1.19-14.1.1.jar (not needed)
 - Other Changes:
   - A few changes to the quests to reflect some mod updates.
