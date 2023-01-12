@@ -50,6 +50,7 @@ instance.cfg
 # Stop ignoring these files
 !.minecraft/TrashSlotSaveState.json
 !.minecraft/config/bcc-common.toml
+!.minecraft/config/bhmenu-client.toml
 !.minecraft/config/craftpresence.properties
 !.minecraft/config/quark-common.toml
 !.minecraft/config/theoneprobe-client.toml
