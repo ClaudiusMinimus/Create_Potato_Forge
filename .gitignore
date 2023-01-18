@@ -58,3 +58,4 @@ instance.cfg
 !.minecraft/config/xaerominimap.txt
 !server/config/bcc-common.toml
 !server/config/quark-common.toml
+.minecraft/ds_private_storage.json
