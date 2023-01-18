@@ -42,7 +42,8 @@ instance.cfg
 
 # Stop ignoring these folgers
 !.minecraft/config/NoChatReports/
-!.minecraft/config/defaultoptions
+!.minecraft/config/defaultoptions/
+!.minecraft/config/defaultsettings/
 !.minecraft/config/drippyloadingscreen/
 !.minecraft/config/fancymenu/
 !.minecraft/config/ftbquests
@@ -53,6 +54,7 @@ instance.cfg
 !.minecraft/config/bcc-common.toml
 !.minecraft/config/bhmenu-client.toml
 !.minecraft/config/craftpresence.properties
+!.minecraft/config/defaultsettings.json
 !.minecraft/config/quark-common.toml
 !.minecraft/config/theoneprobe-client.toml
 !.minecraft/config/xaerominimap.txt

@@ -1,0 +1,646 @@
+{
+	id: "74CD77C6577D1D6F"
+	group: ""
+	order_index: 1
+	filename: "armor_tools__weapons"
+	title: "Armor, Tools \\& Weapons"
+	icon: {
+		id: "create_sa:rose_quartz_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["7E0AD0BDD05506DA"]
+			id: "361947FB62B6ED9B"
+			tasks: [{
+				id: "4091F5366B079AF0"
+				type: "item"
+				item: "powder_power:ingot_obsidian"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			dependencies: ["4268ED7A5EC998E3"]
+			id: "31C2AFB7E1AB0211"
+			tasks: [{
+				id: "4B69ABEBC9652A21"
+				type: "item"
+				item: "powder_power:ingot_prismarine"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["1E94A4A1977F7F66"]
+			id: "6133A84C6DD55163"
+			tasks: [{
+				id: "01B2F5655B93AC48"
+				type: "item"
+				item: "powder_power:ingot_redium"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["78C9297E544404BF"]
+			id: "649510FEAEB8C535"
+			tasks: [{
+				id: "587FAF6434A5693D"
+				type: "item"
+				item: "powder_power:ingot_lapium"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			dependencies: ["6E1E63530FEA2A41"]
+			id: "08EDB968D9607C10"
+			tasks: [{
+				id: "7786785D54644E00"
+				type: "item"
+				item: "powder_power:gem_gemium"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["16A7D52DDE1245A5"]
+			id: "59F151E614F48501"
+			tasks: [{
+				id: "4EF33D2737FDF4B2"
+				type: "item"
+				item: "powder_power:ingot_trilium"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			dependencies: ["532FDCD977ECB2AB"]
+			id: "033BF3FFC2E70E77"
+			tasks: [{
+				id: "346D87F0CA687FD7"
+				type: "item"
+				item: "powder_power:ingot_quadrilium"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			shape: "diamond"
+			id: "246F47DFF1DF7D8C"
+			tasks: [
+				{
+					id: "42BFD84D2DE0CD32"
+					type: "item"
+					item: {
+						id: "powder_power:hammer_alchemist"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "174F8178C993EB34"
+					type: "item"
+					item: {
+						id: "powder_power:motar_pestle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			dependencies: ["08EDB968D9607C10"]
+			id: "2DC18ADC30B4F11C"
+			tasks: [{
+				id: "0ACF62CA127656BD"
+				type: "item"
+				item: {
+					id: "powder_power:wand_alchemist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["361947FB62B6ED9B"]
+			id: "4BCF893F2E0FD2FF"
+			tasks: [{
+				id: "29B8601BBE783FDF"
+				type: "item"
+				item: {
+					id: "powder_power:pickaxe_obsidian"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: ["246F47DFF1DF7D8C"]
+			id: "7E0AD0BDD05506DA"
+			tasks: [{
+				id: "7F12C43B8AB7DB16"
+				type: "item"
+				item: "powder_power:powder_obsidian"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["246F47DFF1DF7D8C"]
+			id: "4268ED7A5EC998E3"
+			tasks: [{
+				id: "502E52CD3511D515"
+				type: "item"
+				item: "powder_power:powder_prismarine"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["7E0AD0BDD05506DA"]
+			id: "1E94A4A1977F7F66"
+			tasks: [{
+				id: "378FC341E2ADBBE2"
+				type: "item"
+				item: "powder_power:blend_redium"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["7E0AD0BDD05506DA"]
+			id: "78C9297E544404BF"
+			tasks: [{
+				id: "4EF1FBC41F0A6709"
+				type: "item"
+				item: "powder_power:blend_lapium"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: [
+				"7E0AD0BDD05506DA"
+				"4268ED7A5EC998E3"
+			]
+			id: "6E1E63530FEA2A41"
+			tasks: [{
+				id: "79599990F4D1E653"
+				type: "item"
+				item: "powder_power:blend_gemium"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: [
+				"1E94A4A1977F7F66"
+				"78C9297E544404BF"
+				"6E1E63530FEA2A41"
+			]
+			id: "16A7D52DDE1245A5"
+			tasks: [{
+				id: "2912C39FFD7D8C78"
+				type: "item"
+				item: "powder_power:blend_trilium"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["16A7D52DDE1245A5"]
+			id: "532FDCD977ECB2AB"
+			tasks: [{
+				id: "308172890A29289A"
+				type: "item"
+				item: "powder_power:blend_quadrilium"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			description: ["Full suit provides: Water breathing, fire protection, poison and wither protection, no fall damage, Dolphin's Grace, and moderate health regeneration"]
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "6B35805CE27E44D7"
+			tasks: [
+				{
+					id: "20C0AFB2EAAA5097"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "781EF13819FB66E1"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D308FA32C8A9CBB"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48ADC1FD66426B71"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "745F4530F78EBC0D"
+			tasks: [{
+				id: "612FCC69E1AA07A4"
+				type: "item"
+				item: {
+					id: "powder_power:tree_axe_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "36835016F389A949"
+			tasks: [{
+				id: "1FAFA97B41852F7B"
+				type: "item"
+				item: {
+					id: "powder_power:hammer_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "007949ED86346B6F"
+			tasks: [{
+				id: "5BAE33A7B9DEC16A"
+				type: "item"
+				item: {
+					id: "powder_power:excavator_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "67949ABABF923825"
+			tasks: [{
+				id: "7F35CABCA0419876"
+				type: "item"
+				item: {
+					id: "powder_power:paxel_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "7073A8571EC3DA91"
+			tasks: [{
+				id: "1C48AAB6EF091046"
+				type: "item"
+				item: {
+					id: "powder_power:hoe_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "4B8DD3F2940510FF"
+			tasks: [{
+				id: "6715308BDBD02AA6"
+				type: "item"
+				item: {
+					id: "powder_power:bow_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["033BF3FFC2E70E77"]
+			id: "735F0A3E34E0C86B"
+			tasks: [{
+				id: "5C162AE86EFB24A7"
+				type: "item"
+				item: {
+					id: "powder_power:sword_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			description: ["Full suit provides fire and wither protection"]
+			dependencies: ["6133A84C6DD55163"]
+			id: "0E058BAF3A32C865"
+			tasks: [
+				{
+					id: "5757A2313DBE6906"
+					type: "item"
+					item: {
+						id: "powder_power:armor_redium_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0DF3F4AE975708D2"
+					type: "item"
+					item: {
+						id: "powder_power:armor_redium_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4ED7DBD479321A47"
+					type: "item"
+					item: {
+						id: "powder_power:armor_redium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7048E9711C127FD0"
+					type: "item"
+					item: {
+						id: "powder_power:armor_redium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			description: ["A firey sword indeed"]
+			dependencies: ["6133A84C6DD55163"]
+			id: "39F335CAB5776E1C"
+			tasks: [{
+				id: "4D7E57CD474A333E"
+				type: "item"
+				item: {
+					id: "powder_power:sword_redium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			description: ["Full suit provides under water breathing and poison protection"]
+			dependencies: ["649510FEAEB8C535"]
+			id: "1D4CF6FA26E2DE68"
+			tasks: [
+				{
+					id: "55A722A4F394CC67"
+					type: "item"
+					item: {
+						id: "powder_power:armor_lapium_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E931DDF7E2EBB4D"
+					type: "item"
+					item: {
+						id: "powder_power:armor_lapium_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E117182B77554E6"
+					type: "item"
+					item: {
+						id: "powder_power:armor_lapium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D5C38B22E4039DD"
+					type: "item"
+					item: {
+						id: "powder_power:armor_lapium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["Full suit provides: Water breathing, fire protection, poison and wither protection, no fall damage, Dolphin's Grace, and moderate health regeneration"]
+			dependencies: ["59F151E614F48501"]
+			id: "3CFB9AEE44A7B49E"
+			tasks: [
+				{
+					id: "568D5E1D5BEAA778"
+					type: "item"
+					item: {
+						id: "powder_power:armor_trilium_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "073CCCB4D9A558FD"
+					type: "item"
+					item: {
+						id: "powder_power:armor_trilium_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62A8B70B077FB97A"
+					type: "item"
+					item: {
+						id: "powder_power:armor_trilium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "062BF6B5493778E6"
+					type: "item"
+					item: {
+						id: "powder_power:armor_trilium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			description: ["Full suit provides: Water breathing, fire protection, poison and wither protection, no fall damage, and mild health regeneration"]
+			dependencies: ["08EDB968D9607C10"]
+			id: "4B55436D2EB4A318"
+			tasks: [
+				{
+					id: "688601295ED885D2"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FED22BF5FA607C1"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BD6039CE650FA23"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58C0676F25CD80B3"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
