@@ -8,6 +8,13 @@
 
 *For more detailed upgrade information and instructions, see [IMPORTANT Upgrade Information](./upgrade_info.md).*
 
+## Create on a Potato PC: Forge Edition 1.19.2-3.4.0
+Jan. 18, 2023
+- Mods Added:
+- Mods Updated:
+- Mods Removed:
+- Other Changes:
+
 ## Create on a Potato PC: Forge Edition 1.19.2-3.3.3
 Jan. 12, 2023
 - Mods Added:
