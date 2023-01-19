@@ -26,11 +26,12 @@ server/mods/*
 .minecraft/config/defaultoptions/servers.dat
 .minecraft/config/fancymenu/menu_identifiers.db
 .minecraft/config/fancymenu/user_variables.db
-.minecraft/knownkeys.txt
 .minecraft/config/NoChatReports/NCR-Common.json
 .minecraft/config/NoChatReports/NCR-Encryption.json
 .minecraft/config/NoChatReports/NCR-ServerWhitelist.json
 .minecraft/config/NoChatReports/README.md
+.minecraft/ds_private_storage.json
+.minecraft/knownkeys.txt
 .minecraft/options.txt
 .minecraft/patchouli_data.json
 .minecraft/realms_persistence.json
@@ -60,4 +61,3 @@ instance.cfg
 !.minecraft/config/xaerominimap.txt
 !server/config/bcc-common.toml
 !server/config/quark-common.toml
-.minecraft/ds_private_storage.json
