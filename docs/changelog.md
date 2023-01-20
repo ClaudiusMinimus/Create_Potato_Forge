@@ -11,9 +11,25 @@
 ## Create on a Potato PC: Forge Edition 1.19.2-3.4.1
 Jan. 18, 2023
 - Mods Added:
+  - DefaultSettings-1.19.x-2.8.7.jar
+  - JCPlugin-1.18.x-1.19.x-2.8.7.jar
 - Mods Updated:
+  - craftingstation-1.19.2-6.0.1.jar
+  - create-1.19.2-0.5.0.h.jar
+  - fancymenu_forge_2.13.3_MC_1.19-1.19.2.jar
+  - ftb-quests-forge-1902.4.6-build.176.jar
+  - jei-1.19.2-forge-11.5.2.1006.jar
+  - kubejs-forge-1902.6.0-build.140.jar
+  - Placebo-1.19.2-7.1.2.jar
+  - Quark-3.4-386.jar
+  - sophisticatedbackpacks-1.19.2-3.18.40.779.jar
+  - sophisticatedcore-1.19.2-0.5.38.203.jar
+  - Xaeros_Minimap_22.17.1_Forge_1.19.1.jar
+  - XaerosWorldMap_1.28.8_Forge_1.19.1.jar
 - Mods Removed:
+  - defaultoptions-forge-1.19-15.0.0.jar (replaced with DefaultSettings)
 - Other Changes:
+  - Forge 43.2.1
 
 ## Create on a Potato PC: Forge Edition 1.19.2-3.3.3
 Jan. 12, 2023
